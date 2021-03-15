@@ -71,3 +71,19 @@ p {
     display: flex;
     justify-content: space-between;
 }
+.nav__buttons {
+    display: flex;
+    flex-direction: column;
+}
+.site-buttons {
+    display: flex;
+}
+.site-buttons__button {
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
