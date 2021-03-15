@@ -2,15 +2,16 @@
 :root {
     --primary-color:#442A8B;
     --secondary-color: #3A92A7;
+    --secondary-color-variant: #B5D7DF;
     --tertiary-color: #FF672F;
     --gray-color: #DEDEDE;
     /* --box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 /* General Styles */
-body {
+/* body {
     margin: 10px 40px;
-}
+} */
 a {
     text-decoration: none;
 }
@@ -62,6 +63,10 @@ p {
 }
 
 /* Header */
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 40px;
+}
 /* Indications and Usage */
 .indications {
     padding: 10px 0;
@@ -75,6 +80,7 @@ p {
 }
 .nav__buttons {
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
 }
 .site-buttons {
@@ -95,4 +101,21 @@ p {
 .site-buttons__button.button--orange {
     background-color: var(--tertiary-color);
     color: #fff;
+}
+/* Nav Links and Dropdown Menus */
+.navlinks {
+    display: flex;
+    padding-top: 10px;
+}
+.navlinks li {
+    border-left: 2px solid var(--secondary-color-variant);
+    padding: 6px 6px 6px 12px;
+    max-width: 100px;
+    min-width: 90px;
+}
+.navlinks__link {
+    color: black;
+}
+.dropdown--hidden {
+    display: none;
 }
