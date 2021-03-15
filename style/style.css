@@ -156,6 +156,7 @@ header {
 /* Question Buttons */
 .question-buttons {
     margin-top: -20px;
+    margin-bottom: 120px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -175,18 +176,27 @@ header {
 
 /* Footer (ISI) */
 footer {
+    position: fixed;
+    width: 100vw;
+    background: #fff;
+    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+    bottom: 0px;
+    z-index: 2;
     display: flex;
     align-items: center;
-    padding: 8px 40px;
-    border-top: 1px solid black;
+    padding: 15px 40px;
+    /* border-top: 1px solid black; */
+}
+.isi {
+    width: 80%;
 }
 .isi__body--bold {
     font-weight: bold;
     display: block;
 }
 .isi__body {
-    line-height: 16px;
-    width: 90%;
+    line-height: 17px;
+    width: 70%;
 }
 .isi__button {
     font-weight: bold;
