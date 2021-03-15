@@ -1,0 +1,45 @@
+/* CSS Variables */
+:root {
+    --primary-color:#442A8B;
+    --secondary-color: #3A92A7;
+    --tertiary-color: #FF672F;
+}
+
+/* General Styles */
+body {
+    margin: 10px 40px;
+}
+
+/* Typography */
+h1 {
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-size: 2.4em;
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    font-size: 1.9em;
+    font-family: 'Open Sans', sans-serif;
+}
+h4 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+h5 {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+.helper {
+    font-size: .8em;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright {
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+}
