@@ -172,14 +172,17 @@ header {
     background: var(--bg-gradient);
     /* padding: 15px 100px; */
 }
+
 .carousel__slide {
     display: flex;
     height: 100%;
     padding: 15px 100px;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#carousel__slide1 {
     background: url(../assets/images/bg-slide1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .carousel__navigation {
@@ -208,12 +211,13 @@ header {
     .carousel::before, .carousel::after, .carousel__prev, .carousel__next {
         margin-top: 20.5%;
     }
-    .carousel__slide {
-        background: url(../assets/images/xl-bg-slide1.png);
-    }
     .carousel__navigation {
         bottom: 35%;
     }
+    #carousel__slide1 {
+        background: url(../assets/images/xl-bg-slide1.png);
+    }
+
 }
 .slide__text {
     display: flex;
