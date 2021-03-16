@@ -121,6 +121,7 @@ header {
     color: black;
 }
 .navlinks li:hover .dropdown {
+    z-index: 5;
     display: block;
     color: var(--primary-color);
 }
@@ -137,6 +138,10 @@ header {
 }
 
 /* Carousel */
+.carousel {
+    height: 435px;
+    position: relative;
+}
 .carousel::before, .carousel::after, .carousel__prev, .carousel__next {
     content: '';
     font-size: 0px;
@@ -147,7 +152,7 @@ header {
     position: absolute;
     top: 0;
     /* padding: 20px; */
-    margin-top: 35.5%;
+    margin-top: 20.5%;
     width: 4rem;
     height: 4rem;
     transform: translateY(-50%);
@@ -168,15 +173,35 @@ header {
     background-image: url(/assets/svg/carousel-chevron-right.svg);
 }
 .carousel__viewport {
-    height: 435px;
+    /* height: 435px; */
     background: var(--bg-gradient);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
     /* padding: 15px 100px; */
 }
-
-.carousel__slide {
-    display: flex;
+.carousel__snapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    padding: 15px 100px;
+    scroll-snap-align: center;
+}
+.carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    /* height: 100%; */
+    /* padding: 15px 100px; */
     box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #carousel__slide1 {
@@ -196,6 +221,7 @@ header {
     display: inline-block;
 }
 .carousel__navigation-button {
+    z-index: 5;
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
@@ -209,10 +235,10 @@ header {
 }
 @media only screen and (min-width: 1900px) {
     .carousel::before, .carousel::after, .carousel__prev, .carousel__next {
-        margin-top: 20.5%;
+        margin-top: 10%;
     }
     .carousel__navigation {
-        bottom: 35%;
+        bottom: 5%;
     }
     #carousel__slide1 {
         background: url(../assets/images/xl-bg-slide1.png);
@@ -220,6 +246,7 @@ header {
 
 }
 .slide__text {
+    padding: 15px 100px;
     display: flex;
     height: 100%;
     width: 30%;
