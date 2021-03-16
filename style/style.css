@@ -146,7 +146,7 @@ header {
     background-position: center center;
     position: absolute;
     top: 0;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 35.5%;
     width: 4rem;
     height: 4rem;
@@ -156,13 +156,13 @@ header {
     pointer-events: none;
 }
 .carousel::before, .carousel__prev {
-    left: -1rem;
+    left: 1rem;
 }
 .carousel::before {
     background-image: url(/assets/svg/carousel-chevron-left.svg);
 }
 .carousel::after, .carousel__next {
-    right: -1rem;
+    right: 1rem;
 }
 .carousel::after {
     background-image: url(/assets/svg/carousel-chevron-right.svg);
