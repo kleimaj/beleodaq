@@ -166,7 +166,6 @@ header {
 
 /* Question Buttons */
 .question-buttons {
-    margin-top: -20px;
     margin-bottom: 120px;
     display: flex;
     justify-content: space-evenly;
@@ -178,7 +177,7 @@ header {
     font-weight: normal;
     min-width: 175px;
     max-width: 206px;
-    height: 128px;
+    height: 100px;
     padding: 24px 8px;
     display: flex;
     align-items: center;
