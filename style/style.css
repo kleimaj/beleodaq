@@ -113,16 +113,26 @@ header {
 }
 .navlinks li {
     border-left: 2px solid var(--secondary-color-variant);
-    padding: 6px 6px 6px 12px;
+    padding: 6px;
     max-width: 100px;
     min-width: 90px;
 }
 .navlinks__link {
     color: black;
 }
-.dropdown--hidden {
-    display: none;
+.navlinks li:hover .dropdown {
+    display: block;
+    color: var(--primary-color);
 }
+.dropdown {
+    display: none;
+    padding: 6px;
+    background-color: #fff;
+    position: absolute;
+}
+/* .dropdown--hidden {
+    display: block;
+} */
 
 /* Carousel */
 .carousel__viewport {
