@@ -127,12 +127,14 @@ header {
 .dropdown {
     display: none;
     padding: 6px;
+    width: 104px;
+    margin-left: -10px;
     background-color: #fff;
     position: absolute;
 }
-/* .dropdown--hidden {
-    display: block;
-} */
+.dropdown li {
+    border-left: none;
+}
 
 /* Carousel */
 .carousel__viewport {
