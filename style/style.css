@@ -28,6 +28,7 @@ h2 {
     font-size: 2.4em;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    line-height: 53px;
     color: var(--primary-color)
 }
 h3 {
@@ -287,6 +288,12 @@ header {
 }
 .carousel-text--bold {
     font-weight: bold;
+}
+.carousel-text--secondary {
+    color: var(--secondary-color);
+}
+.carousel-text--primary {
+    color: var(--primary-color);
 }
 
 /* Question Buttons */
