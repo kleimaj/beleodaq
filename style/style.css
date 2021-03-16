@@ -176,19 +176,21 @@ header {
 
 /* Footer (ISI) */
 footer {
+    width: 100%;
     position: fixed;
-    width: 100vw;
     background: #fff;
-    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+    margin: 0;
     bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
     z-index: 2;
-    display: flex;
-    align-items: center;
-    padding: 15px 40px;
-    /* border-top: 1px solid black; */
 }
 .isi {
-    width: 80%;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 80%; */
 }
 .isi__body--bold {
     font-weight: bold;
