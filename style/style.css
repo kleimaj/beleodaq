@@ -58,6 +58,7 @@ p,.p {
 }
 .helper {
     font-size: .8em;
+    line-height: 17px;
     font-family: 'Open Sans', sans-serif;
 }
 .copyright {
@@ -152,9 +153,9 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     position: absolute;
-    top: 0;
+    top: 50%;
     /* padding: 20px; */
-    margin-top: 20.5%;
+    /* margin-top: 20.5%; */
     width: 4rem;
     height: 4rem;
     transform: translateY(-50%);
@@ -209,16 +210,35 @@ header {
     flex: 0 0 100%;
     width: 100%;
     display: flex;
-    /* height: 100%; */
-    /* padding: 15px 100px; */
+    justify-content: space-between;
+
     box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slide__data {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 35px 100px;
+}
+.slide3__data {
+    width: 25%;
+}
+.data-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.data-container__figure {
+    width: 200px;
+    text-align: center;
 }
 #carousel__slide1 {
     background: url(../assets/images/bg-slide1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#carousel__slide2 {
+/* #carousel__slide2 {
     background: url(../assets/images/bg-slide2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,7 +247,7 @@ header {
     background: url(../assets/images/bg-slide3.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 #carousel__slide4 {
     background: url(../assets/images/bg-slide4.png);
     background-size: cover;
@@ -258,9 +278,6 @@ header {
     transition: transform 0.1s;
 }
 @media only screen and (min-width: 1900px) {
-    .carousel::before, .carousel::after, .carousel__prev, .carousel__next {
-        margin-top: 10%;
-    }
     .carousel__navigation {
         bottom: 5%;
     }
@@ -275,7 +292,6 @@ header {
 .slide__text {
     padding: 15px 100px;
     display: flex;
-    height: 100%;
     width: 30%;
     flex-direction: column;
     align-items: flex-start;
@@ -303,6 +319,9 @@ header {
 }
 .carousel-text--primary {
     color: var(--primary-color);
+}
+.carousel-text--gray {
+    color: #7E7E7E;
 }
 .carousel-text--dark {
     color: #555;
