@@ -35,6 +35,7 @@ h3 {
     font-size: 1.9em;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
+    line-height: 42.56px;
     color: var(--secondary-color);
 }
 h4 {
