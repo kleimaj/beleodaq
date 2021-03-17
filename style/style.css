@@ -227,6 +227,11 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#carousel__slide4 {
+    background: url(../assets/images/bg-slide4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .carousel__navigation {
     position: absolute;
