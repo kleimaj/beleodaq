@@ -336,7 +336,7 @@ header {
 /* Question Buttons */
 .question-buttons {
     margin-top: 5px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
