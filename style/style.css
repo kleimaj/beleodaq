@@ -266,6 +266,9 @@ header {
     #carousel__slide1 {
         background: url(../assets/images/xl-bg-slide1.png);
     }
+    #carousel__slide4 {
+        background: url(../assets/images/xl-bg-slide4.png);
+    }
 
 }
 .slide__text {
@@ -299,6 +302,12 @@ header {
 }
 .carousel-text--primary {
     color: var(--primary-color);
+}
+.carousel-text--dark {
+    color: #555;
+    font-weight: bold;
+    padding: 10px;
+    background: rgba(255, 254, 255, 0.62);
 }
 
 /* Question Buttons */
