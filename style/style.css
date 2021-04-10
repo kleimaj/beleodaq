@@ -82,6 +82,15 @@ header {
     padding: 10px 0;
     border-bottom: 2px solid var(--gray-color);
 }
+.indications__title {
+    color: #0E404F;
+    font-weight: 600;
+    font-size: 14px;
+}
+.indications__body {
+    font-size: 14px;
+    line-height: 1.2em;
+}
 /* Nav (Logo and buttons) */
 .nav {
     padding: 10px 0;
