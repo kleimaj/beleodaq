@@ -94,8 +94,9 @@ header {
 }
 /* Nav (Logo and buttons) */
 .nav {
-    padding: 10px 40px;
+    padding: 10px 80px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .nav__buttons {
@@ -105,8 +106,22 @@ header {
 }
 .site-buttons {
     display: flex;
+    position: relative;
     margin-top: -10px;
 }
+/* Orange Line behind Site-Buttons */
+.site-buttons:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    background: var(--tertiary-color);
+    content: "";
+    margin: 0 -150px;
+    width: 130%;
+    display: block;
+    z-index: -1;
+  }
 .site-buttons__button {
     max-width: 250px;
     min-width: 140px;
@@ -121,7 +136,6 @@ header {
     background-color: #E6E6E6;
     border-bottom: 1px solid var(--tertiary-color);
     border-right: 1px solid var(--tertiary-color);
-
 }
 .site-buttons__button.button--orange {
     background-color: var(--tertiary-color);
@@ -133,8 +147,9 @@ header {
     padding-top: 10px;
 }
 .navlinks li {
-    border-left: 2px solid var(--secondary-color-variant);
+    border-bottom: 2px solid #CAAEE0;
     padding: 6px;
+    margin: 0 8px;
     max-width: 100px;
     min-width: 90px;
 }
