@@ -29,32 +29,28 @@ h1 {
     color: var(--primary-color);
 }
 h2 {
-    font-size: 2.4em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    line-height: 53px;
-    color: var(--primary-color)
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
 }
 h3 {
-    font-size: 1.9em;
+    font-size: 21px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    line-height: 42.56px;
-    color: var(--secondary-color);
+    line-height: 25px;
 }
 h4 {
-    font-size: 1.5em;
+    font-size: 21px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    line-height: 34px;
-    color: var(--secondary-color);
+    line-height: 25px;
 }
 h5,.h5 {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     line-height: 16.8px;
-    color: var(--primary-color);
 }
 p,.p {
     font-size: 1em;
@@ -70,6 +66,21 @@ p,.p {
     font-size: 0.7em;
     font-family: 'Open Sans', sans-serif;
     line-height: 13px;
+}
+.purple { 
+    color: var(--primary-color);
+}
+.blue {
+    color: var(--secondary-color);
+}
+.orange {
+    color: var(--tertiary-color);
+}
+.light {
+    font-weight: 300;
+}
+.semibold {
+    font-weight: 600;
 }
 
 /* Header */
