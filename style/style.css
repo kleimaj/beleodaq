@@ -73,7 +73,7 @@ p,.p {
 
 /* Header */
 header {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     z-index: 1;
 }
 /* Indications and Usage */
@@ -144,7 +144,8 @@ header {
 /* Nav Links and Dropdown Menus */
 .navlinks {
     display: flex;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .navlinks li {
     border-bottom: 2px solid #CAAEE0;
@@ -233,7 +234,7 @@ header {
 }
 .carousel__slide:before {
     content: '';
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
     transform: translate3d(-50%,-40%,70px);
@@ -245,7 +246,8 @@ header {
     display: flex;
     justify-content: space-between;
 
-    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-bottom: 1px solid #000;
 }
 .slide__data {
     width: 55%;
@@ -267,9 +269,11 @@ header {
     text-align: center;
 }
 #carousel__slide1 {
-    background: url(../assets/images/bg-slide1.png);
+    background: url(../assets/images/bg-slide1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-position-x: -50px;
 }
 /* #carousel__slide2 {
     background: url(../assets/images/bg-slide2.png);
@@ -326,12 +330,19 @@ header {
     padding: 15px 100px;
     display: flex;
     width: 30%;
+    /* width: 100%; */
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: flex-end;
     justify-content: space-evenly;
+    
+    border-left: 2px solid #fff;
+    background: linear-gradient(90deg, rgba(255,255,255,.9) 0%, rgba(156,200,211,.9) 20%);
 }
 .carousel__slide h3,h4 {
     font-weight: normal;
+    text-align: right;
+    width: 520px;
 }
 .carousel__slide--hidden {
     display: none;
@@ -366,7 +377,7 @@ header {
 /* Question Buttons */
 .question-buttons {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -374,14 +385,21 @@ header {
 }
 .question_buttons__button {
     background: #fff;
-    font-weight: normal;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 20px;
     min-width: 175px;
     max-width: 206px;
-    height: 100px;
+    height: 60px;
     padding: 24px 8px;
     display: flex;
     align-items: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(120,65,179,0.20351890756302526) 100%);
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
 }
 
 /* Footer (ISI) */
