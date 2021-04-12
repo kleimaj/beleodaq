@@ -178,6 +178,7 @@ header {
   display: flex;
   position: relative;
   margin-top: -10px;
+  margin-right: 50px;
 }
 
 /* Orange Line behind Site-Buttons */
