@@ -275,6 +275,10 @@ main {
   margin: 20px;
 }
 
+.button.secondary {
+  background: var(--secondary-color);
+}
+
 .button-group {
   width: 100%;
   display: flex;

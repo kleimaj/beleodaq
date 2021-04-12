@@ -241,6 +241,10 @@ main {
     color: #fff;
     padding: 12px 24px;
     margin: 20px;
+
+}
+.button.secondary {
+    background: var(--secondary-color);
 }
 .button-group {
     .justify-right {
