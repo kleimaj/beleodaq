@@ -2,9 +2,9 @@
 :root {
   --primary-color:#442A8B;
   --secondary-color: #3A92A7;
-  --secondary-color-variant: #B5D7DF;
+  --secondary-color-variant: #0E404F;
   --tertiary-color: #FF672F;
-  --tertiary-variant: #FF5C29;
+  --tertiary-color-variant: #FF5C29;
   --gray-color: #DEDEDE;
   --bg-gradient: linear-gradient(359.43deg, #DBDDDB 0.49%, rgba(219, 221, 219, 0) 104.37%);
   /* --box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
@@ -43,6 +43,7 @@ h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 25px;
+  font-weight: 600;
 }
 
 h4 {
@@ -90,6 +91,7 @@ sub {
 
 .stacked-superscript {
   font-family: "Open Sans", sans-serif;
+  padding: 10px;
   font-size: 60px;
   font-weight: 600;
   position: relative;
@@ -97,24 +99,28 @@ sub {
 .stacked-superscript span {
   position: absolute;
   font-size: 21px;
-  bottom: 15px;
+  bottom: 5px;
   right: 10px;
 }
 
-.purple {
+.primary {
   color: var(--primary-color);
 }
 
-.blue {
+.secondary {
   color: var(--secondary-color);
 }
 
-.darkblue {
-  color: #0E404F;
+.secondary-variant {
+  color: var(--secondary-color-variant);
 }
 
-.orange {
+.tertiary {
   color: var(--tertiary-color);
+}
+
+.tertiary-variant {
+  color: var(--tertiary-color-variant);
 }
 
 .light {
@@ -123,6 +129,10 @@ sub {
 
 .semibold {
   font-weight: 600;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Header */
@@ -176,7 +186,7 @@ header {
   left: 0;
   top: 50%;
   height: 1px;
-  background: var(--tertiary-variant);
+  background: var(--tertiary-color-variant);
   content: "";
   margin: 0 -150px;
   width: 130%;
@@ -196,12 +206,12 @@ header {
   padding: 5px 30px;
   color: #4D4D4D;
   background-color: #E6E6E6;
-  border-bottom: 1px solid var(--tertiary-variant);
-  border-right: 1px solid var(--tertiary-variant);
+  border-bottom: 1px solid var(--tertiary-color-variant);
+  border-right: 1px solid var(--tertiary-color-variant);
 }
 
 .site-buttons__button.button--orange {
-  background-color: var(--tertiary-variant);
+  background-color: var(--tertiary-color-variant);
   color: #fff;
 }
 
@@ -252,6 +262,23 @@ header {
 main {
   margin-bottom: 150px;
   padding: 10px 80px;
+}
+
+.button {
+  font-size: 21px;
+  min-width: 114px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #166176;
+  color: #fff;
+  padding: 12px 24px;
+  margin: 20px;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Footer (ISI) */
