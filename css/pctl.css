@@ -88,9 +88,17 @@ sub {
   font-size: smaller;
 }
 
-.jumbo {
+.stacked-superscript {
+  font-family: "Open Sans", sans-serif;
   font-size: 60px;
   font-weight: 600;
+  position: relative;
+}
+.stacked-superscript span {
+  position: absolute;
+  font-size: 21px;
+  bottom: 15px;
+  right: 10px;
 }
 
 .purple {
@@ -243,6 +251,7 @@ header {
 /* Main */
 main {
   margin-bottom: 150px;
+  padding: 10px 80px;
 }
 
 /* Footer (ISI) */
@@ -298,10 +307,6 @@ footer {
   min-width: 100px;
   font-size: 14px;
   color: var(--tertiary-color);
-}
-
-main {
-  padding: 10px 80px;
 }
 
 /*# sourceMappingURL=pctl.css.map */
