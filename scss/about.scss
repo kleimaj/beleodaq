@@ -1,1 +1,39 @@
 @import "_base.scss";
+
+main {
+    h4 {
+        text-align: left;
+    }
+    img {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+    ol { 
+        counter-reset: item;
+        list-style-type: none;
+        display: flex;
+        position: relative;
+    }
+    li { 
+        display: block;
+        text-align: left;
+        width: 33%;
+        height: 251px;
+        border-left: 3px solid #410099;
+        position: relative;
+        margin: 25px;
+        
+     }
+    li:before { 
+        content: counter(item) "  "; 
+        counter-increment: item;
+        font-size: 65.98px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        color: #410099;
+        margin: 0;
+        position: absolute;
+        left: -50px;
+    }
+}
