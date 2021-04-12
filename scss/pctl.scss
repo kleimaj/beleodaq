@@ -1,9 +1,9 @@
 @import "_base.scss";
 
 main {
-    h2,h3,h4,h5,p {
-        padding: 15px;
-        text-align: center;
+    h2:first-child {
+        width: 710px;
+        margin: 0 auto;
     }
     img {
         display: flex;
