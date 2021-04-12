@@ -278,7 +278,11 @@ main {
 .button-group {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-group .justify-right {
+  margin-left: auto;
 }
 
 /* Footer (ISI) */

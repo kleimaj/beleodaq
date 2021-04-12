@@ -243,9 +243,14 @@ main {
     margin: 20px;
 }
 .button-group {
+    .justify-right {
+        margin-left: auto;
+    }
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    // align-content: flex-start;
 }
 
 /* Footer (ISI) */

@@ -5,6 +5,10 @@ main {
         padding: 15px;
         text-align: center;
     }
+    img {
+        display: flex;
+        margin: 10px auto;
+    }
 }
 
 .response-rate {
@@ -33,5 +37,14 @@ main {
     hr {
         margin: 20px;
         border-left: 1px solid black;
+    }
+}
+
+.ptcl-data {
+    h3, h4, p {
+        text-align: left;
+    }
+    h3, h4 {
+        padding: 0 15px;
     }
 }

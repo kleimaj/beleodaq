@@ -278,7 +278,11 @@ main {
 .button-group {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-group .justify-right {
+  margin-left: auto;
 }
 
 /* Footer (ISI) */
@@ -340,6 +344,10 @@ main h2, main h3, main h4, main h5, main p {
   padding: 15px;
   text-align: center;
 }
+main img {
+  display: flex;
+  margin: 10px auto;
+}
 
 .response-rate {
   margin: 20px 0px;
@@ -366,6 +374,13 @@ main h2, main h3, main h4, main h5, main p {
 .median hr {
   margin: 20px;
   border-left: 1px solid black;
+}
+
+.ptcl-data h3, .ptcl-data h4, .ptcl-data p {
+  text-align: left;
+}
+.ptcl-data h3, .ptcl-data h4 {
+  padding: 0 15px;
 }
 
 /*# sourceMappingURL=pctl.css.map */
