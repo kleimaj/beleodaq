@@ -349,47 +349,4 @@ footer {
   color: var(--tertiary-color);
 }
 
-main h2:first-child {
-  width: 710px;
-  margin: 0 auto;
-}
-main img {
-  display: flex;
-  margin: 10px auto;
-}
-
-.response-rate {
-  margin: 20px 0px;
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.response-rate h4 {
-  width: 720px;
-  text-align: left;
-}
-
-.median {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.median .median__figure h1 {
-  font-weight: 600;
-  font-size: 48px;
-  text-align: center;
-}
-.median hr {
-  margin: 20px;
-  border-left: 1px solid black;
-}
-
-.ptcl-data h3, .ptcl-data h4, .ptcl-data p {
-  text-align: left;
-}
-.ptcl-data h3, .ptcl-data h4 {
-  padding: 0 15px;
-}
-
-/*# sourceMappingURL=pctl.css.map */
+/*# sourceMappingURL=efficacy.css.map */
