@@ -10,12 +10,12 @@ window.addEventListener('scroll', function (event) {
 });
 
 // Every 250 ms
-setInterval(function () {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-  }
-}, 250);
+// setInterval(function () {
+//   if (didScroll) {
+//     hasScrolled();
+//     didScroll = false;
+//   }
+// }, 250);
 
 function hasScrolled() {
   let st =
