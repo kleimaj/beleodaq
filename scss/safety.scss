@@ -37,4 +37,30 @@ main {
             }
         }
     }
+    .tolerability-data {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .data_figure:first-child {
+            h4 {
+                text-align: right;
+            }
+        }
+        .data_figure {
+            h4 {
+                display: flex;
+                flex-direction: column;
+            }
+            .jumbo {
+                font-size: 72px;
+                line-height: 86.4px;
+                font-weight: 600;
+            }
+            .big {
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 43.2px;
+            }
+        }
+    }
 }
