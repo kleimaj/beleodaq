@@ -358,7 +358,7 @@ main h2:first-child {
 }
 main img {
   display: flex;
-  margin: 10px auto;
+  margin: 50px auto;
 }
 
 .response-rate {
