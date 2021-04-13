@@ -393,7 +393,6 @@ main .patient-aes ul ul li:before {
 main .patient-aes ul li::before {
   content: "•";
   position: relative;
-  top: 40px;
   color: #0E404F;
 }
 main .tolerability-data {
