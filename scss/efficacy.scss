@@ -91,7 +91,9 @@ main {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            // align-items: center;
+            padding-left: 40px;
+
             .jumbo {
                 font-size: 60px;
                 line-height: 72px;

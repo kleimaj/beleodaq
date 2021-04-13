@@ -230,6 +230,9 @@ header {
   max-width: 100px;
   min-width: 90px;
 }
+.navlinks li.active {
+  border-bottom: 2px solid var(--primary-color);
+}
 
 .navlinks__link {
   color: black;
@@ -242,7 +245,7 @@ header {
 
 .navlinks li:hover .dropdown {
   z-index: 5;
-  display: block;
+  display: none;
   color: var(--primary-color);
 }
 

@@ -23,7 +23,6 @@ main {
         border-left: 3px solid #410099;
         position: relative;
         margin: 35px;
-        
      }
     li:before { 
         content: counter(item) "  "; 

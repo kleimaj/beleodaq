@@ -231,6 +231,9 @@ header {
   max-width: 100px;
   min-width: 90px;
 }
+.navlinks li.active {
+  border-bottom: 2px solid var(--primary-color);
+}
 
 .navlinks__link {
   color: black;
@@ -243,7 +246,7 @@ header {
 
 .navlinks li:hover .dropdown {
   z-index: 5;
-  display: block;
+  display: none;
   color: var(--primary-color);
 }
 
@@ -435,7 +438,7 @@ main .sap-criteria .sap-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding-left: 40px;
 }
 main .sap-criteria .sap-data .jumbo {
   font-size: 60px;
