@@ -363,7 +363,7 @@ main img {
   width: 95%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .response-rate h4 {
   width: 720px;

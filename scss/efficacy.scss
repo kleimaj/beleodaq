@@ -34,7 +34,7 @@ main {
             text-align: left;
         }
         h3 {
-            padding: 0 15px;
+            padding: 10px 15px;
             margin-bottom: -15px;
         }
         ul {
@@ -79,11 +79,13 @@ main {
 
     .sap-criteria {
         display: flex;
-        align-items: center;
+        justify-content: space-between;
 
         .sap-data {
             background: url(../assets/svg/efficacy-grad1.svg);
-            width: 291px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20%;
             height: 146px;
             color: #fff;
             display: flex;
@@ -109,10 +111,12 @@ main {
         }
         .sap-text {
             background: url(../assets/svg/efficacy-grad2.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 870px;
+            width: 80%;
             height: 146px;
             h3, h4 {
                 text-align: right;
@@ -133,6 +137,7 @@ main {
     }
     .cr2__data {
         background: url(../assets/svg/efficacy-grad3.svg);
+        background-size: cover;
         color: white;
         height: 146px;
 

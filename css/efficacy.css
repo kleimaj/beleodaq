@@ -381,7 +381,7 @@ main .treatment-assessments h3, main .treatment-assessments h4, main .treatment-
   text-align: left;
 }
 main .treatment-assessments h3 {
-  padding: 0 15px;
+  padding: 10px 15px;
   margin-bottom: -15px;
 }
 main .treatment-assessments ul {
@@ -423,11 +423,13 @@ main .ttr h4 {
 }
 main .sap-criteria {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 main .sap-criteria .sap-data {
   background: url(../assets/svg/efficacy-grad1.svg);
-  width: 291px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
   height: 146px;
   color: #fff;
   display: flex;
@@ -453,10 +455,12 @@ main .sap-criteria .sap-data p {
 }
 main .sap-criteria .sap-text {
   background: url(../assets/svg/efficacy-grad2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 870px;
+  width: 80%;
   height: 146px;
 }
 main .sap-criteria .sap-text h3, main .sap-criteria .sap-text h4 {
@@ -475,6 +479,7 @@ main .cr2 {
 }
 main .cr2__data {
   background: url(../assets/svg/efficacy-grad3.svg);
+  background-size: cover;
   color: white;
   height: 146px;
   display: flex;

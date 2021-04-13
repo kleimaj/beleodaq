@@ -355,7 +355,7 @@ main h4 {
 main img {
   display: flex;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 main ol {
   counter-reset: item;
@@ -370,7 +370,7 @@ main li {
   height: 251px;
   border-left: 3px solid #410099;
   position: relative;
-  margin: 25px;
+  margin: 35px;
 }
 main li:before {
   content: counter(item) "  ";
