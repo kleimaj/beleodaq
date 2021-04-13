@@ -13,7 +13,7 @@
     <!-- CSS Reset -->
     <link rel="stylesheet" href="css/reset.css">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/efficacy.css">
+    <link rel="stylesheet" href="css/dosing.css">
 </head>
 <body>
     <!-- Header -->
@@ -61,8 +61,8 @@
                     <li>
                         <a class="navlinks__link p" href="about.html">BELIEF <br>Trial</a>
                     </li>
-                    <li class="active">
-                        <a class="navlinks__link--active p" href="efficacy.html"><br>Efficacy</a>
+                    <li>
+                        <a class="navlinks__link p" href="efficacy.html"><br>Efficacy</a>
                         <ul class="dropdown dropdown--hidden">
                             <li>
                                 <a href="" class="dropdown__item p">
@@ -86,7 +86,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="active">
                         <a class="navlinks__link p" href="safety.html">Safety & Tolerability</a>
                         <ul class="dropdown dropdown--hidden">
                             <li>
@@ -101,8 +101,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a class="navlinks__link p" href="dosing.html">Dosing & Administration</a>
+                    <li class="active">
+                        <a class="navlinks__link--active p" href="dosing.html">Dosing & Administration</a>
                         <ul class="dropdown dropdown--hidden">
                             <li>
                                 <a href="" class="dropdown__item p">
@@ -140,28 +140,103 @@
     </header>
     <!-- Main -->
     <main>
-        <h2 class="primary">Post-treatment Individual Tumor Volume Assessment<sup>1</sup></h2>
+        <h2 class="primary">Duration of Exposure and Incidence of Adverse Events (AEs)</h2>
+       
+        <h3 class="secondary-variant">AEs occurring in ≥10% of patients (N = 129) with R/R PTCL (NCI-CTCAE grades 1 to 4)<sup>1</sup></h3>
 
-        <img src="assets/svg/efficacy-graphic.svg" alt="Although the exact mechanism of action (MOA) of HDAC inhibitors is still being studied, BELEODAQ is believed to work as follows" />
+        <div class="patient-aes">
+            <img src="assets/svg/safety-chart.svg" alt="AEs occurring in ≥10% of patients (N = 129) with R/R PTCL (NCI-CTCAE grades 1 to 4)">
+            <ul>
+                <li>
+                    <h4 class="light">Most patients (113 of 129) remained on the target dose (1000 mg/m2)<sup>1,2</sup>
+                    <ul>
+                        <li>Dosage adjustments due to AEs occurred in 16 of 129 patient treated with BELEODAQ</li>
+                    </ul>
+                    </h4>
+                </li>
+                <li>
+                    <h4 class="light">The relative dose intensity (doses administered vs planned) was 98%<sup>2</sup></h4>
+                </li>
+                <li>
+                    <h4 class="light">Treatment duration ranged from 1 to 33 cycles (median, 2 cycles)<sup>1,2</sup></h4>
+                </li>
+                <li>
+                    <h4 class="light">Twenty-five patients (19.4%) discontinued treatment with BELEODAQ due to AEs<sup>1</sup>
+                        <ul>
+                            <li>The AEs reported most frequently as the reason for discontinuation of treatment included anemia, febrile neutropenia, fatigue, and multi-organ failure</li>
+                        </ul>
+                    </h4>
+                </li>
+                <li>
+                    <h4 class="light">Treatment-emergent AEs (TEAEs) occurred in 97% of patients and were generally mild to moderate in severity<sup>2</sup>
+                    <ul>
+                        <li>The most common AEs were nausea, fatigue, pyrexia, anemia, and vomiting</li>
+                    </ul></h4>
+                </li>
+                <li>
+                    <h4 class="light">Grade 3/4 AEs occurring in ≥5% of patients (N = 129) were anemia (11%), thrombocytopenia (7%), dyspnea (6%), and fatigue (5%)<sup>1</sup></h4>
+                </li>
+                <li>
+                    <h4 class="light">47% (n = 61) experienced serious AEs (SAEs)<sup>1,2</sup>
+                    <ul>
+                        <li>
+                            No clinically meaningful difference in SAEs was observed in patients based on age (&lt;65 years vs &lt;65 years or &lt;75 years vs ≥75 years)
+                        </li>
+                    </ul></h4>
+                </li>
+            </ul>
+        </div>
 
-        <div class="treatment-assessments">
-        <h3 class="secondary-variant">Individual tumor response was assessed in 93 patients (77.5%) with post-treatment assessments<sup>*</sup></h3>
+        <p class="light">NCI-CTCAE, National Cancer Institute Common Terminology Criteria for Adverse Events. 
+            Note: AEs are listed by order of incidence in the all-grades category first, then in the grades 3 to 4 category; measured by NCI-CTCAE version 3.0.
+        </p>
 
+        <h2 class="primary">
+            Tolerability Established With the BELIEF Trial<sup>1,2</sup>
+        </h2>
+        <h3 class="secondary-variant">Most patients tolerated the target dose of BELEODAQ<sup>1,2</sup></h3>
+        <div class="tolerability-data">
+            <div class="data_figure">
+                <h4 class="light">
+                    <span class="jumbo secondary">12<sup>%</sup></span>
+                    <span class="big secondary">OF PATIENTS</span>
+                    receiving BELEODAQ <span class="secondary semibold">required a dosage reduction</span> due to AEs
+                </h4>
+            </div>
+            <img src="assets/svg/safety-graph.svg" alt="Most patients tolerated the target dose of BELEODAQ"/>
+            <div class="data_figure">
+                <h4 class="light">
+                    <span class="jumbo primary">88<sup>%</sup></span>
+                    <span class="big primary">OF PATIENTS</span>
+                    receiving BELEODAQ <span class="primary semibold">did not require a dosage reduction</span> due to AEs
+                </h4>
+            </div>
+        </div>
+        <div class="heartline">
+            <img src="assets/svg/heartline-graphic.svg" alt="heartline graphic"/>
+            <h4 class="secondary">In studies, BELEODAQ® (belinostat) has not been associated with clinically relevant changes in heart rate or PR- or QRS-interval duration<sup>2</sup>
+            </h4>
+        </div>
+        <div class="bounding_box">
+            <h4 class="light"><span class="tertiary semibold">Dose reductions</span> due to prolonged QTc or increased transaminases occurred in <span class="tertiary semibold">2 of 129 patients<sup>1,2</sup></span></h4>
+            <h4 class="light">Independent central review of electrocardiogram (ECG) data identified these <span class="primary semibold">2 patients</span> with grade 3 QT prolongation and concluded that <span class="primary semibold">BELEODAQ had no effect on cardiac repolarization<sup>2</sup></span>
+            </h4>
+            <h4 class="light">Pharmacokinetic and pharmacodynamic analyses showed <span class="primary semibold">no correlation</span> between BELEODAQ concentration and changes in QTc from baseline<sup>2</sup>
+            </h4>
+        </div>
+        <h4 class="secondary">BELEODAQ is the only agent that the FDA has approved for the treatment of R/R PTCL that was studied in patients (N = 120) with platelet counts down to 50,000/μL<sup>2</sup></h4>
         <ul>
             <li>
-                <p>63.3% (n = 59/93) had a decrease in tumor volume</p>
-            </li>
-            <li>
-                <p>36.6% (n = 34/93) patients had an increase in tumor volume</p>
+                <h4 class="light">
+                R/R PTCL patients with <span class="secondary semibold">platelet counts &lt;100,000/μL</span> are typically <span class="secondary semibold">ineligible for clinical trials<sup>3</sup></span>
+                </h4>
             </li>
         </ul>
-        <p>Assessments were based on the difference in the sum of the products of greatest diameters between baseline and post-treatment assessments. No statistical inferences can be drawn from these results
+        <p class="light">1. BELEODAQ® [Prescribing Information], Acrotech Biopharma, LLC; January 2020. 2. O’Connor O, et al. J Clin Oncol. 2015;33:2492-2499. 3. Savage KJ, et al. Blood. 2014:124:3075. doi.org/10.1182/blood.V124.21.3075.3075.
         </p>
-    </div>
-        <p class="light"><sup>*</sup>93 of the 120 patients had measurable disease at both baseline and post-treatment assessment.</p>
         <div class="button-group">
-            <a href="ptcl2.html" class="button secondary">&larr; Previous</a>
-            <a href="efficacy2.html" class="button">Next&rarr;</a>
+            <a href="efficacy2.html" class="button secondary">&larr; Efficacy</a>
+            <a href="#" class="button">Dosing & Administration &rarr;</a>
         </div>
     </main>
     <!-- ISI -->
