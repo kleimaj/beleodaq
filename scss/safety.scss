@@ -7,11 +7,13 @@ main {
     ul {
         padding: 0 15px;
         position: relative;
+
         li::before {
                 content: "\2022";
                 position: relative;
-                top: 40px;
+                top: 50px;
                 color: #0E404F;
+
         }
 
         li {
@@ -22,8 +24,10 @@ main {
     .patient-aes {
         display: flex;
         padding: 24px;
+        width: 100%;
         ul {
             padding: 45px;
+            width: 70%;
             ul {
                 padding-bottom: 0;
                 padding-right: 0;
@@ -35,12 +39,18 @@ main {
                 position: relative;
                 top: 0px;
             }
+            li::before {
+                content: "\2022";
+                position: relative;
+                top: 40px;
+                color: #0E404F;
+            }
         }
     }
     .tolerability-data {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         .data_figure:first-child {
             h4 {
                 text-align: right;
@@ -71,5 +81,21 @@ main {
         h4 {
             width: 740px;
         }
+    }
+    .bounding_box {
+        border-top: 2px solid #1D819E;
+        border-bottom: 2px solid #1D819E;
+        padding: 25px 0px;
+        h4 {
+            padding: 15px;
+            width: 30%;
+        }
+        h4:nth-child(2) {
+            border-left: 2px solid #1D819E;
+            border-right: 2px solid #1D819E;
+        }
+
+        display: flex;
+        justify-content: center;
     }
 }

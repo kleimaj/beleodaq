@@ -363,7 +363,7 @@ main ul {
 main ul li::before {
   content: "•";
   position: relative;
-  top: 40px;
+  top: 50px;
   color: #0E404F;
 }
 main ul li {
@@ -373,9 +373,11 @@ main ul li {
 main .patient-aes {
   display: flex;
   padding: 24px;
+  width: 100%;
 }
 main .patient-aes ul {
   padding: 45px;
+  width: 70%;
 }
 main .patient-aes ul ul {
   padding-bottom: 0;
@@ -388,10 +390,16 @@ main .patient-aes ul ul li:before {
   position: relative;
   top: 0px;
 }
+main .patient-aes ul li::before {
+  content: "•";
+  position: relative;
+  top: 40px;
+  color: #0E404F;
+}
 main .tolerability-data {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 main .tolerability-data .data_figure:first-child h4 {
   text-align: right;
@@ -418,6 +426,21 @@ main .heartline {
 }
 main .heartline h4 {
   width: 740px;
+}
+main .bounding_box {
+  border-top: 2px solid #1D819E;
+  border-bottom: 2px solid #1D819E;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+}
+main .bounding_box h4 {
+  padding: 15px;
+  width: 30%;
+}
+main .bounding_box h4:nth-child(2) {
+  border-left: 2px solid #1D819E;
+  border-right: 2px solid #1D819E;
 }
 
 /*# sourceMappingURL=safety.css.map */
