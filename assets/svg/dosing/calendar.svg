@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="117" viewBox="0 0 140 117">
+  <defs>
+    <linearGradient id="linear-gradient" x1="803.69" y1="9171.68" x2="803.69" y2="9156.68" gradientTransform="matrix(1, 0, 0, -1, -789.19, 9206.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bcbec0" stop-opacity="0.75"/>
+      <stop offset="0.01" stop-color="#bcbec0" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#8b8e92"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="821.69" y1="9171.68" x2="821.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="840.69" y1="9171.68" x2="840.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="858.69" y1="9171.68" x2="858.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="877.69" y1="9171.68" x2="877.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="895.69" y1="9171.68" x2="895.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="914.69" y1="9171.68" x2="914.69" y2="9156.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="803.69" y1="9153.68" x2="803.69" y2="9138.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="821.69" y1="9153.68" x2="821.69" y2="9138.68" gradientTransform="matrix(1, 0, 0, -1, -789.19, 9206.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="0.01" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#410099"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="840.69" y1="9153.68" x2="840.69" y2="9138.68" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-11" x1="858.69" y1="9153.68" x2="858.69" y2="9138.68" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-12" x1="877.69" y1="9153.68" x2="877.69" y2="9138.68" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-13" x1="895.69" y1="9153.68" x2="895.69" y2="9138.68" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-14" x1="914.69" y1="9153.68" x2="914.69" y2="9138.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" x1="803.69" y1="9134.68" x2="803.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" x1="821.69" y1="9134.68" x2="821.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-17" x1="840.69" y1="9134.68" x2="840.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-18" x1="858.69" y1="9134.68" x2="858.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-19" x1="877.69" y1="9134.68" x2="877.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-20" x1="895.69" y1="9134.68" x2="895.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-21" x1="914.69" y1="9134.68" x2="914.69" y2="9119.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-22" x1="803.69" y1="9115.68" x2="803.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-23" x1="821.69" y1="9115.68" x2="821.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-24" x1="840.69" y1="9115.68" x2="840.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-25" x1="858.69" y1="9115.68" x2="858.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-26" x1="877.69" y1="9115.68" x2="877.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-27" x1="895.69" y1="9115.68" x2="895.69" y2="9100.68" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-28" x1="914.69" y1="9115.68" x2="914.69" y2="9100.68" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M26.26,16H21.74A1.79,1.79,0,0,1,20,14.17V1.83A1.79,1.79,0,0,1,21.74,0h4.52A1.79,1.79,0,0,1,28,1.83V14.17A1.79,1.79,0,0,1,26.26,16Z" fill="#44546a" fill-rule="evenodd"/>
+        <path d="M135.78,7h-13.7v7.33a2.87,2.87,0,0,1-2.87,2.88h-6.62a2.88,2.88,0,0,1-2.87-2.88V7H30.27v7.33a2.88,2.88,0,0,1-2.87,2.88H20.78a2.88,2.88,0,0,1-2.87-2.88V7H4.21A4.22,4.22,0,0,0,0,11.23V112.76A4.23,4.23,0,0,0,4.21,117H135.79a4.23,4.23,0,0,0,4.21-4.24V11.23A4.23,4.23,0,0,0,135.78,7Zm.63,105.52H3.58V26.06H136.41v86.46Z" fill="#44546a" fill-rule="evenodd"/>
+        <path d="M113.74,16h4.52A1.79,1.79,0,0,0,120,14.17V1.83A1.79,1.79,0,0,0,118.26,0h-4.52A1.79,1.79,0,0,0,112,1.83V14.17A1.79,1.79,0,0,0,113.74,16Z" fill="#44546a" fill-rule="evenodd"/>
+        <path d="M7,35H22V50H7Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+        <path d="M25,35H40V50H25Z" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        <path d="M44,35H59V50H44Z" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+        <path d="M62,35H77V50H62Z" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+        <path d="M81,35H96V50H81Z" fill-rule="evenodd" fill="url(#linear-gradient-5)"/>
+        <path d="M99,35h15V50H99Z" fill-rule="evenodd" fill="url(#linear-gradient-6)"/>
+        <path d="M118,35h15V50H118Z" fill-rule="evenodd" fill="url(#linear-gradient-7)"/>
+        <path d="M7,53H22V68H7Z" fill-rule="evenodd" fill="url(#linear-gradient-8)"/>
+        <path d="M25,53H40V68H25Z" fill-rule="evenodd" fill="url(#linear-gradient-9)"/>
+        <path d="M44,53H59V68H44Z" fill-rule="evenodd" fill="url(#linear-gradient-10)"/>
+        <path d="M62,53H77V68H62Z" fill-rule="evenodd" fill="url(#linear-gradient-11)"/>
+        <path d="M81,53H96V68H81Z" fill-rule="evenodd" fill="url(#linear-gradient-12)"/>
+        <path d="M99,53h15V68H99Z" fill-rule="evenodd" fill="url(#linear-gradient-13)"/>
+        <path d="M118,53h15V68H118Z" fill-rule="evenodd" fill="url(#linear-gradient-14)"/>
+        <path d="M7,72H22V87H7Z" fill-rule="evenodd" fill="url(#linear-gradient-15)"/>
+        <path d="M25,72H40V87H25Z" fill-rule="evenodd" fill="url(#linear-gradient-16)"/>
+        <path d="M44,72H59V87H44Z" fill-rule="evenodd" fill="url(#linear-gradient-17)"/>
+        <path d="M62,72H77V87H62Z" fill-rule="evenodd" fill="url(#linear-gradient-18)"/>
+        <path d="M81,72H96V87H81Z" fill-rule="evenodd" fill="url(#linear-gradient-19)"/>
+        <path d="M99,72h15V87H99Z" fill-rule="evenodd" fill="url(#linear-gradient-20)"/>
+        <path d="M118,72h15V87H118Z" fill-rule="evenodd" fill="url(#linear-gradient-21)"/>
+        <path d="M7,91H22v15H7Z" fill-rule="evenodd" fill="url(#linear-gradient-22)"/>
+        <path d="M25,91H40v15H25Z" fill-rule="evenodd" fill="url(#linear-gradient-23)"/>
+        <path d="M44,91H59v15H44Z" fill-rule="evenodd" fill="url(#linear-gradient-24)"/>
+        <path d="M62,91H77v15H62Z" fill-rule="evenodd" fill="url(#linear-gradient-25)"/>
+        <path d="M81,91H96v15H81Z" fill-rule="evenodd" fill="url(#linear-gradient-26)"/>
+        <path d="M99,91h15v15H99Z" fill-rule="evenodd" fill="url(#linear-gradient-27)"/>
+        <path d="M118,91h15v15H118Z" fill-rule="evenodd" fill="url(#linear-gradient-28)"/>
+      </g>
+    </g>
+  </g>
+</svg>
