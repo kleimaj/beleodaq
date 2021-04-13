@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* CSS Variables */
 :root {
   --primary-color:#442A8B;
@@ -347,6 +348,46 @@ footer {
   min-width: 100px;
   font-size: 14px;
   color: var(--tertiary-color);
+}
+
+main img {
+  display: flex;
+  margin: 0 auto;
+}
+main p {
+  text-align: left;
+}
+main .treatment-assessments {
+  margin-top: 45px;
+  padding: 0 15px;
+}
+main .treatment-assessments h3, main .treatment-assessments h4, main .treatment-assessments p {
+  text-align: left;
+}
+main .treatment-assessments h3 {
+  padding: 0 15px;
+  margin-bottom: -15px;
+}
+main .treatment-assessments ul {
+  padding: 0 15px;
+  position: relative;
+}
+main .treatment-assessments ul li::before {
+  content: "•";
+  position: relative;
+  top: 35px;
+  color: #0E404F;
+}
+main .treatment-assessments ul li {
+  margin-bottom: -45px;
+}
+main .treatment-assessments ul li p {
+  margin-top: 0;
+}
+main .treatment-assessments p {
+  margin-top: 45px;
+  font-size: 21px;
+  line-height: 25.2px;
 }
 
 /*# sourceMappingURL=efficacy.css.map */
