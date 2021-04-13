@@ -5,10 +5,27 @@ main {
         display: flex;
         margin: 0 auto;
     }
-
-    p {
+    h3,h4,p {
         text-align: left;
     }
+    h3:nth-child(2){
+        text-align: center;
+    }
+    ul {
+        padding: 0 15px;
+        position: relative;
+        li::before {
+                content: "\2022";
+                position: relative;
+                top: 35px;
+                color: #0E404F;
+        }
+
+        li {
+            margin-top: -40px;
+        }
+    }
+
 
     .treatment-assessments {
         margin-top: 45px;
@@ -40,6 +57,103 @@ main {
             margin-top: 45px;
             font-size: 21px;
             line-height: 25.2px;
+        }
+    }
+
+    .ttr {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #1D819E;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        h4:nth-child(2) {
+            border-left: 1px solid #1D819E;
+            border-right: 1px solid #1D819E;
+        }
+        h4 {
+            max-width: 329px;
+            padding: 35px;
+        }
+    }
+
+    .sap-criteria {
+        display: flex;
+        align-items: center;
+
+        .sap-data {
+            background: url(../assets/svg/efficacy-grad1.svg);
+            width: 291px;
+            height: 146px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .jumbo {
+                font-size: 60px;
+                line-height: 72px;
+                margin-bottom: -10px;
+            }
+            span {
+                font-family: 'Open Sans', sans-serif;
+                display: block;
+                font-size: 28px;
+                line-height: 33px;
+                font-weight: 600;
+                text-align: left;
+            }
+            p {
+                padding: 0;
+            }
+        }
+        .sap-text {
+            background: url(../assets/svg/efficacy-grad2.svg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 870px;
+            height: 146px;
+            h3, h4 {
+                text-align: right;
+                margin-right: 40px;
+                padding: 0;
+            }
+            h3 {
+                line-height: 36px;
+                font-size: 28px;
+                color: #0E404F;
+            }
+        }
+    }
+
+    .cr2 {
+        border-bottom: 1px solid #1D819E;
+        padding-bottom: 32px;
+    }
+    .cr2__data {
+        background: url(../assets/svg/efficacy-grad3.svg);
+        color: white;
+        height: 146px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        span {
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 28px;
+            margin: 5px;
+        }
+        .jumbo {
+            font-size: 60px;
+        }
+        h4 {
+            text-align: right;
+            color: #fff;
+            font-size: 26px;
+            padding: 0;
         }
     }
 }
