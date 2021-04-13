@@ -410,5 +410,14 @@ main .tolerability-data .data_figure .big {
   font-weight: 600;
   line-height: 43.2px;
 }
+main .heartline {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+main .heartline h4 {
+  width: 740px;
+}
 
 /*# sourceMappingURL=safety.css.map */

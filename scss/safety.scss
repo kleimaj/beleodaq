@@ -63,4 +63,13 @@ main {
             }
         }
     }
+    .heartline {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 40px;
+        h4 {
+            width: 740px;
+        }
+    }
 }
