@@ -465,7 +465,7 @@ footer {
   background: url(../assets/images/bg-slide1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -200px;
+  background-position: center;
   background-position-x: -50px;
 }
 
@@ -524,11 +524,6 @@ footer {
 
   .carousel__navigation {
     bottom: 5%;
-  }
-
-  #carousel__slide1 {
-    background-position-y: -370px;
-    background-position-x: -50px;
   }
 
   #carousel__slide4 {
