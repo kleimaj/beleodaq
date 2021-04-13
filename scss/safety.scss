@@ -1,1 +1,43 @@
 @import '_base.scss';
+
+main {
+    h3,h4,p {
+        text-align: left;
+    }
+    h3:nth-child(2){
+        text-align: center;
+    }
+    ul {
+        padding: 0 15px;
+        position: relative;
+        li::before {
+                content: "\2022";
+                position: relative;
+                top: 40px;
+                color: #0E404F;
+        }
+
+        li {
+            margin-top: -40px;
+            line-height: 28px;
+        }
+    }
+    .patient-aes {
+        display: flex;
+        padding: 24px;
+        ul {
+            padding: 45px;
+            ul {
+                padding-bottom: 0;
+                padding-right: 0;
+                padding-left: 25px;
+            }
+            ul li:before {
+                margin-left: -.5em;
+                content: "-";
+                position: relative;
+                top: 0px;
+            }
+        }
+    }
+}
