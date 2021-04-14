@@ -370,4 +370,67 @@ footer {
   color: var(--tertiary-color);
 }
 
+.access {
+  display: flex;
+  margin-top: 25px;
+}
+.access .services h3, .access .services h4, .access .services p {
+  text-align: left;
+}
+.access aside {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+.access aside .star {
+  border: 2px solid #1EACE2;
+  border-radius: 18px;
+  padding: 10px;
+}
+.access aside .star img {
+  display: flex;
+  margin: 0 auto;
+}
+.access aside .star h5 {
+  color: #1EACE2;
+  font-size: 16px;
+  padding: 5px;
+}
+.access aside .star p {
+  font-size: 14px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+}
+.access aside .star h3 {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+.access aside .contact {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0;
+}
+.access aside .contact .contact__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.access aside .contact .contact__item p {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+.access aside .contact .contact__item p span {
+  display: block;
+}
+.access aside p {
+  text-align: left;
+  font-size: 14px;
+  padding: 0;
+}
+
 /*# sourceMappingURL=access.css.map */

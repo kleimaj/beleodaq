@@ -1,1 +1,72 @@
 @import '_base.scss';
+
+.access {
+    display: flex;
+    margin-top: 25px;
+    .services {
+        h3,h4,p {
+            text-align: left;
+        }
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        align-items: center;
+        
+        .star {
+            border: 2px solid #1EACE2;
+            border-radius: 18px;
+            padding: 10px;
+
+            img {
+                display: flex;
+                margin: 0 auto;
+            }
+            h5 {
+                color: #1EACE2;
+                font-size: 16px;
+                padding: 5px;
+            }
+            p {
+                font-size: 14px;
+                width: 450px;
+                margin: 0 auto;
+                padding: 0;
+            }
+            h3 {
+                width: 400px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            padding: 45px 0;
+            .contact__item {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+                p {
+                    text-align: center;
+                    font-size: 12px;
+                    padding: 10px;
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+        p {
+            text-align: left;
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+}
+ 
+.resources {
+
+}
