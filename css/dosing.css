@@ -538,4 +538,23 @@ main h4 {
   width: 60%;
 }
 
+.storage-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 685px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.storage-figure h3 {
+  text-align: left;
+  padding: 25px;
+  padding-left: 0%;
+}
+.storage-figure .figure-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=dosing.css.map */

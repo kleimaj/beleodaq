@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.33" height="136.66" viewBox="0 0 68.33 136.66">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-2549.52" y1="-2877.79" x2="-2549.52" y2="-2936.55" gradientTransform="translate(2583 3004.88)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="0.01" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#410099"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M11.91,0A3.65,3.65,0,0,0,8.2,3.75V18.11s0,3.76,3.71,3.76h44.5a3.66,3.66,0,0,0,3.72-3.76V3.75S60.13,0,56.41,0Z" fill="#44546a" fill-rule="evenodd"/>
+        <path d="M59.85,136.66H8.49A8.22,8.22,0,0,1,0,128.22V54.62c0-9.39,6.54-13,11.57-13.93V27.33H56.75v13.3c9.08,1.35,11.58,9.5,11.58,14v73.6C68.33,134.41,63.27,136.66,59.85,136.66ZM14.29,45.8c-.9,0-8.89.34-8.89,8.82v73.6a2.85,2.85,0,0,0,3.09,3.07H59.85a2.84,2.84,0,0,0,3.07-3.07V54.62c0-.89-.34-8.82-8.87-8.82H51.36V32.7H17V45.8Z" fill="#44546a" fill-rule="evenodd"/>
+        <path d="M11.12,127.09H55.84a2.92,2.92,0,0,0,2.92-2.92V68.33H8.2v55.84A2.92,2.92,0,0,0,11.12,127.09Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.33" height="203.33" viewBox="0 0 62.33 203.33">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-2506.33" y1="8042.89" x2="-2506.33" y2="7927.89" gradientTransform="matrix(1, 0, 0, -1, 2537, 8122.06)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="0.27" stop-color="#410099" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#410099"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M41.74,153.92V79.17H19.59v74.75a21.62,21.62,0,1,0,32.58,18.56A21.72,21.72,0,0,0,41.74,153.92Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+        <path d="M49.43,148V8.4a7.2,7.2,0,0,0-7.18-7.23H20.08A7.2,7.2,0,0,0,12.9,8.4V148a30.27,30.27,0,0,0,18.27,54.19A30.27,30.27,0,0,0,49.43,148Z" fill="none" stroke="#44546a" stroke-miterlimit="8" stroke-width="2.33"/>
+        <path d="M19.17,17.17h11v4h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,28.17h11v3h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,39.17h11v3h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,50.17h11v3h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,61.17h11v3h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,72.17h11v3h-11Z" fill="#410099" fill-rule="evenodd"/>
+        <path d="M19.17,83.17h11v3h-11Z" fill="#fff" fill-rule="evenodd"/>
+        <path d="M19.17,94.17h11v3h-11Z" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
