@@ -4,6 +4,10 @@ main {
     p {
         text-align: left;
     }
+    h4 {
+        text-align: left;
+        font-weight: normal;
+    }
 }
 .timeline {
     display: flex;
@@ -52,6 +56,7 @@ main {
         
         h4 {
             color: white;
+            text-align: center;
         }
     }
     .box__content {
@@ -138,6 +143,38 @@ main {
                     align-items: center;
                     justify-content: center;
                 }
+            }
+        }
+    }
+}
+
+.bounding_box {
+    border-top: 2px solid #1D819E;
+    margin-top: 25px;
+    padding-top: 15px;
+    display: flex;
+    .bb_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4 {
+            text-align: left;
+            width: 80%;
+        }
+        &:first-child {
+            border-right: 2px solid #1D819E;
+        }
+        .item__content {
+            display: flex;
+            width: 90%;
+            align-items: flex-start;
+            padding: 25px;
+            img {
+                padding: 15px;
+            }
+            h4 {
+                width: 60%;
             }
         }
     }
