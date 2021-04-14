@@ -11,20 +11,20 @@ main {
     h3:nth-child(2){
         text-align: center;
     }
-    ul {
-        padding: 0 15px;
-        position: relative;
-        li::before {
-                content: "\2022";
-                position: relative;
-                top: 35px;
-                color: #0E404F;
-        }
+    // ul {
+    //     padding: 0 15px;
+    //     position: relative;
+    //     li::before {
+    //             content: "\2022";
+    //             position: relative;
+    //             top: 35px;
+    //             color: #0E404F;
+    //     }
 
-        li {
-            margin-top: -40px;
-        }
-    }
+    //     li {
+    //         margin-top: -40px;
+    //     }
+    // }
 
 
     .treatment-assessments {

@@ -272,6 +272,23 @@ main h2, main h3, main h4, main h5, main p {
   padding: 15px;
   text-align: center;
 }
+main ul {
+  padding: 0 15px;
+  position: relative;
+}
+main ul li::before {
+  content: "•";
+  position: relative;
+  top: 45px;
+  color: #0E404F;
+}
+main ul li {
+  margin-top: -40px;
+  line-height: 28px;
+}
+main ul li h4 {
+  text-align: left;
+}
 
 .button {
   font-size: 21px;
@@ -355,20 +372,6 @@ footer {
 
 main h4, main p {
   text-align: left;
-}
-main ul {
-  padding: 0 15px;
-  position: relative;
-}
-main ul li::before {
-  content: "•";
-  position: relative;
-  top: 50px;
-  color: #0E404F;
-}
-main ul li {
-  margin-top: -40px;
-  line-height: 28px;
 }
 main .patient-aes {
   display: flex;

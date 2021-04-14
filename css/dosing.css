@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* CSS Variables */
 :root {
   --primary-color:#442A8B;
@@ -271,6 +272,23 @@ main h2, main h3, main h4, main h5, main p {
   padding: 15px;
   text-align: center;
 }
+main ul {
+  padding: 0 15px;
+  position: relative;
+}
+main ul li::before {
+  content: "•";
+  position: relative;
+  top: 45px;
+  color: #0E404F;
+}
+main ul li {
+  margin-top: -40px;
+  line-height: 28px;
+}
+main ul li h4 {
+  text-align: left;
+}
 
 .button {
   font-size: 21px;
@@ -366,6 +384,89 @@ main p {
   align-items: center;
   justify-content: space-evenly;
   max-width: 250px;
+}
+
+.toxicity {
+  display: flex;
+}
+.toxicity .toxicity__item:first-child {
+  width: 50%;
+}
+.toxicity .toxicity__item:first-child h3 {
+  text-align: left;
+}
+.toxicity .toxicity__item {
+  padding: 10px;
+}
+.toxicity .toxicity__item ul ul {
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 15px;
+}
+.toxicity .toxicity__item ul ul li {
+  margin: 15px;
+}
+.toxicity .toxicity__item ul ul li:before {
+  margin-left: -0.5em;
+  content: "-";
+  position: relative;
+  top: 0px;
+}
+.toxicity .box {
+  width: 545px;
+}
+.toxicity .box .box__header {
+  background: #1D819E;
+}
+.toxicity .box .box__header h4 {
+  color: white;
+}
+.toxicity .box .box__content {
+  background: white;
+  background: -moz-linear-gradient(0deg, white 0%, rgba(29, 129, 158, 0.5) 100%);
+  background: -webkit-linear-gradient(0deg, white 0%, rgba(29, 129, 158, 0.5) 100%);
+  background: linear-gradient(0deg, white 0%, rgba(29, 129, 158, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#1d819e",GradientType=1);
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toxicity .box .box__content h5 {
+  color: #0E404F;
+  font-size: 21px;
+}
+.toxicity .box .box__content h5 span {
+  display: block;
+}
+.toxicity .box .box__content h5 .jumbo {
+  font-size: 36px;
+  line-height: 43px;
+  padding: 5px;
+}
+.toxicity .box.darker .box__header {
+  background: #166176;
+}
+.toxicity .box.darker .box__content {
+  background: white;
+  background: -moz-linear-gradient(0deg, white 0%, rgba(22, 97, 118, 0.5) 100%);
+  background: -webkit-linear-gradient(0deg, white 0%, rgba(22, 97, 118, 0.5) 100%);
+  background: linear-gradient(0deg, white 0%, rgba(22, 97, 118, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#166176",GradientType=1);
+}
+.toxicity .box.darkest .box__header {
+  background: #0E404F;
+}
+.toxicity .box.darkest .box__content {
+  background: white;
+  background: -moz-linear-gradient(0deg, white 0%, rgba(14, 64, 79, 0.5) 100%);
+  background: -webkit-linear-gradient(0deg, white 0%, rgba(14, 64, 79, 0.5) 100%);
+  background: linear-gradient(0deg, white 0%, rgba(14, 64, 79, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0e404f",GradientType=1);
+  height: 83px;
+}
+.toxicity .box.darkest .box__content h4 {
+  color: #0E404F;
 }
 
 /*# sourceMappingURL=dosing.css.map */

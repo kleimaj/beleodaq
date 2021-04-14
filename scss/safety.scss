@@ -4,23 +4,6 @@ main {
     h4,p {
         text-align: left;
     }
-    ul {
-        padding: 0 15px;
-        position: relative;
-
-        li::before {
-                content: "\2022";
-                position: relative;
-                top: 50px;
-                color: #0E404F;
-
-        }
-
-        li {
-            margin-top: -40px;
-            line-height: 28px;
-        }
-    }
     .patient-aes {
         display: flex;
         padding: 24px;
