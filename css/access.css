@@ -372,15 +372,16 @@ footer {
 
 .access {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
 .access .services h3, .access .services h4, .access .services p {
   text-align: left;
+  max-width: 660px;
 }
 .access aside {
   display: flex;
   flex-direction: column;
-  width: 500px;
   align-items: center;
 }
 .access aside .star {
@@ -423,6 +424,7 @@ footer {
   text-align: center;
   font-size: 12px;
   padding: 10px;
+  width: auto;
 }
 .access aside .contact .contact__item p span {
   display: block;
@@ -431,6 +433,42 @@ footer {
   text-align: left;
   font-size: 14px;
   padding: 0;
+  width: 450px;
+}
+
+.resources .resource-group {
+  display: flex;
+  justify-content: center;
+}
+.resources .resource-group .resource__item {
+  padding: 15px;
+}
+.resources .resource-group .resource__item img {
+  width: 312px;
+  border: 2px solid #1D819E;
+}
+.resources .resource-group .resource__item h4 {
+  padding-top: 0;
+  width: 280px;
+}
+.resources .resource-group .resource__item p {
+  padding-bottom: 0;
+}
+.resources .resource-group .box {
+  background: #1D819E;
+  margin: 15px;
+  width: 450px;
+}
+.resources .resource-group .box h4 {
+  color: white;
+  padding-top: 15px;
+  width: auto;
+}
+.resources .resource-group .box.darker {
+  background: #166176;
+}
+.resources .resource-group .box.darkest {
+  background: #0E404F;
 }
 
 /*# sourceMappingURL=access.css.map */

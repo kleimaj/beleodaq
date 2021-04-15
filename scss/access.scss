@@ -2,18 +2,19 @@
 
 .access {
     display: flex;
+    justify-content: center;
     margin-top: 25px;
+    // width: 60%;
     .services {
         h3,h4,p {
             text-align: left;
+            max-width: 660px;
         }
     }
     aside {
         display: flex;
         flex-direction: column;
-        width: 500px;
         align-items: center;
-        
         .star {
             border: 2px solid #1EACE2;
             border-radius: 18px;
@@ -53,6 +54,7 @@
                     text-align: center;
                     font-size: 12px;
                     padding: 10px;
+                    width: auto;
                     span {
                         display: block;
                     }
@@ -63,10 +65,47 @@
             text-align: left;
             font-size: 14px;
             padding: 0;
+            width: 450px;
         }
     }
 }
  
 .resources {
+    .resource-group {
+        display: flex;
+        justify-content: center;
+        .resource__item {
+            // width: 30%;
+            padding: 15px;
+            img {
+                width: 312px;
+                border: 2px solid #1D819E;
+            }
+            h4 {
+                padding-top: 0;
+                width: 280px;
+            }
+            p {
+                padding-bottom: 0;
+            }
+        }
 
+        .box {
+            background: #1D819E;
+            margin: 15px;
+            width: 450px;
+            h4 {
+                color: white;
+                padding-top: 15px;
+                width: auto;
+            }
+
+            &.darker {
+                background: #166176;
+            }
+            &.darkest {
+                background: #0E404F;
+            }
+        }
+    }
 }
