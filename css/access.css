@@ -425,6 +425,7 @@ footer {
   font-size: 12px;
   padding: 10px;
   width: auto;
+  color: black;
 }
 .access aside .contact .contact__item p span {
   display: block;
@@ -434,6 +435,7 @@ footer {
   font-size: 14px;
   padding: 0;
   width: 450px;
+  color: #4D4D4F;
 }
 
 .resources .resource-group {
