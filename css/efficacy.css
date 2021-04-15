@@ -407,13 +407,78 @@ main .median-figures {
 }
 main .median-figures h4 {
   padding-bottom: 0;
+  font-size: 28px;
 }
 main .median-figures p {
   padding: 0;
+  color: #4D4D4F;
 }
 main .median-figures .figure__row {
   display: flex;
   padding: 15px;
+}
+main .systemic-therapy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #1D819E;
+  padding: 25px;
+}
+main .systemic-therapy .list-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+main .systemic-therapy .list-group .line {
+  border-left: 1px solid #1D819E;
+}
+main .systemic-therapy .list-group ul {
+  width: 400px;
+}
+main .response-rate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .response-rate h2 {
+  width: 760px;
+}
+main .response-rate .img-label {
+  border-top: 1px solid #BCBEC0;
+  border-bottom: 1px solid #BCBEC0;
+  width: 800px;
+  text-align: center;
+}
+main .response-rate h3 {
+  font-size: 24px;
+}
+main .response-rate .response-rate__figures {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #1D819E;
+  width: 630px;
+  margin-bottom: 25px;
+}
+main .response-rate .response-rate__figures .line {
+  margin: 15px 0;
+  border-left: 2px solid #BCBEC0;
+}
+main .response-rate .response-rate__figures .figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+main .response-rate .response-rate__figures .figure p {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+main .response-rate .response-rate__figures .figure p span {
+  font-size: 21px;
+}
+main .response-rate .response-rate__figures .figure p.figure__details {
+  text-align: right;
 }
 main .treatment-assessments {
   margin-top: 45px;
