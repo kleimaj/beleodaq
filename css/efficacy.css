@@ -380,6 +380,41 @@ main h3, main h4, main p {
 main h3:nth-child(2) {
   text-align: center;
 }
+main .centered {
+  padding-bottom: 20px;
+}
+main .centered h4, main .centered p {
+  text-align: center;
+  padding: 0;
+}
+main .pie-chart {
+  padding-top: 35px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #1D819E;
+  border-bottom: 2px solid #1D819E;
+}
+main .median-figures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #1D819E;
+  height: 190px;
+}
+main .median-figures h4 {
+  padding-bottom: 0;
+}
+main .median-figures p {
+  padding: 0;
+}
+main .median-figures .figure__row {
+  display: flex;
+  padding: 15px;
+}
 main .treatment-assessments {
   margin-top: 45px;
   padding: 0 15px;
