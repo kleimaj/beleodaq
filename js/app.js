@@ -1,13 +1,14 @@
 var footer = document.querySelector('footer');
-var scrollHeight = footer.scrollHeight;
+var main = document.querySelector('main');
+var scrollHeight = document.body.scrollHeight - main.scrollHeight - 80;
+console.log(window.innerHeight);
+console.log(main.clientHeight);
+
 document.addEventListener('scroll', function (event) {
-  console.log(window.scrollY);
   if (window.scrollY >= scrollHeight) {
-    console.log('unstick');
     footer.style.position = 'relative';
     footer.lastElementChild.classList.remove('hidden');
   } else {
-    console.log('stick');
     footer.style.position = 'fixed';
     footer.lastElementChild.classList.add('hidden');
   }

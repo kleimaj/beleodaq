@@ -231,7 +231,7 @@ header {
 
 /* Main */
 main {
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     padding: 10px 80px;
     h2,h3,h4,h5,p {
         padding: 15px;
@@ -296,22 +296,55 @@ footer {
     box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
     z-index: 2;
     transition: all 0.3s ease-in-out;
+    section {
+        padding: 0px 50px 50px 50px;
+        h5 {
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 10px;
+        }
+        ul {
+            padding: 0 15px;
+            position: relative;
+    
+            li::before {
+                    content: "\2022";
+                    position: relative;
+                    top: 35px;
+                    left: -10px;
+                    color: var(--primary-color);
+    
+            }
+    
+            li {
+                margin-top: -40px;
+                line-height: 28px;
+    
+                p {
+                    text-align: left;
+                padding: 5px;
+                }
+            }
+        }
+    }
 }
 .footer-down {
     transform: translateY(120px);
 }
 .isi {
-    padding: 15px 40px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     /* width: 80%; */
+    padding: 15px 50px;
 }
 .isi__header {
     color: var(--tertiary-color);
     font-size: 14px;
     font-weight: 600;
     line-height: 17px;
+    margin-top: 0;
 }
 .isi__body--bold {
     font-family: 'Open Sans', sans-serif;
@@ -326,6 +359,7 @@ footer {
     font-size: 14px;
     line-height: 17px;
     width: 100%;
+    margin-top: 0;
 }
 .isi__button {
     font-weight: normal;

@@ -265,7 +265,7 @@ header {
 
 /* Main */
 main {
-  margin-bottom: 150px;
+  margin-bottom: 10px;
   padding: 10px 80px;
 }
 main h2, main h3, main h4, main h5, main p {
@@ -327,17 +327,45 @@ footer {
   z-index: 2;
   transition: all 0.3s ease-in-out;
 }
+footer section {
+  padding: 0px 50px 50px 50px;
+}
+footer section h5 {
+  margin-top: 20px;
+}
+footer section p {
+  margin-top: 10px;
+}
+footer section ul {
+  padding: 0 15px;
+  position: relative;
+}
+footer section ul li::before {
+  content: "•";
+  position: relative;
+  top: 35px;
+  left: -10px;
+  color: var(--primary-color);
+}
+footer section ul li {
+  margin-top: -40px;
+  line-height: 28px;
+}
+footer section ul li p {
+  text-align: left;
+  padding: 5px;
+}
 
 .footer-down {
   transform: translateY(120px);
 }
 
 .isi {
-  padding: 15px 40px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   /* width: 80%; */
+  padding: 15px 50px;
 }
 
 .isi__header {
@@ -345,6 +373,7 @@ footer {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
+  margin-top: 0;
 }
 
 .isi__body--bold {
@@ -360,6 +389,7 @@ footer {
   font-size: 14px;
   line-height: 17px;
   width: 100%;
+  margin-top: 0;
 }
 
 .isi__button {
