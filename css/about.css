@@ -178,9 +178,11 @@ header {
 @media only screen and (max-width: 1200px) {
   .nav {
     flex-direction: column;
+    padding: 10px 0;
   }
   .nav .nav__buttons {
     align-items: center;
+    width: 100%;
   }
   .nav .nav__logo {
     display: none;
@@ -189,12 +191,29 @@ header {
     display: block;
     padding: 15px;
   }
+  .nav .mobile__button {
+    display: block;
+    width: 100%;
+    background-color: #166176;
+    padding: 5px;
+    border: none;
+  }
+  .nav .mobile__button img {
+    width: 20px;
+  }
+  .nav .site-buttons {
+    margin: 0;
+  }
   .nav .site-buttons:after {
     display: none;
   }
 }
 
 .mobile__logo {
+  display: none;
+}
+
+.mobile__button {
   display: none;
 }
 
@@ -251,6 +270,12 @@ header {
   display: flex;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  .navlinks {
+    flex-direction: column;
+    display: none;
+  }
 }
 
 .navlinks li {

@@ -151,10 +151,12 @@ header {
     align-items: center;
     justify-content: space-between;
     
-    @media only screen and (max-width: 1200px) { 
+    @media only screen and (max-width: 1200px) {
         flex-direction: column;
+        padding: 10px 0;
         .nav__buttons {
             align-items: center;
+            width: 100%;
         }
         .nav__logo {
             display: none;
@@ -163,12 +165,28 @@ header {
             display: block;
             padding: 15px;
         }
+        .mobile__button {
+            display: block;
+            width: 100%;
+            background-color: #166176;
+            padding: 5px;
+            border: none;
+            img {
+                width: 20px;
+            }
+        }
+        .site-buttons {
+            margin: 0;
+        }
         .site-buttons:after {
             display: none;
         }
     }
 }
 .mobile__logo {
+    display: none;
+}
+.mobile__button {
     display: none;
 }
 .nav__buttons {
@@ -219,6 +237,10 @@ header {
     display: flex;
     padding-top: 30px;
     padding-bottom: 10px;
+    @media only screen and (max-width: 1200px) { 
+        flex-direction: column;
+        display: none;
+    }
 }
 .navlinks li {
     border-bottom: 2px solid #CAAEE0;
