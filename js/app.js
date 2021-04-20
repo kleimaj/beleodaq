@@ -18,14 +18,3 @@ window.onscroll = function (ev) {
     footer.lastElementChild.classList.add('hidden');
   }
 };
-
-// document.addEventListener('scroll', function (event) {
-//   // if (window.scrollY >= scrollHeight) {
-//   if (main.scrollTop >= main.scrollHeight) {
-//     footer.style.position = 'relative';
-//     footer.lastElementChild.classList.remove('hidden');
-//   } else {
-//     footer.style.position = 'fixed';
-//     footer.lastElementChild.classList.add('hidden');
-//   }
-// });
