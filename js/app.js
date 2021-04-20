@@ -1,15 +1,31 @@
 var footer = document.querySelector('footer');
-var main = document.querySelector('main');
-var scrollHeight = document.body.scrollHeight - main.scrollHeight - 80;
-console.log(window.innerHeight);
-console.log(main.clientHeight);
 
-document.addEventListener('scroll', function (event) {
-  if (window.scrollY >= scrollHeight) {
+var innerHeight = window.innerHeight;
+var offsetHeight = document.body.offsetHeight;
+
+// https://stackoverflow.com/questions/9439725/javascript-how-to-detect-if-browser-window-is-scrolled-to-bottom
+
+if (innerHeight + window.scrollY >= offsetHeight) {
+  footer.style.position = 'relative';
+  footer.lastElementChild.classList.remove('hidden');
+}
+window.onscroll = function (ev) {
+  if (innerHeight + window.scrollY >= offsetHeight) {
     footer.style.position = 'relative';
     footer.lastElementChild.classList.remove('hidden');
   } else {
     footer.style.position = 'fixed';
     footer.lastElementChild.classList.add('hidden');
   }
-});
+};
+
+// document.addEventListener('scroll', function (event) {
+//   // if (window.scrollY >= scrollHeight) {
+//   if (main.scrollTop >= main.scrollHeight) {
+//     footer.style.position = 'relative';
+//     footer.lastElementChild.classList.remove('hidden');
+//   } else {
+//     footer.style.position = 'fixed';
+//     footer.lastElementChild.classList.add('hidden');
+//   }
+// });
