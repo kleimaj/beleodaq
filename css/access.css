@@ -189,6 +189,9 @@ header {
     display: block;
     padding: 15px;
   }
+  .nav .site-buttons:after {
+    display: none;
+  }
 }
 
 .mobile__logo {

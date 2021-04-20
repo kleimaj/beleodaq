@@ -163,6 +163,9 @@ header {
             display: block;
             padding: 15px;
         }
+        .site-buttons:after {
+            display: none;
+        }
     }
 }
 .mobile__logo {
