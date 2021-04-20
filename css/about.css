@@ -275,6 +275,16 @@ header {
   .navlinks {
     flex-direction: column;
     display: none;
+    width: 100%;
+    border-bottom: 3px solid #166176;
+  }
+  .navlinks .navlinks__link {
+    font-size: 18px;
+    line-height: 36px;
+    width: 100%;
+  }
+  .navlinks .navlinks__link br {
+    display: none;
   }
 }
 
@@ -287,6 +297,16 @@ header {
 }
 .navlinks li.active {
   border-bottom: 2px solid var(--primary-color);
+}
+.navlinks li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .navlinks li {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
 .navlinks__link {

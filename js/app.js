@@ -25,8 +25,10 @@ document.querySelector('.mobile__button').addEventListener('click', (e) => {
   if (menuToggled) {
     document.querySelector('.mobile__button__icon').src =
       'assets/svg/menu/times.svg';
+    document.querySelector('.navlinks').style.display = 'block';
   } else {
     document.querySelector('.mobile__button__icon').src =
       'assets/svg/menu/bars.svg';
+    document.querySelector('.navlinks').style.display = 'none';
   }
 });
