@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="96" viewBox="0 0 50 96">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-5152" y1="-3571.22" x2="-5152" y2="-3610.22" gradientTransform="matrix(1, 0, 0, -1, 5177, -3533.22)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff671d" stop-opacity="0.5"/>
+      <stop offset="0.01" stop-color="#ff671d" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ff671d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M41.62,77H8.39A3.36,3.36,0,0,1,5,73.67V40.06s11.89,2.49,19.57-.41C33.94,36.13,45,39.33,45,39.33V73.67A3.35,3.35,0,0,1,41.62,77Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+        <path d="M42.67,16.32H31.09a9.33,9.33,0,1,0-12.18,0H7.33A7.32,7.32,0,0,0,0,23.61v51A7.32,7.32,0,0,0,7.33,81.9h10v2.85A2.72,2.72,0,0,0,20,87.47h2.49V96h5V87.47H30a2.72,2.72,0,0,0,2.73-2.72V81.9h10A7.32,7.32,0,0,0,50,74.61v-51A7.32,7.32,0,0,0,42.67,16.32Zm-24.25-7A6.58,6.58,0,1,1,25,15.83,6.58,6.58,0,0,1,18.42,9.29ZM47.25,74.61a4.57,4.57,0,0,1-4.58,4.55H7.33a4.57,4.57,0,0,1-4.58-4.55v-51a4.57,4.57,0,0,1,4.58-4.55H42.67a4.57,4.57,0,0,1,4.58,4.55Z" fill="#44546a" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
