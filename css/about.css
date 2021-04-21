@@ -487,7 +487,7 @@ footer section ul li p {
   color: var(--tertiary-color);
 }
 
-main h4 {
+main h2, main h3, main h4 {
   text-align: left;
 }
 main img {
