@@ -487,11 +487,33 @@ footer section ul li p {
   color: var(--tertiary-color);
 }
 
+main .tabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+}
+main .tabs .tab {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #166176;
+  color: #166176;
+  padding: 10px;
+  opacity: 0.5;
+}
+main .tabs .tab--active {
+  opacity: 1;
+  border: 2px solid #166176;
+}
 main img {
   display: flex;
   margin: 0 auto;
 }
-main h3, main h4, main p {
+main h2, main h3, main h4, main p {
   text-align: left;
 }
 main h3:nth-child(2) {
