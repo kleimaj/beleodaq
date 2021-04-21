@@ -332,6 +332,29 @@ main {
             }
         }
     }
+    .tabs {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 0;
+
+        .tab {
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Open Sans', sans-serif;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #166176;
+            color: #166176;
+            padding: 10px;
+            opacity: .5;
+        }
+        .tab--active {
+            opacity: 1;
+            border: 2px solid #166176;
+        }
+    }
 }
 
 .button {

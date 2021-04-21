@@ -1,29 +1,7 @@
 @import '_base.scss';
 
 main {
-    .tabs {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 30px 0;
-
-        .tab {
-            font-size: 18px;
-            font-weight: 600;
-            font-family: 'Open Sans', sans-serif;
-            width: 100%;
-            text-align: center;
-            border: 1px solid #166176;
-            color: #166176;
-            padding: 10px;
-            opacity: .5;
-        }
-        .tab--active {
-            opacity: 1;
-            border: 2px solid #166176;
-        }
-    }
+    
     img {
         display: flex;
         margin: 0 auto;
@@ -198,12 +176,14 @@ main {
         h4 {
             max-width: 329px;
             padding: 35px;
+            text-align: center;
         }
     }
 
     .sap-criteria {
         display: flex;
         justify-content: space-between;
+        margin: 0 120px;
 
         .sap-data {
             background: url(../assets/svg/efficacy-grad1.svg);
@@ -247,6 +227,7 @@ main {
             h3, h4 {
                 text-align: right;
                 margin-right: 40px;
+                margin-left: 40px;
                 padding: 0;
             }
             h3 {
@@ -259,6 +240,7 @@ main {
 
     .cr2 {
         border-bottom: 1px solid #1D819E;
+        border-top: 1px solid #1D819E;
         padding-bottom: 32px;
     }
     .cr2__data {
@@ -271,6 +253,7 @@ main {
         justify-content: space-between;
         align-items: center;
         padding: 0 40px;
+        margin: 0 120px;
         span {
             font-weight: 600;
             font-family: 'Open Sans', sans-serif;
@@ -283,7 +266,8 @@ main {
         h4 {
             text-align: right;
             color: #fff;
-            font-size: 26px;
+            font-weight: normal;
+            font-size: 21px;
             padding: 0;
         }
     }
