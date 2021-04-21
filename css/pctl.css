@@ -33,17 +33,17 @@ h1 {
 }
 
 h2 {
-  font-size: 21px;
+  font-size: 28px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 33px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 24px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 28px;
   font-weight: 600;
 }
 
@@ -487,13 +487,19 @@ footer section ul li p {
   color: var(--tertiary-color);
 }
 
-main h2:first-child {
-  width: 710px;
-  margin: 0 auto;
+main h2, main h3, main h4, main p {
+  text-align: left;
+  padding: 25px 0;
 }
 main img {
   display: flex;
   margin: 50px auto;
+}
+main p {
+  color: #4D4D4F;
+}
+main .center {
+  text-align: center;
 }
 
 .response-rate {
@@ -501,11 +507,21 @@ main img {
   width: 95%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .response-rate h4 {
   width: 720px;
+  font-size: 21px;
   text-align: left;
+  padding: 30px;
+}
+.response-rate span {
+  padding: 15px;
+}
+.response-rate .line {
+  border-left: 1px solid #4D4D4F;
+  height: 70px;
+  margin-left: 25px;
 }
 
 .median {
@@ -518,6 +534,9 @@ main img {
   font-size: 48px;
   text-align: center;
 }
+.median .median__figure h4 {
+  text-align: center;
+}
 .median hr {
   margin: 20px;
   border-left: 1px solid black;
@@ -527,7 +546,7 @@ main img {
   text-align: left;
 }
 .ptcl-data h3, .ptcl-data h4 {
-  padding: 0 15px;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=pctl.css.map */

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="975.49" height="367.5" viewBox="0 0 975.49 367.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="118.1" y1="232.15" x2="118.1" y2="303.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#430298" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#430298"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="265.03" y1="232.15" x2="265.03" y2="303.31" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="411.85" y1="147.8" x2="411.85" y2="303.31" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="558.67" y1="194.47" x2="558.67" y2="303.31" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="705.59" y1="258.73" x2="705.59" y2="303.31" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="173.57" y1="258.73" x2="173.57" y2="303.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d819e" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#1d819e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="320.39" y1="263.33" x2="320.39" y2="303.31" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-8" x1="467.21" y1="169.98" x2="467.21" y2="303.31" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="614.13" y1="223.35" x2="614.13" y2="303.31" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-10" x1="760.95" y1="294.31" x2="760.95" y2="303.31" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-11" x1="839.32" y1="78.94" x2="839.32" y2="93.51" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="839.32" y1="102.21" x2="839.32" y2="116.78" xlink:href="#linear-gradient-6"/>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <g>
+          <text transform="translate(0 28.56)" font-size="24" fill="#0e404f" font-family="OpenSans-Semibold, Open Sans" font-weight="600">Survival outcomes by PTCL subtype</text>
+          <text transform="translate(408.38 20.57) scale(0.58)" font-size="24" fill="#0e404f" font-family="OpenSans-Semibold, Open Sans" font-weight="600">3</text>
+        </g>
+        <g>
+          <text transform="translate(853.25 93.8)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans">5</text>
+          <text transform="translate(861.4 93.8)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans">-</text>
+          <text transform="translate(866.8 93.8)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans" letter-spacing="0em">y<tspan x="7.31" y="0" letter-spacing="0em">ea</tspan><tspan x="23.61" y="0" letter-spacing="0em">r</tspan><tspan x="29.63" y="0" letter-spacing="-0.01em"> </tspan><tspan x="33.31" y="0" letter-spacing="0em">OS</tspan></text>
+          <text transform="translate(853.25 112.87)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans">5</text>
+          <text transform="translate(861.4 112.87)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans">-</text>
+          <text transform="translate(866.8 112.87)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">y</tspan><tspan x="7.31" y="0" letter-spacing="0em">ea</tspan><tspan x="23.61" y="0" letter-spacing="0em">r</tspan><tspan x="29.63" y="0" letter-spacing="-0.01em"> </tspan><tspan x="33.31" y="0" letter-spacing="0em">fa</tspan><tspan x="46.37" y="0" letter-spacing="0em">il</tspan><tspan x="53.89" y="0" letter-spacing="0em">u</tspan><tspan x="62.87" y="0" letter-spacing="-0.01em">r</tspan><tspan x="68.61" y="0">e-free</tspan></text>
+          <text transform="translate(853.25 129.47)" font-size="14.56" fill="#4d4d4f" font-family="OpenSans, Open Sans">s<tspan x="6.95" y="0" letter-spacing="0em">u</tspan><tspan x="15.93" y="0" letter-spacing="0em">r</tspan><tspan x="21.95" y="0" letter-spacing="0em">v</tspan><tspan x="29.22" y="0" letter-spacing="0em">i</tspan><tspan x="32.97" y="0" letter-spacing="0em">v</tspan><tspan x="40.24" y="0" letter-spacing="0em">a</tspan><tspan x="48.35" y="0" letter-spacing="0em">l</tspan><tspan x="52.11" y="0"> </tspan></text>
+        </g>
+        <g>
+          <path d="M72.37,258.73H806.58M72.37,214.36H806.58M72.37,170H806.58M72.37,125.61H806.58M72.37,81H806.58" fill="none" stroke="#e4e4e5" stroke-linejoin="round" stroke-width="1.08"/>
+          <polygon points="90.37 232.15 145.83 232.15 145.83 303.31 90.37 303.31 90.37 232.15 90.37 232.15" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+          <polygon points="237.3 232.15 292.76 232.15 292.76 303.31 237.3 303.31 237.3 232.15 237.3 232.15" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+          <polygon points="384.22 147.8 439.47 147.8 439.47 303.31 384.22 303.31 384.22 147.8 384.22 147.8" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+          <polygon points="530.94 194.47 586.4 194.47 586.4 303.31 530.94 303.31 530.94 194.47 530.94 194.47" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+          <polygon points="677.86 258.73 733.32 258.73 733.32 303.31 677.86 303.31 677.86 258.73 677.86 258.73" fill-rule="evenodd" fill="url(#linear-gradient-5)"/>
+          <polygon points="145.83 258.73 201.3 258.73 201.3 303.31 145.83 303.31 145.83 258.73 145.83 258.73" fill-rule="evenodd" fill="url(#linear-gradient-6)"/>
+          <polygon points="292.76 263.33 348.01 263.33 348.01 303.31 292.76 303.31 292.76 263.33 292.76 263.33" fill-rule="evenodd" fill="url(#linear-gradient-7)"/>
+          <polygon points="439.47 169.99 494.94 169.99 494.94 303.31 439.47 303.31 439.47 169.99 439.47 169.99" fill-rule="evenodd" fill="url(#linear-gradient-8)"/>
+          <polygon points="586.4 223.35 641.86 223.35 641.86 303.31 586.4 303.31 586.4 223.35 586.4 223.35" fill-rule="evenodd" fill="url(#linear-gradient-9)"/>
+          <polygon points="733.32 294.31 788.58 294.31 788.58 303.31 733.32 303.31 733.32 294.31 733.32 294.31" fill-rule="evenodd" fill="url(#linear-gradient-10)"/>
+          <line x1="72.37" y1="303.31" x2="806.58" y2="303.31" fill="none" stroke="#e4e4e5" stroke-linejoin="round" stroke-width="1.08"/>
+          <text transform="translate(23.22 310.05)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">0</tspan><tspan x="11.86" y="0">%</tspan></text>
+          <text transform="translate(11.61 265.63)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">2</tspan><tspan x="11.86" y="0" letter-spacing="0em">0</tspan><tspan x="23.91" y="0">%</tspan></text>
+          <text transform="translate(11.61 221.21)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">4</tspan><tspan x="11.86" y="0" letter-spacing="0em">0</tspan><tspan x="23.91" y="0">%</tspan></text>
+          <text transform="translate(11.61 176.79)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">6</tspan><tspan x="11.86" y="0" letter-spacing="0em">0</tspan><tspan x="23.91" y="0">%</tspan></text>
+          <text transform="translate(11.61 132.37)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">8</tspan><tspan x="11.86" y="0" letter-spacing="0em">0</tspan><tspan x="23.91" y="0">%</tspan></text>
+          <text transform="translate(0 87.95)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">1</tspan><tspan x="11.86" y="0" letter-spacing="0em">0</tspan><tspan x="23.91" y="0" letter-spacing="0em">0</tspan><tspan x="35.78" y="0">%</tspan></text>
+          <text transform="translate(95.01 336.77)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">P<tspan x="12.6" y="0" letter-spacing="0em">T</tspan><tspan x="24.07" y="0" letter-spacing="0.01em">C</tspan><tspan x="37.4" y="0" letter-spacing="-0.01em">L</tspan><tspan x="48.14" y="0" letter-spacing="0em">-</tspan><tspan x="54.88" y="0" letter-spacing="0em">N</tspan><tspan x="70.59" y="0" letter-spacing="0em">OS</tspan></text>
+          <text transform="translate(272.4 336.77)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">A<tspan x="13.24" y="0" letter-spacing="0em">I</tspan><tspan x="19.06" y="0" letter-spacing="0em">T</tspan><tspan x="30.53" y="0">L</tspan></text>
+          <text transform="translate(382.73 336.77)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">A<tspan x="13.24" y="0" letter-spacing="-0.01em">L</tspan><tspan x="23.98" y="0" letter-spacing="0em">K</tspan><tspan x="36.87" y="0">-</tspan><tspan x="43.6" y="0" letter-spacing="0em">p</tspan><tspan x="56.37" y="0" letter-spacing="0em">o</tspan><tspan x="69.09" y="0">s</tspan><tspan x="79.08" y="0" letter-spacing="0em">i</tspan><tspan x="84.29" y="0" letter-spacing="0em">t</tspan><tspan x="91.76" y="0" letter-spacing="0em">i</tspan><tspan x="96.97" y="0" letter-spacing="0em">v</tspan><tspan x="107.41" y="0">e</tspan></text>
+          <text transform="translate(414.41 361.83)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">A<tspan x="13.24" y="0" letter-spacing="-0.01em">L</tspan><tspan x="23.98" y="0" letter-spacing="0.01em">C</tspan><tspan x="37.31" y="0">L</tspan></text>
+          <text transform="translate(526.07 336.77)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">A<tspan x="13.24" y="0" letter-spacing="-0.01em">L</tspan><tspan x="23.98" y="0" letter-spacing="0em">K</tspan><tspan x="36.87" y="0">-</tspan><tspan x="43.6" y="0" letter-spacing="0em">n</tspan><tspan x="56.51" y="0" letter-spacing="-0.01em">e</tspan><tspan x="68.09" y="0" letter-spacing="0em">g</tspan><tspan x="79.64" y="0" letter-spacing="0em">a</tspan><tspan x="91.3" y="0" letter-spacing="0em">t</tspan><tspan x="98.58" y="0" letter-spacing="0.01em">i</tspan><tspan x="103.98" y="0" letter-spacing="0em">v</tspan><tspan x="114.42" y="0">e</tspan></text>
+          <text transform="translate(561.25 361.83)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans">A<tspan x="13.24" y="0" letter-spacing="-0.01em">L</tspan><tspan x="23.98" y="0" letter-spacing="0.01em">C</tspan><tspan x="37.31" y="0">L</tspan></text>
+          <text transform="translate(709.07 336.77)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans"><tspan letter-spacing="0em">E</tspan><tspan x="11.6" y="0" letter-spacing="0em">A</tspan><tspan x="24.84" y="0" letter-spacing="0em">T</tspan><tspan x="36.32" y="0">L</tspan></text>
+          <polygon points="0.17 68.9 67.14 68.9 67.14 88.99 0.17 88.99 0.17 68.9 0.17 68.9" fill="#fff" fill-rule="evenodd"/>
+          <text transform="translate(0.11 88.04)" font-size="20.93" fill="#4d4d4f" font-family="OpenSans, Open Sans" letter-spacing="0em">100<tspan x="36.15" y="0" letter-spacing="0em">%</tspan></text>
+        </g>
+        <rect x="832.04" y="78.94" width="14.57" height="14.57" fill="url(#linear-gradient-11)"/>
+        <rect x="832.04" y="102.21" width="14.57" height="14.57" fill="url(#linear-gradient-12)"/>
+      </g>
+    </g>
+  </g>
+</svg>
