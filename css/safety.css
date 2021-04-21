@@ -509,7 +509,7 @@ footer section ul li p {
   color: var(--tertiary-color);
 }
 
-main h4, main p {
+main h2, main h3, main h4, main p {
   text-align: left;
 }
 main .patient-aes {
@@ -562,11 +562,12 @@ main .tolerability-data .data_figure .big {
 main .heartline {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 40px;
 }
 main .heartline h4 {
   width: 740px;
+  padding: 25px;
 }
 main .bounding_box {
   border-top: 2px solid #1D819E;

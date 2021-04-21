@@ -1,7 +1,7 @@
 @import '_base.scss';
 
 main {
-    h4,p {
+    h2,h3,h4,p {
         text-align: left;
     }
     .patient-aes {
@@ -59,10 +59,11 @@ main {
     .heartline {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
         padding: 40px;
         h4 {
             width: 740px;
+            padding: 25px;
         }
     }
     .bounding_box {
