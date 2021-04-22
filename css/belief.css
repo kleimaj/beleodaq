@@ -546,5 +546,8 @@ main .tab-content {
   padding-bottom: 24px;
   border-bottom: 2px solid #1D819E;
 }
+main .tab-content h4:first-child {
+  color: #333333;
+}
 
 /*# sourceMappingURL=belief.css.map */
