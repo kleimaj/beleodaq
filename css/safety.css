@@ -398,6 +398,11 @@ main .tabs .tab--active {
   opacity: 1;
   border: 2px solid #166176;
 }
+main .tabs .tab--active-variant {
+  opacity: 1;
+  border: 2px solid #1D819E;
+  color: #1D819E;
+}
 
 .button {
   font-size: 21px;
