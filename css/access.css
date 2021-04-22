@@ -509,6 +509,10 @@ footer section ul li p {
   color: var(--tertiary-color);
 }
 
+main h2, main h3 {
+  text-align: left;
+}
+
 .access {
   display: flex;
   justify-content: center;

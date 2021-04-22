@@ -1,5 +1,10 @@
 @import '_base.scss';
 
+main {
+    h2,h3 {
+        text-align: left;
+    }
+}
 .access {
     display: flex;
     justify-content: center;
