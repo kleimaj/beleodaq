@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1131.07" height="129.95" viewBox="0 0 1131.07 129.95">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <line x1="0.32" y1="0.32" x2="0.32" y2="95.36" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+        <text transform="translate(8.99 31.66)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">Every 6 weeks &gt;&gt;&gt;</text>
+        <text transform="translate(459.05 31.66)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">Every 12 weeks &gt;&gt;&gt;</text>
+        <text transform="translate(915.65 31.66)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">+ 30 days</text>
+        <text transform="translate(915.65 81.88)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">End-of-treatment visit</text>
+        <text transform="translate(2.36 117.13)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">BASELINE</text>
+        <text transform="translate(446.46 117.13)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">12 MONTHS</text>
+        <text transform="translate(910.33 117.13)" font-size="21" fill="#4d4d4f" font-family="OpenSans, Open Sans">24 MONTHS</text>
+        <line x1="0.32" y1="45.79" x2="1019.5" y2="45.79" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="4.25"/>
+        <line x1="909.6" x2="909.6" y2="95.04" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+        <line x1="449.07" x2="449.07" y2="95.04" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+        <line x1="0.48" y1="95.04" x2="102.4" y2="95.04" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+        <line x1="447.92" y1="95.04" x2="563.94" y2="95.04" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+        <line x1="908.2" y1="95.04" x2="1026.7" y2="95.04" fill="none" stroke="#1d819e" stroke-miterlimit="10" stroke-width="0.64"/>
+      </g>
+    </g>
+  </g>
+</svg>
