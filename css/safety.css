@@ -128,7 +128,7 @@ sub {
   font-weight: 300;
 }
 
-.semibold {
+.semibold, strong {
   font-weight: 600;
 }
 
