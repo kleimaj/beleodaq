@@ -582,14 +582,12 @@ footer .footer__bottom img {
 }
 
 .carousel__viewport {
-  /* height: 435px; */
   /* background: var(--bg-gradient); */
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
@@ -618,6 +616,7 @@ footer .footer__bottom img {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   /* box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25); */
@@ -677,16 +676,17 @@ footer .footer__bottom img {
 }
 
 .carousel__navigation {
-  display: none;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 30px;
   left: 0;
   text-align: center;
 }
 
 .carousel__navigation-list, .carousel__navigation-item {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel__navigation-button {
@@ -694,13 +694,28 @@ footer .footer__bottom img {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  margin: 15px;
-  background-color: #fff;
+  margin: 5px;
+  border: 3px solid #fff;
   background-clip: content-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
   font-size: 0;
   transition: transform 0.1s;
+}
+.carousel__navigation-button.active {
+  background-color: #fff;
+}
+
+.carousel__navigation-arrow {
+  font-size: 0;
+  background: url(../assets/svg/carousel/chev.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.carousel__navigation-arrow.right {
+  transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 1900px) {
