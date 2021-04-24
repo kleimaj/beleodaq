@@ -32,3 +32,8 @@ document.querySelector('.mobile__button').addEventListener('click', (e) => {
     document.querySelector('.navlinks').style.display = 'none';
   }
 });
+
+// Scroll To Footer
+function scrollToFooter() {
+  window.scrollTo(0, offsetHeight);
+}
