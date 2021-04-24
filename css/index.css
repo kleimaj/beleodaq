@@ -796,21 +796,25 @@ footer .footer__bottom img {
   z-index: 2;
   background: #fff;
   color: var(--primary-color);
-  font-weight: 600;
-  font-size: 12px;
-  font-family: "Open Sans";
-  line-height: 14.4px;
-  width: 250px;
+  min-width: 188px;
+  max-width: 196px;
   height: 60px;
   padding: 24px 8px;
   margin: 8px;
   display: flex;
   align-items: center;
+  justify-content: center;
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   background: url(../assets/svg/qb-grad.svg);
   background-size: cover;
-  border-top: 1px solid #430298;
-  border-bottom: 1px solid #430298;
+  border-top: 2px solid #430298;
+  border-bottom: 2px solid #430298;
+}
+.question_buttons__button h5 {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: normal;
+  padding: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
