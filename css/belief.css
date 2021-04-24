@@ -552,5 +552,31 @@ main .tab-content {
 main .tab-content h4:first-child {
   color: #333333;
 }
+main .cols {
+  display: flex;
+  justify-content: center;
+}
+main .cols .col {
+  padding: 35px;
+  width: 50%;
+}
+main .cols .col:first-child {
+  border-right: 2px solid #1D819E;
+  text-align: center;
+  padding-left: 35px;
+}
+main .cols .col:first-child p {
+  margin-top: -30px;
+}
+main .cols .col:first-child h4 {
+  padding-top: 0;
+}
+main .cols .col ul {
+  padding: 0 25px;
+  padding-bottom: 35px;
+}
+main .cols .col .row {
+  border-bottom: 2px solid #1D819E;
+}
 
 /*# sourceMappingURL=belief.css.map */
