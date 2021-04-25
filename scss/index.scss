@@ -246,8 +246,26 @@
     // display: none;
     background: url(../assets/images/carousel-4.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    h2 {
+        text-align: right;
+        width: 490px;
+        padding: 15px 0;
+        strong {
+            color: #430298;
+            font-weight: 800;
+        }
+    }
+    .slide__text {
+        padding: 0 45px;
+        width: 50%;
+        justify-content: center;
+        background: rgb(228, 243, 255);
+        background: -moz-linear-gradient(90deg, rgba(223, 240, 255, 0.4) 0%, rgba(255,255,255,0.4) 8%, rgba(255,255,255,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(172,216,255,0.4) 0%, rgba(255,255,255,0.4) 8%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(90deg, rgba(172,216,255,0.4) 0%, rgba(255,255,255,0.4) 8%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acd8ff",endColorstr="#ffffff",GradientType=1);
+    }
 }
 
 .carousel__navigation {
@@ -302,9 +320,6 @@
     //     background-position-y: -370px;
     //     background-position-x: -50px;
     // }
-    #carousel__slide4 {
-        background: url(../assets/images/xl-bg-slide4.png);
-    }
 }
 .slide__text {
     padding: 15px 100px;
@@ -335,6 +350,10 @@
         background-color: #FF5C29;
         color: white;
         box-shadow: none;
+    }
+    &.secondary {
+        background-color: #1D819E;
+        color: white;
     }
 }
 .carousel-text--bold {

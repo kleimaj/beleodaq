@@ -784,8 +784,26 @@ footer .footer__bottom img {
 #carousel__slide4 {
   background: url(../assets/images/carousel-4.png);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+}
+#carousel__slide4 h2 {
+  text-align: right;
+  width: 490px;
+  padding: 15px 0;
+}
+#carousel__slide4 h2 strong {
+  color: #430298;
+  font-weight: 800;
+}
+#carousel__slide4 .slide__text {
+  padding: 0 45px;
+  width: 50%;
+  justify-content: center;
+  background: #e4f3ff;
+  background: -moz-linear-gradient(90deg, rgba(223, 240, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 8%, white 100%);
+  background: -webkit-linear-gradient(90deg, rgba(172, 216, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 8%, white 100%);
+  background: linear-gradient(90deg, rgba(172, 216, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 8%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acd8ff",endColorstr="#ffffff",GradientType=1);
 }
 
 .carousel__navigation {
@@ -839,10 +857,6 @@ footer .footer__bottom img {
   .carousel__navigation {
     bottom: 5%;
   }
-
-  #carousel__slide4 {
-    background: url(../assets/images/xl-bg-slide4.png);
-  }
 }
 .slide__text {
   padding: 15px 100px;
@@ -874,6 +888,10 @@ footer .footer__bottom img {
   background-color: #FF5C29;
   color: white;
   box-shadow: none;
+}
+.carousel-button.secondary {
+  background-color: #1D819E;
+  color: white;
 }
 
 .carousel-text--bold {
