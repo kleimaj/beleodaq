@@ -634,7 +634,6 @@ footer .footer__bottom img {
 }
 
 #carousel__slide1 {
-  display: none;
   background: url(../assets/images/bg-slide1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -648,7 +647,6 @@ footer .footer__bottom img {
 }
 
 #carousel__slide2 {
-  display: none;
   background: white;
   background: -moz-linear-gradient(180deg, white 0%, rgba(29, 129, 158, 0.5) 100%);
   background: -webkit-linear-gradient(180deg, white 0%, rgba(29, 129, 158, 0.5) 100%);
@@ -702,7 +700,6 @@ footer .footer__bottom img {
 }
 
 #carousel__slide3 {
-  display: none;
   background: white;
   background: -moz-linear-gradient(180deg, white 0%, rgba(14, 64, 79, 0.3) 100%);
   background: -webkit-linear-gradient(180deg, white 0%, rgba(14, 64, 79, 0.3) 100%);
@@ -873,6 +870,20 @@ footer .footer__bottom img {
 .slide__text h1 {
   width: 400px;
   text-align: right;
+}
+
+.carousel__slide h3, .carousel__slide h4 {
+  font-weight: normal;
+  text-align: right;
+  color: white;
+  font-size: 21px;
+  line-height: 33px;
+  width: 450px;
+  padding: 25px 0;
+}
+
+.carousel__slide--hidden {
+  display: none;
 }
 
 .carousel-button {

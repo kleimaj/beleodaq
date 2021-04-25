@@ -3,6 +3,9 @@ let footer = document.querySelector('footer');
 let innerHeight = window.innerHeight;
 let offsetHeight = document.body.offsetHeight;
 
+let slideIndex = 1;
+showSlides(slideIndex);
+
 // https://stackoverflow.com/questions/9439725/javascript-how-to-detect-if-browser-window-is-scrolled-to-bottom
 
 if (innerHeight + window.scrollY >= offsetHeight) {
@@ -36,4 +39,19 @@ document.querySelector('.mobile__button').addEventListener('click', (e) => {
 // Scroll To Footer
 function scrollToFooter() {
   window.scrollTo(0, offsetHeight);
+}
+
+// Next/Previous controls
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let i;
+  const slides = document.querySelectorAll('.carousel__slide');
 }

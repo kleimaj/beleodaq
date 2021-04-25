@@ -89,7 +89,6 @@
 }
 
 #carousel__slide1 {
-    display: none;
     background: url(../assets/images/bg-slide1x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +101,6 @@
     }
 }
 #carousel__slide2 {
-    display: none;
     background: rgb(255,255,255);
     background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(29,129,158,0.5) 100%);
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(29,129,158,0.5) 100%);
@@ -157,7 +155,6 @@
     }
 }
 #carousel__slide3 {
-    display: none;
     background: rgb(255,255,255);
     background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(14,64,79,0.3) 100%);
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(14,64,79,0.3) 100%);
@@ -243,7 +240,6 @@
     }
 }
 #carousel__slide4 {
-    // display: none;
     background: url(../assets/images/carousel-4.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -336,7 +332,18 @@
     width: 400px;
     text-align: right;
 }
-
+.carousel__slide h3,.carousel__slide h4 {
+    font-weight: normal;
+    text-align: right;
+    color: white;
+    font-size: 21px;
+    line-height: 33px;
+    width: 450px;
+    padding: 25px 0;
+}
+.carousel__slide--hidden {
+    display: none;
+}
 .carousel-button {
     background: #fff;
     color: #3A92A7;
