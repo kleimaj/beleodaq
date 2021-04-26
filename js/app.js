@@ -52,6 +52,20 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  let i;
   const slides = document.querySelectorAll('.carousel__slide');
+  const dots = document.querySelectorAll('.carousel__navigation-button');
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  slides.forEach((slide) => {
+    slide.style.display = 'none';
+  });
+  dots.forEach((dot) => {
+    dot.classList.remove('active');
+  });
+  slides[slideIndex - 1].style.display = '';
+  dots[slideIndex - 1].classList.add('active');
 }
