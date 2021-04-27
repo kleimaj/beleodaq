@@ -28,8 +28,12 @@ h1 {
   font-size: 36px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  line-height: 40px;
   color: var(--primary-color);
+}
+@media only screen and (min-width: 1600px) {
+  h1 {
+    font-size: 56px;
+  }
 }
 
 h2 {
@@ -37,6 +41,11 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   line-height: 33px;
+}
+@media only screen and (min-width: 1600px) {
+  h2 {
+    font-size: 36px;
+  }
 }
 
 h3 {
@@ -46,6 +55,11 @@ h3 {
   line-height: 28px;
   font-weight: 600;
 }
+@media only screen and (min-width: 1600px) {
+  h3 {
+    font-size: 28px;
+  }
+}
 
 h4 {
   font-size: 21px;
@@ -53,6 +67,11 @@ h4 {
   font-weight: normal;
   line-height: 25px;
   color: #4D4D4F;
+}
+@media only screen and (min-width: 1600px) {
+  h4 {
+    font-size: 24px;
+  }
 }
 
 h5, .h5 {
@@ -147,7 +166,7 @@ header {
   padding: 10px 0;
   border-bottom: 2px solid black;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
   .indications {
     display: flex;
     flex-direction: column;

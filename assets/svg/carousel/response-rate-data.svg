@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="581.07" height="175.07" viewBox="0 0 581.07 175.07">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <line x1="310.9" y1="87.98" x2="515.7" y2="87.98" fill="none" stroke="#bcbec0" stroke-miterlimit="8" stroke-width="0.77"/>
+      <line x1="251.4" y1="36.83" x2="251.4" y2="153.42" fill="none" stroke="#bcbec0" stroke-miterlimit="8" stroke-width="0.77"/>
+      <g>
+        <text transform="translate(352.81 49.98)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700">10.8</text>
+        <text transform="translate(436.71 35.99) scale(0.58)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700">%</text>
+        <text transform="translate(458.77 49.98)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700"> </text>
+        <text transform="translate(327.69 71.87)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Light, Open Sans" font-weight="300">(95% CI, 5.9-17.8; n = 13)</text>
+        <text transform="translate(482.68 67.2) scale(0.58)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Light, Open Sans" font-weight="300">1,2</text>
+      </g>
+      <g>
+        <text transform="translate(0 95.82)" font-size="72" fill="#430298" font-family="OpenSans-Bold, Open Sans" font-weight="700">25.8</text>
+        <text transform="translate(143.82 71.85) scale(0.58)" font-size="72" fill="#430298" font-family="OpenSans-Bold, Open Sans" font-weight="700">%</text>
+        <text transform="translate(181.64 95.82)" font-size="72" fill="#430298" font-family="OpenSans-Bold, Open Sans" font-weight="700"> </text>
+        <text transform="translate(141.64 97.19)" font-size="21" fill="#430298" font-family="OpenSans-Semibold, Open Sans" font-weight="600">ORR</text>
+        <text transform="translate(3.77 115.56)" font-size="14" fill="#430298" font-family="OpenSans-Light, Open Sans" font-weight="300">(95% CI, 18.3-34.6; n = 31)</text>
+        <text transform="translate(166.75 110.9) scale(0.58)" font-size="14" fill="#430298" font-family="OpenSans-Light, Open Sans" font-weight="300">1,2,§</text>
+      </g>
+      <text transform="translate(439.94 49.33)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Semibold, Open Sans" font-weight="600">CR</text>
+      <g>
+        <text transform="translate(354.81 128.75)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700">15.0</text>
+        <text transform="translate(438.71 114.76) scale(0.58)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700">%</text>
+        <text transform="translate(460.77 128.75)" font-size="42" fill="#4d4d4f" font-family="OpenSans-Bold, Open Sans" font-weight="700"> </text>
+        <text transform="translate(327.69 150.64)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Light, Open Sans" font-weight="300">(95% CI, 9.1-22.7; n = 18)</text>
+        <text transform="translate(482.68 145.97) scale(0.58)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Light, Open Sans" font-weight="300">1,2</text>
+        <text transform="translate(440.07 127.87)" font-size="14" fill="#4d4d4f" font-family="OpenSans-Semibold, Open Sans" font-weight="600">PR</text>
+      </g>
+    </g>
+  </g>
+</svg>
