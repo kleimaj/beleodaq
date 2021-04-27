@@ -33,6 +33,6 @@ function showSlides(n) {
   });
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].classList.add('active');
-  slideIndex > 3 ? (slideIndex = 1) : slideIndex++;
+  // slideIndex > 3 ? (slideIndex = 1) : slideIndex++;
   // timeout = setTimeout(showSlides, 5000);
 }

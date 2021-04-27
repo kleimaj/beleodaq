@@ -585,6 +585,7 @@ main h4 {
 
 .toxicity {
   display: flex;
+  justify-content: center;
 }
 .toxicity .toxicity__item:first-child {
   width: 50%;

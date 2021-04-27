@@ -29,6 +29,7 @@ main {
 }
 .toxicity {
     display: flex;
+    justify-content: center;
     .toxicity__item:first-child {
         width: 50%;
         h4 {
