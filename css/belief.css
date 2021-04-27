@@ -562,6 +562,7 @@ main h2, main h3, main h4, main p {
 }
 main img {
   padding: 30px 0;
+  text-align: center;
 }
 main .tab-content {
   padding: 0 45px;
