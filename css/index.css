@@ -28,7 +28,6 @@ h1 {
   font-size: 36px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  line-height: 40px;
   color: var(--primary-color);
 }
 
@@ -806,7 +805,7 @@ footer .footer__bottom img {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 30px;
+  bottom: 40px;
   left: 0;
   text-align: center;
 }
