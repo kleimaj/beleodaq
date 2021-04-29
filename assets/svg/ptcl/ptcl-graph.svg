@@ -18,6 +18,9 @@
     <linearGradient id="linear-gradient-10" x1="760.95" y1="294.31" x2="760.95" y2="303.31" xlink:href="#linear-gradient-6"/>
     <linearGradient id="linear-gradient-11" x1="839.32" y1="78.94" x2="839.32" y2="93.51" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-12" x1="839.32" y1="102.21" x2="839.32" y2="116.78" xlink:href="#linear-gradient-6"/>
+    <style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+</style>
   </defs>
   <g id="Layer_2" data-name="Layer 2">
     <g id="Layer_1-2" data-name="Layer 1">
