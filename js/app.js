@@ -74,8 +74,23 @@ function getAbsoluteHeight(el) {
 function toggleIndications() {
   if (window.scrollY > 0) {
     document.querySelector('.indications').style.display = 'none';
-    console.log('HEre');
   } else {
     document.querySelector('.indications').style.display = 'block';
   }
 }
+
+// allImagesLoaded();
+
+// function waitForImageToLoad(imageElement) {
+//   return new Promise((resolve) => {
+//     imageElement.onload = resolve;
+//   });
+// }
+// function allImagesLoaded() {
+//   const imgs = document.querySelectorAll('img');
+//   imgs.forEach((img) =>
+//     waitForImageToLoad(img).then(() => {
+//       console.log('image loaded');
+//     })
+//   );
+// }
