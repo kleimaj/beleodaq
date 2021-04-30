@@ -10,7 +10,9 @@ let offsetHeight = getAbsoluteHeight('main');
 //   footer.style.position = 'relative';
 //   footer.lastElementChild.classList.remove('hidden');
 // }
-checkFooter();
+window.onload = function () {
+  offsetHeight = getAbsoluteHeight('main');
+};
 window.onscroll = function (ev) {
   toggleIndications();
   checkFooter();
