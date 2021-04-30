@@ -566,6 +566,7 @@ footer .footer__bottom img {
   min-width: 100px;
   font-size: 14px;
   color: var(--tertiary-color);
+  text-decoration: none;
 }
 
 main h2, main h3, main h4, main p, main ul {

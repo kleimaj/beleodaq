@@ -78,6 +78,9 @@
 
     /* box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25); */
     border-bottom: 1px solid #000;
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
 }
 .slide__data {
     width: 55%;
@@ -327,6 +330,11 @@
     align-items: flex-end;
     /* justify-content: space-evenly; */
     justify-content: center;
+    @media only screen and (max-width: 1200px) {
+        width: 100%;
+        align-items: center;
+        padding: 24px;
+    }
 }
 .slide__text h1 {
     width: 400px;
@@ -389,7 +397,9 @@
     justify-content: space-evenly;
     text-align: center;
     padding: 10px 20px;
-
+    @media only screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+    }
 }
 .question_buttons__button {
     z-index: 2;
