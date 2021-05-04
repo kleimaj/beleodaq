@@ -617,6 +617,11 @@ main .patient-aes {
   padding: 24px;
   width: 100%;
 }
+@media only screen and (max-width: 1200px) {
+  main .patient-aes {
+    flex-direction: column;
+  }
+}
 main .patient-aes ul {
   padding: 45px;
   width: 70%;
@@ -649,15 +654,32 @@ main .tolerability-data .data_figure h4 {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 1200px) {
+  main .tolerability-data .data_figure h4 {
+    font-size: 14px;
+  }
+}
 main .tolerability-data .data_figure .jumbo {
   font-size: 72px;
   line-height: 86.4px;
   font-weight: 600;
 }
+@media only screen and (max-width: 1200px) {
+  main .tolerability-data .data_figure .jumbo {
+    font-size: 46px;
+    line-height: 52.4px;
+  }
+}
 main .tolerability-data .data_figure .big {
   font-size: 36px;
   font-weight: 600;
   line-height: 43.2px;
+}
+@media only screen and (max-width: 1200px) {
+  main .tolerability-data .data_figure .big {
+    font-size: 29px;
+    line-height: 32px;
+  }
 }
 main .heartline {
   display: flex;
@@ -668,6 +690,14 @@ main .heartline {
 main .heartline h4 {
   width: 740px;
   padding: 25px;
+}
+@media only screen and (max-width: 1200px) {
+  main .heartline {
+    flex-direction: column;
+  }
+  main .heartline h4 {
+    width: auto;
+  }
 }
 main .bounding_box {
   border-top: 2px solid #1D819E;
