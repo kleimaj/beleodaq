@@ -34,6 +34,9 @@ h1 {
     @media only screen and (min-width: 1600px) {
         font-size: 56px;
     }
+    @media only screen and (max-width: 1200px) {
+        font-size: 28px;
+    }
 }
 h2 {
     font-size: 28px;
@@ -42,6 +45,9 @@ h2 {
     line-height: 33px;
     @media only screen and (min-width: 1600px) {
         font-size: 36px;
+    }
+    @media only screen and (max-width: 1200px) {
+        font-size: 24px;
     }
 }
 h3 {
@@ -53,6 +59,9 @@ h3 {
     @media only screen and (min-width: 1600px) {
         font-size: 28px;
     }
+    @media only screen and (max-width: 1200px) {
+        font-size: 21px;
+    }
 }
 h4 {
     font-size: 21px;
@@ -62,6 +71,9 @@ h4 {
     color: #4D4D4F;
     @media only screen and (min-width: 1600px) {
         font-size: 24px;
+    }
+    @media only screen and (max-width: 1200px) {
+        font-size: 14px;
     }
 }
 h5,.h5 {
@@ -331,6 +343,9 @@ header {
 main {
     margin-bottom: 30px;
     margin-top: 242px;
+    @media only screen and (max-width: 1200px) {
+        margin-top: 360px;
+    }
     padding: 10px 80px;
     h2,h3,h4,h5,p {
         padding: 15px;
@@ -396,7 +411,11 @@ main {
     color: #fff;
     padding: 12px 24px;
     margin: 20px;
-
+    display: flex;
+    justify-content: space-evenly;
+    i {
+        padding: 0 10px;
+    }
 }
 .button.secondary {
     background: var(--secondary-color);
