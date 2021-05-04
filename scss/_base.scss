@@ -389,6 +389,13 @@ main {
             color: #166176;
             padding: 10px;
             opacity: .5;
+        @media only screen and (max-width: 1200px) {
+            font-size: 14px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         }
         .tab--active {
             opacity: 1;

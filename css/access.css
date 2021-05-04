@@ -449,6 +449,15 @@ main .tabs .tab {
   padding: 10px;
   opacity: 0.5;
 }
+@media only screen and (max-width: 1200px) {
+  main .tabs .tab {
+    font-size: 14px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 main .tabs .tab--active {
   opacity: 1;
   border: 2px solid #166176;
