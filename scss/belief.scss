@@ -30,10 +30,16 @@ main {
     .cols {
         display: flex;
         justify-content: center;
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        }
 
         .col {
             padding: 35px;
             width: 50%;
+            @media only screen and (max-width: 1200px) {
+                width: 100%;
+            }
             &:first-child {
                 border-right: 2px solid #1D819E;
                 text-align: center;
@@ -43,6 +49,9 @@ main {
                 }
                 h4 {
                     padding-top: 0;
+                }
+                @media only screen and (max-width: 1200px) {
+                    border-right: none;
                 }
             }
             ul {

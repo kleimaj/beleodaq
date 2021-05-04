@@ -613,6 +613,11 @@ main img {
   display: flex;
   margin: 0 auto;
 }
+@media only screen and (max-width: 1200px) {
+  main img {
+    width: 100%;
+  }
+}
 main h2, main h3, main h4, main p {
   text-align: left;
 }
@@ -697,6 +702,11 @@ main .response-rate .response-rate__figures {
   border: 2px solid #1D819E;
   width: 630px;
   margin-bottom: 25px;
+}
+@media only screen and (max-width: 1200px) {
+  main .response-rate .response-rate__figures {
+    flex-direction: column;
+  }
 }
 main .response-rate .response-rate__figures .line {
   margin: 15px 0;
