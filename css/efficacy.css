@@ -473,6 +473,7 @@ main .tabs .tab--active-variant {
 }
 .button i {
   padding: 0 10px;
+  align-self: center;
 }
 
 .button.secondary {
