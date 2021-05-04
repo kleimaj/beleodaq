@@ -8,12 +8,19 @@ main {
         display: flex;
         margin: 0 auto;
         width: 80%;
+        @media only screen and (max-width: 1200px) {
+            margin: 20px auto;
+            width: 100%;
+        }
     }
     ol { 
         counter-reset: item;
         list-style-type: none;
         display: flex;
         position: relative;
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        }
     }
     li { 
         display: block;
@@ -23,6 +30,10 @@ main {
         border-left: 3px solid #410099;
         position: relative;
         margin: 35px;
+        @media only screen and (max-width: 1200px) {
+            width: auto;
+            height: auto;
+        }
      }
     li:before { 
         content: counter(item) "  "; 

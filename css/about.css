@@ -608,11 +608,22 @@ main img {
   margin: 0 auto;
   width: 80%;
 }
+@media only screen and (max-width: 1200px) {
+  main img {
+    margin: 20px auto;
+    width: 100%;
+  }
+}
 main ol {
   counter-reset: item;
   list-style-type: none;
   display: flex;
   position: relative;
+}
+@media only screen and (max-width: 1200px) {
+  main ol {
+    flex-direction: column;
+  }
 }
 main li {
   display: block;
@@ -622,6 +633,12 @@ main li {
   border-left: 3px solid #410099;
   position: relative;
   margin: 35px;
+}
+@media only screen and (max-width: 1200px) {
+  main li {
+    width: auto;
+    height: auto;
+  }
 }
 main li:before {
   content: counter(item) "  ";
