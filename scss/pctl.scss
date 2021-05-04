@@ -21,8 +21,6 @@ main {
     margin: 20px 0px;
     width: 95%;
     h4 {
-        width: 720px;
-        font-size: 21px;
         text-align: left;
         padding: 30px;
     }
@@ -37,6 +35,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        width: auto;
+        padding: 25px 0;
+        margin: 0;
+        .line {
+            transform: rotate(90deg);
+            height: 100px;
+        }
+    }
 }
 
 .median {
@@ -56,6 +64,13 @@ main {
     hr {
         margin: 20px;
         border-left: 1px solid black;
+    }
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        hr {
+            transform: rotate(90deg);
+            margin: 0;
+        }
     }
 }
 

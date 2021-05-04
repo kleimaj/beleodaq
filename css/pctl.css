@@ -90,7 +90,7 @@ h4 {
 }
 @media only screen and (max-width: 1200px) {
   h4 {
-    font-size: 14px;
+    font-size: 19px;
   }
 }
 
@@ -622,8 +622,6 @@ main .center {
   justify-content: center;
 }
 .response-rate h4 {
-  width: 720px;
-  font-size: 21px;
   text-align: left;
   padding: 30px;
 }
@@ -634,6 +632,18 @@ main .center {
   border-left: 1px solid #4D4D4F;
   height: 70px;
   margin-left: 25px;
+}
+@media only screen and (max-width: 1200px) {
+  .response-rate {
+    flex-direction: column;
+    width: auto;
+    padding: 25px 0;
+    margin: 0;
+  }
+  .response-rate .line {
+    transform: rotate(90deg);
+    height: 100px;
+  }
 }
 
 .median {
@@ -652,6 +662,15 @@ main .center {
 .median hr {
   margin: 20px;
   border-left: 1px solid black;
+}
+@media only screen and (max-width: 1200px) {
+  .median {
+    flex-direction: column;
+  }
+  .median hr {
+    transform: rotate(90deg);
+    margin: 0;
+  }
 }
 
 .ptcl-data h3, .ptcl-data h4, .ptcl-data p {
