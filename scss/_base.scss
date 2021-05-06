@@ -305,6 +305,13 @@ header {
     min-width: 90px;
     &.active {
         border-bottom: 2px solid var(--primary-color);
+        @media only screen and (max-width: 1200px) {
+            line-height: 36px;
+            border-bottom: 2px solid #CAAEE0;
+            a {
+                font-size: 18px;
+            }
+        }
     }
     @media only screen and (max-width: 1200px) { 
         max-width: 100%;

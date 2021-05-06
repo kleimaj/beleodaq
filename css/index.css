@@ -361,6 +361,15 @@ header {
   border-bottom: 2px solid var(--primary-color);
 }
 @media only screen and (max-width: 1200px) {
+  .navlinks li.active {
+    line-height: 36px;
+    border-bottom: 2px solid #CAAEE0;
+  }
+  .navlinks li.active a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1200px) {
   .navlinks li {
     max-width: 100%;
     text-align: center;

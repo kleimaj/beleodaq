@@ -361,6 +361,15 @@ header {
   border-bottom: 2px solid var(--primary-color);
 }
 @media only screen and (max-width: 1200px) {
+  .navlinks li.active {
+    line-height: 36px;
+    border-bottom: 2px solid #CAAEE0;
+  }
+  .navlinks li.active a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1200px) {
   .navlinks li {
     max-width: 100%;
     text-align: center;
@@ -649,16 +658,15 @@ main .center {
   height: 70px;
   margin-left: 25px;
 }
+.response-rate .response-rate-data {
+  display: flex;
+}
 @media only screen and (max-width: 1200px) {
   .response-rate {
     flex-direction: column;
     width: auto;
     padding: 25px 0;
     margin: 0;
-  }
-  .response-rate .line {
-    transform: rotate(90deg);
-    height: 100px;
   }
 }
 
@@ -684,8 +692,7 @@ main .center {
     flex-direction: column;
   }
   .median hr {
-    transform: rotate(90deg);
-    margin: 0;
+    display: none;
   }
 }
 
