@@ -11,6 +11,12 @@ main {
         text-align: left;
         font-weight: normal;
     }
+    @media only screen and (max-width: 1200px) {
+        h2,h3,h4 {
+            text-align: center;
+            align-self: center;
+        }
+    }
 }
 .timeline {
     display: flex;
@@ -24,6 +30,15 @@ main {
         max-width: 250px;
         h4 {
             text-align: center;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+
+        .timeline__item:nth-child(2n) {
+            transform: rotate(90deg);
+            padding: 25px;
         }
     }
 }
@@ -56,6 +71,13 @@ main {
                 position: relative;
                 top: 0px;
             }
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+        .toxicity__item:first-child {
+            width: auto;
         }
     }
 }
@@ -130,6 +152,10 @@ main {
     align-items: center;
     justify-content: center;
     padding-top: 25px;
+
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
     h4 {
         text-align: left;
     }
@@ -145,6 +171,10 @@ main {
 
         .boxes {
             display: flex;
+            @media only screen and (max-width: 1200px) {
+                flex-direction: column;
+                align-items: center;
+            }
             .box {
                 width: 382px;
                 padding: 20px;
@@ -164,11 +194,17 @@ main {
     margin-top: 25px;
     padding-top: 15px;
     display: flex;
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+    }
     .bb_item {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
+        @media only screen and (max-width: 1200px) {
+            width: 100%;
+        }
 
         h4 {
             text-align: left;
@@ -176,17 +212,27 @@ main {
         }
         &:first-child {
             border-right: 2px solid #1D819E;
+            @media only screen and (max-width: 1200px) {
+                border: none;
+            }
         }
         .item__content {
             display: flex;
             width: 90%;
             align-items: flex-start;
             padding: 25px;
+            @media only screen and (max-width: 1200px) {
+                flex-direction: column;
+                align-items: center;
+            }
             img {
                 padding: 15px;
             }
             h4 {
                 width: 60%;
+                @media only screen and (max-width: 1200px) {
+                    width: auto;
+                }
             }
         }
     }
@@ -203,11 +249,23 @@ main {
         text-align: left;
         padding: 25px;
         padding-left: 0%;
+        @media only screen and (max-width: 1200px) {
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        width: auto;
     }
     .figure-data {
         display: flex;
         justify-content: center;
         align-items: center;
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            img {
+                padding: 25px;
+            }
+        }
     }
 }
 
@@ -224,12 +282,28 @@ main {
     img {
         padding: 25px;
     }
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        ul {
+            width: 100%;
+        }
+        &.reverse {
+            flex-direction: column-reverse;
+        }
+    }
 }
 
 .instruction-items {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        .instruction-item:nth-child(2n) {
+            flex-direction: column-reverse;
+        }
+    }
 
     .instruction-item {
         display: flex;
@@ -249,6 +323,11 @@ main {
         &:nth-child(2) {
             border-left: 2px solid #1D819E;
             border-right: 2px solid #1D819E;
+            @media only screen and (max-width: 1200px) {
+                border: none;
+                border-top: 2px solid #1D819E;
+                border-bottom: 2px solid #1D819E;
+            }
         }
     }
 }

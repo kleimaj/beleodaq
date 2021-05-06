@@ -619,6 +619,12 @@ main h4 {
   text-align: left;
   font-weight: normal;
 }
+@media only screen and (max-width: 1200px) {
+  main h2, main h3, main h4 {
+    text-align: center;
+    align-self: center;
+  }
+}
 
 .timeline {
   display: flex;
@@ -633,6 +639,16 @@ main h4 {
 }
 .timeline .timeline__item h4 {
   text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline .timeline__item:nth-child(2n) {
+    transform: rotate(90deg);
+    padding: 25px;
+  }
 }
 
 .toxicity {
@@ -664,6 +680,15 @@ main h4 {
   content: "-";
   position: relative;
   top: 0px;
+}
+@media only screen and (max-width: 1200px) {
+  .toxicity {
+    flex-direction: column;
+    align-items: center;
+  }
+  .toxicity .toxicity__item:first-child {
+    width: auto;
+  }
 }
 
 .box {
@@ -730,6 +755,11 @@ main h4 {
   justify-content: center;
   padding-top: 25px;
 }
+@media only screen and (max-width: 1200px) {
+  .modifications {
+    flex-direction: column;
+  }
+}
 .modifications h4 {
   text-align: left;
 }
@@ -743,6 +773,12 @@ main h4 {
 }
 .modifications .mod-item .boxes {
   display: flex;
+}
+@media only screen and (max-width: 1200px) {
+  .modifications .mod-item .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .modifications .mod-item .boxes .box {
   width: 382px;
@@ -761,11 +797,21 @@ main h4 {
   padding-top: 15px;
   display: flex;
 }
+@media only screen and (max-width: 1200px) {
+  .bounding_box {
+    flex-direction: column;
+  }
+}
 .bounding_box .bb_item {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
+}
+@media only screen and (max-width: 1200px) {
+  .bounding_box .bb_item {
+    width: 100%;
+  }
 }
 .bounding_box .bb_item h4 {
   text-align: left;
@@ -774,17 +820,33 @@ main h4 {
 .bounding_box .bb_item:first-child {
   border-right: 2px solid #1D819E;
 }
+@media only screen and (max-width: 1200px) {
+  .bounding_box .bb_item:first-child {
+    border: none;
+  }
+}
 .bounding_box .bb_item .item__content {
   display: flex;
   width: 90%;
   align-items: flex-start;
   padding: 25px;
 }
+@media only screen and (max-width: 1200px) {
+  .bounding_box .bb_item .item__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .bounding_box .bb_item .item__content img {
   padding: 15px;
 }
 .bounding_box .bb_item .item__content h4 {
   width: 60%;
+}
+@media only screen and (max-width: 1200px) {
+  .bounding_box .bb_item .item__content h4 {
+    width: auto;
+  }
 }
 
 .storage-figure {
@@ -800,10 +862,28 @@ main h4 {
   padding: 25px;
   padding-left: 0%;
 }
+@media only screen and (max-width: 1200px) {
+  .storage-figure h3 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .storage-figure {
+    width: auto;
+  }
+}
 .storage-figure .figure-data {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+  .storage-figure .figure-data {
+    flex-direction: column;
+  }
+  .storage-figure .figure-data img {
+    padding: 25px;
+  }
 }
 
 .instructions {
@@ -819,11 +899,30 @@ main h4 {
 .instructions img {
   padding: 25px;
 }
+@media only screen and (max-width: 1200px) {
+  .instructions {
+    flex-direction: column;
+  }
+  .instructions ul {
+    width: 100%;
+  }
+  .instructions.reverse {
+    flex-direction: column-reverse;
+  }
+}
 
 .instruction-items {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+  .instruction-items {
+    flex-direction: column;
+  }
+  .instruction-items .instruction-item:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
 }
 .instruction-items .instruction-item {
   display: flex;
@@ -844,6 +943,13 @@ main h4 {
 .instruction-items .instruction-item:nth-child(2) {
   border-left: 2px solid #1D819E;
   border-right: 2px solid #1D819E;
+}
+@media only screen and (max-width: 1200px) {
+  .instruction-items .instruction-item:nth-child(2) {
+    border: none;
+    border-top: 2px solid #1D819E;
+    border-bottom: 2px solid #1D819E;
+  }
 }
 
 /*# sourceMappingURL=dosing.css.map */
