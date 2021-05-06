@@ -184,12 +184,25 @@ main {
             padding: 35px;
             text-align: center;
         }
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            h4:nth-child(2) {
+                border: none;
+                border-top: 1px solid #1D819E;
+                border-bottom: 1px solid #1D819E;
+            }
+        }
     }
 
     .sap-criteria {
         display: flex;
         justify-content: space-between;
         margin: 0 120px;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            margin: 0;
+        }
 
         .sap-data {
             background: url(../assets/svg/efficacy-grad1.svg);
@@ -220,6 +233,10 @@ main {
             p {
                 padding: 0;
             }
+            @media only screen and (max-width: 1200px) {
+                width: auto;
+                align-items: center;
+            }    
         }
         .sap-text {
             background: url(../assets/svg/efficacy-grad2.svg);
@@ -241,6 +258,15 @@ main {
                 font-size: 28px;
                 color: #0E404F;
             }
+            @media only screen and (max-width: 1200px) {
+                width: auto;
+                align-items: center;
+                height: auto;
+                padding: 12px;
+                h3,h4 {
+                    text-align: left;
+                }
+            }    
         }
     }
 
@@ -260,6 +286,19 @@ main {
         align-items: center;
         padding: 0 40px;
         margin: 0 120px;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            height: auto;
+            margin: 0;
+            .data__left {
+                padding: 14px;
+                text-align: center;
+            }
+            .data__right {
+                padding: 18px 4px;
+            }
+        }
         span {
             font-weight: 600;
             font-family: 'Open Sans', sans-serif;
@@ -275,6 +314,9 @@ main {
             font-weight: normal;
             font-size: 21px;
             padding: 0;
+            @media only screen and (max-width: 1200px) {
+                text-align: left;
+            }
         }
     }
 }
