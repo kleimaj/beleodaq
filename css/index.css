@@ -730,6 +730,18 @@ footer .footer__bottom img {
   background-size: cover;
   border-left: 2px solid #fff;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide1 {
+    background-repeat: repeat;
+    background-position-y: -110px;
+  }
+  #carousel__slide1 h1, #carousel__slide1 h4 {
+    text-align: center;
+  }
+  #carousel__slide1 .slide__text {
+    width: auto;
+  }
+}
 
 #carousel__slide2 {
   background: white;
@@ -746,6 +758,12 @@ footer .footer__bottom img {
   margin: 0;
   line-height: 40px;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 h1 {
+    width: auto;
+    align-self: center;
+  }
+}
 #carousel__slide2 h2 {
   font-size: 32px;
   text-align: right;
@@ -754,16 +772,34 @@ footer .footer__bottom img {
   line-height: 40px;
   width: 480px;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 h2 {
+    font-size: 18px;
+    line-height: normal;
+    width: auto;
+    text-align: center;
+  }
+}
 #carousel__slide2 h3 {
   color: #0E404F;
   font-size: 24px;
   text-align: left;
   padding: 0;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 h3 {
+    font-size: 21px;
+  }
+}
 #carousel__slide2 h4 {
   color: #4D4D4F;
   padding: 0;
   font-weight: 300;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 h4 {
+    display: none;
+  }
 }
 #carousel__slide2 p {
   text-align: left;
@@ -772,16 +808,36 @@ footer .footer__bottom img {
   padding: 0;
   width: 530px;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 p {
+    display: none;
+  }
+}
 #carousel__slide2 img {
   align-self: center;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 img {
+    width: 80%;
+  }
 }
 #carousel__slide2 .slide__data {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 .slide__data {
+    width: 100%;
+  }
+}
 #carousel__slide2 .slide__text {
   padding: 40px;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide2 .slide__text {
+    width: auto;
+  }
 }
 
 #carousel__slide3 {
@@ -791,6 +847,12 @@ footer .footer__bottom img {
   background: linear-gradient(180deg, white 0%, rgba(14, 64, 79, 0.3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0e404f",GradientType=1);
   justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 #carousel__slide3 h1 {
   font-weight: bold;
@@ -817,6 +879,12 @@ footer .footer__bottom img {
 #carousel__slide3 h2 strong.primary {
   color: #430298;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 h2 {
+    width: auto;
+    line-height: normal;
+  }
+}
 #carousel__slide3 h3 {
   width: auto;
   font-size: 25px;
@@ -837,8 +905,18 @@ footer .footer__bottom img {
   width: 460px;
   padding: 0;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 h4 {
+    display: none;
+  }
+}
 #carousel__slide3 p {
   padding: 0;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 p {
+    width: 150px;
+  }
 }
 #carousel__slide3 .data-container__figure.right h1, #carousel__slide3 .data-container__figure.right h3, #carousel__slide3 .data-container__figure.right p {
   text-align: right;
@@ -849,6 +927,11 @@ footer .footer__bottom img {
 #carousel__slide3 .slide__text {
   align-items: flex-start;
   padding: 0;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 .slide__text {
+    align-items: center;
+  }
 }
 #carousel__slide3 .slide__data {
   padding: 0;
@@ -861,6 +944,11 @@ footer .footer__bottom img {
 #carousel__slide3 .data-container__figure {
   width: 200px;
   text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide3 .data-container__figure {
+    width: auto;
+  }
 }
 
 #carousel__slide4 {
@@ -894,6 +982,12 @@ footer .footer__bottom img {
   bottom: 40px;
   left: 0;
   text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  .carousel__navigation {
+    top: 180px;
+    bottom: 0;
+  }
 }
 
 .carousel__navigation-list, .carousel__navigation-item {
