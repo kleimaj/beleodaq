@@ -647,6 +647,11 @@ main .tolerability-data {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 1200px) {
+  main .tolerability-data img {
+    width: 40%;
+  }
+}
 main .tolerability-data .data_figure:first-child h4 {
   text-align: right;
 }
@@ -713,6 +718,20 @@ main .bounding_box h4 {
 main .bounding_box h4:nth-child(2) {
   border-left: 2px solid #1D819E;
   border-right: 2px solid #1D819E;
+}
+@media only screen and (max-width: 1200px) {
+  main .bounding_box {
+    flex-direction: column;
+    padding: 0;
+  }
+  main .bounding_box h4 {
+    width: auto;
+  }
+  main .bounding_box h4:nth-child(2) {
+    border: none;
+    border-top: 2px solid #1D819E;
+    border-bottom: 2px solid #1D819E;
+  }
 }
 
 /*# sourceMappingURL=safety.css.map */

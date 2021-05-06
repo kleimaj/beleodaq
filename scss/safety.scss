@@ -37,6 +37,11 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        @media only screen and (max-width: 1200px) {
+            img {
+                width: 40%;
+            }
+        }
         .data_figure:first-child {
             h4 {
                 text-align: right;
@@ -98,8 +103,20 @@ main {
             border-left: 2px solid #1D819E;
             border-right: 2px solid #1D819E;
         }
-
         display: flex;
         justify-content: center;
+
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            padding: 0;
+            h4 {
+                width: auto;
+            }
+            h4:nth-child(2) {
+                border: none;
+                border-top: 2px solid #1D819E;
+                border-bottom: 2px solid #1D819E;
+            }
+        }
     }
 }
