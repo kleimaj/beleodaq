@@ -961,6 +961,14 @@ footer .footer__bottom img {
   width: 490px;
   padding: 15px 0;
 }
+@media only screen and (max-width: 1200px) {
+  #carousel__slide4 h2 {
+    padding: 0;
+    width: auto;
+    font-size: 19px;
+    line-height: normal;
+  }
+}
 #carousel__slide4 h2 strong {
   color: #430298;
   font-weight: 800;
@@ -974,6 +982,12 @@ footer .footer__bottom img {
   background: -webkit-linear-gradient(90deg, rgba(172, 216, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 8%, white 100%);
   background: linear-gradient(90deg, rgba(172, 216, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 8%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acd8ff",endColorstr="#ffffff",GradientType=1);
+}
+@media only screen and (max-width: 1200px) {
+  #carousel__slide4 .slide__text {
+    width: auto;
+    padding: 25px;
+  }
 }
 
 .carousel__navigation {

@@ -307,6 +307,12 @@
         text-align: right;
         width: 490px;
         padding: 15px 0;
+        @media only screen and (max-width: 1200px) {
+            padding: 0;
+            width: auto;
+            font-size: 19px;
+            line-height: normal;
+        }
         strong {
             color: #430298;
             font-weight: 800;
@@ -321,6 +327,10 @@
         background: -webkit-linear-gradient(90deg, rgba(172,216,255,0.4) 0%, rgba(255,255,255,0.4) 8%, rgba(255,255,255,1) 100%);
         background: linear-gradient(90deg, rgba(172,216,255,0.4) 0%, rgba(255,255,255,0.4) 8%, rgba(255,255,255,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acd8ff",endColorstr="#ffffff",GradientType=1);
+        @media only screen and (max-width: 1200px) {
+            width: auto;
+            padding: 25px;
+        }
     }
 }
 
