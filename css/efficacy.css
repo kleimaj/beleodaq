@@ -793,7 +793,7 @@ main .sap-criteria .sap-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 40px;
+  padding: 0 40px;
 }
 main .sap-criteria .sap-data .jumbo {
   font-size: 60px;
