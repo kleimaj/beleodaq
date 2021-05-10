@@ -417,6 +417,7 @@ main {
 @media only screen and (max-width: 1200px) {
   main {
     margin-top: 360px;
+    padding: 10px 20px;
   }
 }
 main h2, main h3, main h4, main h5, main p {
