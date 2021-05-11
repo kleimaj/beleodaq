@@ -27,5 +27,7 @@
     "@storybook/html": "^6.2.9",
     "babel-loader": "^8.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@storybook/addon-viewport": "^6.2.9"
+  }
 }
