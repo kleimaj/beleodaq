@@ -386,6 +386,11 @@ main {
         justify-content: space-evenly;
         align-items: center;
         padding: 30px 0;
+        @media only screen and (max-width: 1200px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto;
+        }
 
         .tab {
             font-size: 18px;
@@ -514,7 +519,10 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
         img {
             width: 228px;
         }
