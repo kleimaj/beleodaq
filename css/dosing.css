@@ -448,6 +448,13 @@ main .tabs {
   align-items: center;
   padding: 30px 0;
 }
+@media only screen and (max-width: 1200px) {
+  main .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
 main .tabs .tab {
   font-size: 18px;
   font-weight: 600;
@@ -569,6 +576,12 @@ footer .footer__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media only screen and (max-width: 1200px) {
+  footer .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 footer .footer__bottom img {
   width: 228px;
