@@ -16,11 +16,11 @@ export const createButton = ({
   primary
     ? btn.insertAdjacentHTML(
         'beforeend',
-        '<i class="fas fa-chevron-left" aria-hidden="true"></i>'
+        '<i class="fas fa-chevron-right" aria-hidden="true"></i>'
       )
     : btn.insertAdjacentHTML(
         'afterbegin',
-        '<i class="fas fa-chevron-right" aria-hidden="true"></i>'
+        '<i class="fas fa-chevron-left" aria-hidden="true"></i>'
       );
 
   btn.style.backgroundColor = backgroundColor;
