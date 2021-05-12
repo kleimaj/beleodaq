@@ -11,6 +11,7 @@ export const createButton = ({ active = false, label, onClick }) => {
   btn.innerText = label;
   btn.addEventListener('click', onClick);
 
+  console.log(active);
   const mode = active ? 'navlinks__link--active p' : 'navlinks__link p';
   const parentMode = active ? 'active' : '';
   li.className = parentMode;

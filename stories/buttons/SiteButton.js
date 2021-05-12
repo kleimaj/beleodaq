@@ -2,7 +2,6 @@ import '../../css/index.css';
 
 export const createButton = ({
   primary = false,
-  size = 'medium',
   backgroundColor,
   label,
   onClick,

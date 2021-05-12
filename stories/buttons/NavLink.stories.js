@@ -1,4 +1,5 @@
 import { createButton } from './NavLink';
+import '../../css/index.css';
 
 export default {
   title: 'Components/NavLink',
@@ -10,13 +11,17 @@ export default {
 };
 
 const Template = ({ label, ...args }) => {
-  // You can either use a function to create DOM elements or use a plain html string!
-  // return `<div>${label}</div>`;
   return createButton({ label, ...args });
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const Default = Template.bind({});
+Default.args = {
+  active: false,
+  label: 'Button',
+};
+
+export const Active = Template.bind({});
+Active.args = {
   active: true,
   label: 'Button',
 };
