@@ -2,6 +2,14 @@ import { createButton } from './QuestionButton';
 
 export default {
   title: 'Components/QuestionButton',
+  parameters: {
+    docs: {
+      description: {
+        component:
+          'The question buttons are used as additional call to action buttons. They navigate the user to the most critical information.',
+      },
+    },
+  },
   argTypes: {
     label: { control: 'text' },
     primary: { control: 'boolean' },
@@ -18,5 +26,12 @@ const Template = ({ label, ...args }) => {
 export const Default = Template.bind({});
 Default.args = {
   primary: true,
-  label: 'Button',
+  label: 'Question Button',
+};
+Default.parameters = {
+  docs: {
+    source: {
+      code: `<a class="question_buttons__button"><h5>Question Button</h5></a>`,
+    },
+  },
 };

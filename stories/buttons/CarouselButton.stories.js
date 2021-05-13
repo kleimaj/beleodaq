@@ -2,6 +2,18 @@ import { createButton } from './CarouselButton';
 
 export default {
   title: 'Components/CarouselButton',
+  parameters: {
+    docs: {
+      description: {
+        component:
+          'The Carousel Buttons are found on each slide of the carousel. They are utilized for the call to action, and streamline the user to the page they want to go.',
+      },
+    },
+    backgrounds: {
+      default: 'gray',
+      values: [{ name: 'gray', value: '#f8f8f8' }],
+    },
+  },
   argTypes: {
     label: { control: 'text' },
     primary: { control: 'boolean' },
@@ -20,8 +32,24 @@ Primary.args = {
   primary: true,
   label: 'Button',
 };
+Primary.parameters = {
+  docs: {
+    source: {
+      code: `
+  <a class="carousel-button h5">Next</a>`,
+    },
+  },
+};
 
 export const Tertiary = Template.bind({});
 Tertiary.args = {
   label: 'Button',
+};
+Tertiary.parameters = {
+  docs: {
+    source: {
+      code: `
+    <a class="carousel-button orange h5">Next</a>`,
+    },
+  },
 };

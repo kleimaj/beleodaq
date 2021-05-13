@@ -1,12 +1,12 @@
-import { createButton } from './NavigationButton';
+import { createButton } from './header';
 
 export default {
-  title: 'Components/NavigationButton',
+  title: 'Components/Header',
   parameters: {
     docs: {
       description: {
         component:
-          'Navigation Buttons are found in the main pages of the site. They are used to progress or return to different parts of the site map.',
+          'Buttons used to navigate between different sites of the BELEODAQ HCP (i.e ISI, Prescribing Info, and Patient Site).',
       },
     },
   },
@@ -26,32 +26,24 @@ const Template = ({ label, ...args }) => {
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: 'Next',
+  label: 'Button',
 };
 Primary.parameters = {
   docs: {
     source: {
-      code: `
-<a class="button">
-Next
-<i class="fas fa-chevron-right" aria-hidden="true"></i>
-</a>`,
+      code: `<a class="site-buttons__button p">Site Button Label></a>`,
     },
   },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Previous',
+export const Tertiary = Template.bind({});
+Tertiary.args = {
+  label: 'Button',
 };
-Secondary.parameters = {
+Tertiary.parameters = {
   docs: {
     source: {
-      code: `
-<a class="button secondary">
-<i class="fas fa-chevron-left" aria-hidden="true"></i>
-Previous
-</a>`,
+      code: `<a class="site-buttons__button button--orange p">Site Button Label></a>`,
     },
   },
 };
