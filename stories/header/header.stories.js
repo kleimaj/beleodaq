@@ -6,14 +6,12 @@ export default {
     docs: {
       description: {
         component:
-          'Buttons used to navigate between different sites of the BELEODAQ HCP (i.e ISI, Prescribing Info, and Patient Site).',
+          'The header is fixed and follows the user throughout the site to help navigate and find the most vital information.',
       },
     },
   },
   argTypes: {
-    label: { control: 'text' },
-    primary: { control: 'boolean' },
-    onClick: { action: 'onClick' },
+    isi: { control: 'boolean' },
   },
 };
 
@@ -25,25 +23,12 @@ const Template = ({ label, ...args }) => {
 
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
-  label: 'Button',
+  isi: true,
 };
 Primary.parameters = {
   docs: {
     source: {
       code: `<a class="site-buttons__button p">Site Button Label></a>`,
-    },
-  },
-};
-
-export const Tertiary = Template.bind({});
-Tertiary.args = {
-  label: 'Button',
-};
-Tertiary.parameters = {
-  docs: {
-    source: {
-      code: `<a class="site-buttons__button button--orange p">Site Button Label></a>`,
     },
   },
 };
