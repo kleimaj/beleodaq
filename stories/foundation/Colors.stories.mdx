@@ -8,13 +8,12 @@ import { Meta } from '@storybook/addon-docs/blocks';
         height: 250px;
         display: block;
         box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
     }
     .primary {
         background: #442A8B;
@@ -36,6 +35,13 @@ import { Meta } from '@storybook/addon-docs/blocks';
     }
     .bg-gradient {
         background: linear-gradient(359.43deg, #DBDDDB 0.49%, rgba(219, 221, 219, 0) 104.37%);
+    }
+    .qb-gradient {
+        background: rgb(236,229,245);
+        background: -moz-linear-gradient(0deg, rgba(236,229,245,1) 0%, rgba(255,255,255,1) 50%);
+        background: -webkit-linear-gradient(0deg, rgba(236,229,245,1) 0%, rgba(255,255,255,1) 50%);
+        background: linear-gradient(0deg, rgba(236,229,245,1) 0%, rgba(255,255,255,1) 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ece5f5",endColorstr="#ffffff",GradientType=1);
     }
     .bg-gradient2 {
         background: linear-gradient(
@@ -59,14 +65,17 @@ import { Meta } from '@storybook/addon-docs/blocks';
 <div className="boxes">
 <div>
     <h2>Primary #442A8B</h2>
+    <p>(Headlines, Question Box, Active Nav Links)</p>
     <div className="colorbox primary"></div>
 </div>
 <div>
     <h2>Secondary #3A92A7</h2>
+    <p>(Subheadings, Navigation Boxes, Tabs)</p>
     <div className="colorbox secondary"></div>
 </div>
 <div>
     <h2>Tertiary #FF672F</h2>
+    <p>(Carousel Buttons, Site Buttons)</p>
     <div className="colorbox tertiary"></div>
 </div>
 </div>
@@ -80,14 +89,17 @@ import { Meta } from '@storybook/addon-docs/blocks';
 <div className="boxes">
 <div>
     <h2>Primary #442A8B</h2>
+    <p>(Navlink text decoration)</p>
     <div className="colorbox primary-variant"></div>
 </div>
 <div>
     <h2>Secondary #0E404F</h2>
+    <p>(Subheadings, Active Tabs)</p>
     <div className="colorbox secondary-variant"></div>
 </div>
 <div>
-    <h2>Tertiary #FF672F</h2>
+    <h2>Tertiary #FF5C29</h2>
+    <p>(Specific span elements)</p>
     <div className="colorbox tertiary-variant"></div>
 </div>
 </div>
@@ -110,8 +122,8 @@ import { Meta } from '@storybook/addon-docs/blocks';
     <div className="colorbox bg-gradient2"></div>
 </div>
 <div>
-    <h2>Dosing Box:</h2>
-    <p>linear-gradient(0deg, white 0%, rgba(29, 129, 158, 0.5) 100%)</p>
-    <div className="colorbox bg-gradient3"></div>
+    <h2>Question Box Gradient:</h2>
+    <p>linear-gradient(0deg, rgba(236,229,245,1) 0%, rgba(255,255,255,1) 50%)</p>
+    <div className="colorbox qb-gradient"></div>
 </div>
 </div>
