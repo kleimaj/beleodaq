@@ -711,43 +711,46 @@ main h2, main h3 {
 
 .resources .resource-group {
   display: flex;
+  flex-wrap: wrap;
+}
+.resources .resource-group .resource-box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  max-width: 262px;
+  min-width: 163px;
+  padding: 30px;
+  margin: 20px;
+  border: 3px solid #166176;
+  color: #166176;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
 }
-@media only screen and (max-width: 1200px) {
-  .resources .resource-group {
-    flex-direction: column;
-    align-items: center;
-  }
+.resources .resource-group .resource-box span {
+  font-weight: 300;
+  font-size: 14px;
 }
-.resources .resource-group .resource__item {
-  padding: 15px;
+.resources .resource-group .resource-box img {
+  width: 26px;
 }
-.resources .resource-group .resource__item img {
-  width: 312px;
-  border: 2px solid #1D819E;
+.resources .resource-group .resource-box i {
+  font-size: 36px;
 }
-.resources .resource-group .resource__item h4 {
+.resources .resource-group .resource-box img, .resources .resource-group .resource-box i {
+  padding: 25px;
   padding-top: 0;
-  width: 280px;
 }
-.resources .resource-group .resource__item p {
-  padding-bottom: 0;
+.resources .resource-group .resource-box.secondary-dark {
+  border: 3px solid #0E404F;
+  color: #0E404F;
 }
-.resources .resource-group .box {
-  background: #1D819E;
-  margin: 15px;
-  width: 450px;
-}
-.resources .resource-group .box h4 {
-  color: white;
-  padding-top: 15px;
-  width: auto;
-}
-.resources .resource-group .box.darker {
-  background: #166176;
-}
-.resources .resource-group .box.darkest {
-  background: #0E404F;
+.resources .resource-group .resource-box.secondary-light {
+  border: 3px solid #1D819E;
+  color: #1D819E;
 }
 
 /*# sourceMappingURL=access.css.map */
