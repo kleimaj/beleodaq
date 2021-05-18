@@ -5,3 +5,46 @@ main {
         text-align: left;
     }
 }
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 500px;
+        height: 50px;
+        margin: 20px;
+    }
+}
+input,textarea {
+    width: 500px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    border: 2px solid #1D819E;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+textarea {
+    height: 180px;
+    resize: none;
+    border: 3px solid #1D819E;
+
+}
+.form-btn {
+    color: white;
+    background: #BCBEC0;
+    font-size: 18px;
+    width: 170px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    &.submit {
+        background: #166176;
+    }
+}
