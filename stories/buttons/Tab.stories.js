@@ -1,4 +1,4 @@
-import { createButton } from './Tab';
+import { createButton, createGroup } from './Tab';
 
 export default {
   title: 'Components/Tab',
@@ -13,11 +13,16 @@ export default {
   argTypes: {
     label: { control: 'text' },
     active: { control: 'boolean' },
+    numButtons: { control: 'number' },
   },
 };
 
 const Template = ({ label, ...args }) => {
   return createButton({ label, ...args });
+};
+
+const ListTemplate = ({ numButtons }) => {
+  return createGroup({ numButtons });
 };
 
 export const Active = Template.bind({});
@@ -44,4 +49,9 @@ Default.parameters = {
       code: `<a class="site-buttons__button button--orange p">Site Button Label></a>`,
     },
   },
+};
+
+export const List = ListTemplate.bind({});
+ListTemplate.args = {
+  numButtons: 3,
 };
