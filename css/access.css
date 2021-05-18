@@ -712,6 +712,8 @@ main h2, main h3 {
 .resources .resource-group {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .resources .resource-group .resource-box {
   cursor: pointer;
