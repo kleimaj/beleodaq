@@ -593,6 +593,16 @@ footer .footer__bottom {
 footer .footer__bottom img {
   width: 228px;
 }
+footer .footer__bottom a {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 5px;
+  margin-top: 10px;
+}
 
 .footer-down {
   transform: translateY(120px);

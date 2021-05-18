@@ -532,6 +532,16 @@ footer {
         img {
             width: 228px;
         }
+        a {
+            display: block;
+            font-family: 'Open Sans', sans-serif;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 5px;
+            margin-top: 10px;
+        }
     }
 }
 .footer-down {
