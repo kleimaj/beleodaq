@@ -3,7 +3,6 @@ let footer = document.querySelector('footer');
 let innerHeight = window.innerHeight;
 // let offsetHeight = document.body.offsetHeight;
 let offsetHeight = getAbsoluteHeight('main');
-
 // https://stackoverflow.com/questions/9439725/javascript-how-to-detect-if-browser-window-is-scrolled-to-bottom
 
 // if (innerHeight + window.scrollY >= offsetHeight) {
@@ -34,6 +33,7 @@ document.querySelector('.mobile__button').addEventListener('click', (e) => {
 
 // Check footer
 function checkFooter() {
+  console.log(window.scrollY);
   if (innerHeight + window.scrollY >= offsetHeight - 1) {
     footer.style.position = 'relative';
     footer.lastElementChild.classList.remove('hidden');

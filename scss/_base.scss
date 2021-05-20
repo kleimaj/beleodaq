@@ -354,6 +354,7 @@ header {
 main {
     margin-bottom: 30px;
     margin-top: 242px;
+    min-height: 75vh;
     @media only screen and (max-width: 1200px) {
         margin-top: 360px;
         padding: 10px 20px;
