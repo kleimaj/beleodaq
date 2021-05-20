@@ -16,6 +16,10 @@ window.onscroll = function (ev) {
   toggleIndications();
   checkFooter();
 };
+window.onresize = function () {
+  innerHeight = window.innerHeight;
+  offsetHeight = getAbsoluteHeight('main');
+};
 
 let menuToggled = false;
 document.querySelector('.mobile__button').addEventListener('click', (e) => {
