@@ -35,6 +35,20 @@ https://www.sitepoint.com/sending-emails-php-phpmailer/
     //Send HTML or Plain Text email
     $mail->isHTML(false);
 
+    // Send SMTP
+    $email->IsSMTP();
+    $email->SMTPAuth = false;
+    $email->SMTPDebug = 0;//3
+    $email->Host = "192.168.1.12";
+    $email->Port="25";
+    $email->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+        )
+    );
+
     $mail->Subject = $subject;
     $mail->Body = "User Name: $name.\n".
                     "User Email: $visitor_email\n".
