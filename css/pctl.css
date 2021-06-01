@@ -661,7 +661,7 @@ main h2, main h3, main h4, main p {
 main img {
   display: flex;
   margin: 50px auto;
-  width: 90%;
+  width: 60%;
 }
 @media only screen and (max-width: 1200px) {
   main img {
