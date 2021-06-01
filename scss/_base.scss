@@ -89,7 +89,7 @@ p,.p {
     line-height: 16.8px;
 }
 .helper {
-    font-size: .8em;
+    font-size: 12px;
     line-height: 17px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -233,6 +233,9 @@ header {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+}
+#us-only {
+    margin-bottom: 20px;
 }
 .site-buttons {
     display: flex;
