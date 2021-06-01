@@ -89,14 +89,18 @@ main {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        flex-basis: 33.333333%;
         .resource-box {
             cursor: pointer;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            max-width: 262px;
-            min-width: 163px;
+            @media only screen and (max-width: 1200px) {
+                max-width: 262px;
+                min-width: 163px;
+            }
+            width: 20%;
             height: 150px;
             padding: 30px;
             margin: 20px;

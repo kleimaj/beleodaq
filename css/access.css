@@ -736,6 +736,7 @@ main h2, main h3 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-basis: 33.333333%;
 }
 .resources .resource-group .resource-box {
   cursor: pointer;
@@ -743,8 +744,7 @@ main h2, main h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 262px;
-  min-width: 163px;
+  width: 20%;
   height: 150px;
   padding: 30px;
   margin: 20px;
@@ -754,6 +754,12 @@ main h2, main h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+  .resources .resource-group .resource-box {
+    max-width: 262px;
+    min-width: 163px;
+  }
 }
 .resources .resource-group .resource-box span {
   font-weight: 300;
