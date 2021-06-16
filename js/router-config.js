@@ -16,5 +16,9 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('PTCL', {
       url: '/ptcl',
       templateUrl: 'content/ptcl/ptcl.html',
+    })
+    .state('PTCL2', {
+      url: '/ptcl2',
+      templateUrl: 'content/ptcl/ptcl2.html',
     });
 });
