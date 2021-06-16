@@ -8,8 +8,13 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     enabled: true,
   });
 
-  $stateProvider.state('LandingPage', {
-    url: '/',
-    templateUrl: 'carousel.html',
-  });
+  $stateProvider
+    .state('LandingPage', {
+      url: '/',
+      templateUrl: 'carousel.html',
+    })
+    .state('PTCL', {
+      url: '/ptcl',
+      templateUrl: 'content/ptcl/ptcl.html',
+    });
 });
