@@ -297,7 +297,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         },
       },
     })
-    .state('terms-of-use', {
+    .state('TERMS-OF-USE', {
       url: '/terms-of-use',
       templateUrl: 'content/policies/terms-of-use.html',
       resolve: {
