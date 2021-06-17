@@ -18,6 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -30,6 +31,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -42,6 +44,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -66,6 +69,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -150,6 +154,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -162,6 +167,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -174,6 +180,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -186,6 +193,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -198,6 +206,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -210,6 +219,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -222,6 +232,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -234,6 +245,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -246,6 +258,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -258,6 +271,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -270,6 +284,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -282,6 +297,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -294,6 +310,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -306,6 +323,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     })
@@ -318,6 +336,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
         },
       },
     });
