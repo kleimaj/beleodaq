@@ -236,6 +236,90 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
         },
       },
+    })
+    .state('ACCESS', {
+      url: '/access',
+      templateUrl: 'content/access-resources/access.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('RESOURCES', {
+      url: '/resources',
+      templateUrl: 'content/access-resources/resources.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('CONTACT', {
+      url: '/contact',
+      templateUrl: 'content/contact/contact.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('LINKING-POLICY', {
+      url: '/linking-policy',
+      templateUrl: 'content/policies/linking-policy.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('PRIVACY-POLICY', {
+      url: '/privacy-policy',
+      templateUrl: 'content/policies/linking-policy.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('terms-of-use', {
+      url: '/terms-of-use',
+      templateUrl: 'content/policies/terms-of-use.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('TRADEMARK-POLICY', {
+      url: '/trademark-policy',
+      templateUrl: 'content/policies/trademark-policy.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
