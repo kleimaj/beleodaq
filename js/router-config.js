@@ -15,6 +15,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
       resolve: {
         loadEventListeners: function () {
           window.onscroll = function (ev) {
+            toggleIndications();
             checkFooter();
           };
         },
@@ -26,6 +27,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
       resolve: {
         loadEventListeners: function () {
           window.onscroll = function (ev) {
+            toggleIndications();
             checkFooter();
           };
         },
@@ -34,6 +36,14 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('PTCL2', {
       url: '/ptcl2',
       templateUrl: 'content/ptcl/ptcl2.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
@@ -60,4 +70,13 @@ function getAbsoluteHeight(el) {
   var margin =
     parseFloat(styles['marginTop']) + parseFloat(styles['marginBottom']);
   return Math.ceil(el.offsetHeight + margin);
+}
+
+// Toggle Indications in header if scrollY > 0
+function toggleIndications() {
+  if (window.scrollY > 0) {
+    document.querySelector('.indications').style.display = 'none';
+  } else {
+    document.querySelector('.indications').style.display = 'block';
+  }
 }
