@@ -9,7 +9,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   });
 
   $stateProvider
-    .state('LandingPage', {
+    .state('HCP', {
       url: '/',
       templateUrl: 'carousel.html',
       resolve: {
@@ -132,6 +132,42 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('STUDY-ASSESSMENT', {
       url: '/trial-design/study-assessment',
       templateUrl: 'content/belief-trial/study-assessment.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('ORR', {
+      url: '/efficacy/orr',
+      templateUrl: 'content/efficacy/orr.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('TUMOR-VOLUME-ASSESSMENT', {
+      url: '/efficacy/tumor-volume-assessment',
+      templateUrl: 'content/efficacy/tumor-volume-assessment.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('DOR', {
+      url: '/efficacy/dor',
+      templateUrl: 'content/efficacy/dor.html',
       resolve: {
         loadEventListeners: function () {
           window.onscroll = function (ev) {
