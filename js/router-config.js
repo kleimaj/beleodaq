@@ -56,6 +56,90 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
         },
       },
+    })
+    .state('BASELINE-CHARACTERISTICS', {
+      url: '/baseline-characteristics',
+      templateUrl: 'content/belief-trial/baseline-characteristics.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('DOSING-OF-BELEODAQ', {
+      url: '/trial-design/dosing',
+      templateUrl: 'content/belief-trial/dosing-of-beleodaq.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('EXCLUSION-CRITERIA', {
+      url: '/trial-design/exclusion-criteria',
+      templateUrl: 'content/belief-trial/exclusion-criteria.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('INCLUSION-CRITERIA', {
+      url: '/trial-design/inclusion-criteria',
+      templateUrl: 'content/belief-trial/inclusion-criteria.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('PRIMARY-ENDPOINTS', {
+      url: '/trial-design/primary-endpoints',
+      templateUrl: 'content/belief-trial/primary-endpoints.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('SECONDARY-ENDPOINTS', {
+      url: '/trial-design/secondary-endpoints',
+      templateUrl: 'content/belief-trial/secondary-endpoints.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('STUDY-ASSESSMENT', {
+      url: '/trial-design/study-assessment',
+      templateUrl: 'content/belief-trial/study-assessment.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
