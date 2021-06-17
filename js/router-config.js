@@ -5,7 +5,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
 
   $locationProvider.html5Mode({
-    enabled: false,
+    enabled: true,
   });
 
   $stateProvider
@@ -375,3 +375,5 @@ function scrollBack() {
   document.querySelector('.less').classList.add('hidden');
   document.querySelector('.more').classList.remove('hidden');
 }
+
+function resetActiveHeaderTab(tabName) {}
