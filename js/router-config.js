@@ -200,6 +200,42 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
         },
       },
+    })
+    .state('DOSING', {
+      url: '/dosing-and-administration/dosing',
+      templateUrl: 'content/dosing/dosing.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('DOSE-MODIFICATIONS', {
+      url: '/dosing-and-administration/dose-modifications',
+      templateUrl: 'content/dosing/dose-modifications.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('STORAGE-AND-HANDLING', {
+      url: '/dosing-and-administration/storage-and-handling',
+      templateUrl: 'content/dosing/storage-and-handling.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
