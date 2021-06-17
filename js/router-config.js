@@ -44,6 +44,18 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
         },
       },
+    })
+    .state('ABOUT', {
+      url: '/about',
+      templateUrl: 'content/about/about.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
