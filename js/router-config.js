@@ -176,3 +176,22 @@ function toggleIndications() {
     document.querySelector('.indications').style.display = 'block';
   }
 }
+// Scroll To Footer
+function scrollToFooter() {
+  footer = document.querySelector('footer');
+  footer.style.position = 'relative';
+  footer.lastElementChild.classList.remove('hidden');
+  window.scrollTo(0, offsetHeight);
+  document.querySelector('.less').classList.add('hidden');
+  document.querySelector('.more').classList.remove('hidden');
+}
+
+// scroll back to main content
+function scrollBack() {
+  footer = document.querySelector('footer');
+  window.scrollTo(0, -offsetHeight);
+  footer.style.position = 'fixed';
+  footer.lastElementChild.classList.add('hidden');
+  document.querySelector('.less').classList.add('hidden');
+  document.querySelector('.more').classList.remove('hidden');
+}
