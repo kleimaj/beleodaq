@@ -176,6 +176,30 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
         },
       },
+    })
+    .state('SAFETY', {
+      url: '/safety',
+      templateUrl: 'content/safety-tolerability/safety.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
+    })
+    .state('TOLERABILITY', {
+      url: '/tolerability',
+      templateUrl: 'content/safety-tolerability/tolerability.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            checkFooter();
+          };
+        },
+      },
     });
 });
 
