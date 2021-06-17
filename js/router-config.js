@@ -1,5 +1,5 @@
 var app = angular.module('BELEODAQ', ['ui.router']);
-
+var offsetHeight, footer;
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.when('', '/');
   $urlRouterProvider.otherwise('/');
@@ -15,7 +15,6 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
       resolve: {
         loadEventListeners: function () {
           window.onscroll = function (ev) {
-            //   toggleIndications();
             checkFooter();
           };
         },
@@ -24,6 +23,13 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('PTCL', {
       url: '/ptcl',
       templateUrl: 'content/ptcl/ptcl.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            checkFooter();
+          };
+        },
+      },
     })
     .state('PTCL2', {
       url: '/ptcl2',
@@ -32,9 +38,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 });
 
 function checkFooter() {
-  // console.log(window.scrollY);
-  var offsetHeight = getAbsoluteHeight('main');
-  var footer = document.querySelector('footer');
+  offsetHeight = getAbsoluteHeight('main');
+  footer = document.querySelector('footer');
   if (innerHeight + window.scrollY >= offsetHeight - 1) {
     footer.style.position = 'relative';
     footer.lastElementChild.classList.remove('hidden');
