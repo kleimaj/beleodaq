@@ -55,6 +55,7 @@ function checkFooter() {
 function scrollToFooter() {
   footer.style.position = 'relative';
   footer.lastElementChild.classList.remove('hidden');
+  offsetHeight = getAbsoluteHeight('main');
   window.scrollTo(0, offsetHeight);
   document.querySelector('.less').classList.add('hidden');
   document.querySelector('.more').classList.remove('hidden');

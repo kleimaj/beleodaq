@@ -19,6 +19,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
         },
       },
     })
@@ -32,6 +33,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(0);
         },
       },
     })
@@ -45,6 +47,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(0);
         },
       },
     })
@@ -57,6 +60,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(1);
         },
       },
     })
@@ -70,6 +75,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -82,6 +88,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -94,6 +101,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -106,6 +114,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -118,6 +127,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -130,6 +140,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -142,6 +153,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          resetActiveHeaderTab(2);
         },
       },
     })
@@ -155,6 +167,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(3);
         },
       },
     })
@@ -168,6 +181,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(3);
         },
       },
     })
@@ -181,6 +195,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(3);
         },
       },
     })
@@ -194,6 +209,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(4);
         },
       },
     })
@@ -207,6 +223,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(4);
         },
       },
     })
@@ -220,6 +237,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(5);
         },
       },
     })
@@ -233,6 +251,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(5);
         },
       },
     })
@@ -246,6 +265,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(5);
         },
       },
     })
@@ -259,6 +279,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(6);
         },
       },
     })
@@ -272,6 +293,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(6);
         },
       },
     })
@@ -285,6 +307,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetActiveHeaderTab(7);
         },
       },
     })
@@ -298,6 +321,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
         },
       },
     })
@@ -311,6 +335,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
         },
       },
     })
@@ -324,6 +349,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
         },
       },
     })
@@ -337,6 +363,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             checkFooter();
           };
           document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
         },
       },
     });
@@ -395,4 +422,21 @@ function scrollBack() {
   document.querySelector('.more').classList.remove('hidden');
 }
 
-function resetActiveHeaderTab(tabName) {}
+function resetActiveHeaderTab(tabNumber) {
+  resetTabs();
+  document
+    .querySelectorAll('.navlinks__link')
+    [tabNumber].classList.add('active');
+  document
+    .querySelector('.navlinks')
+    .getElementsByTagName('li')
+    [tabNumber].classList.add('active');
+}
+function resetTabs() {
+  document
+    .querySelectorAll('.navlinks__link')
+    .forEach((link) => link.classList.remove('active'));
+  Array.from(
+    document.querySelector('.navlinks').getElementsByTagName('li')
+  ).forEach((tab) => tab.classList.remove('active'));
+}

@@ -392,6 +392,10 @@ header {
 .navlinks__link {
   color: black;
 }
+.navlinks__link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
 
 .navlinks__link--active {
   color: var(--primary-color);
