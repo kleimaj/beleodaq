@@ -37,7 +37,7 @@ document.querySelector('.mobile__button').addEventListener('click', (e) => {
 
 // Check footer
 function checkFooter() {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
   if (innerHeight + window.scrollY >= offsetHeight - 1) {
     footer.style.position = 'relative';
     footer.lastElementChild.classList.remove('hidden');
@@ -74,11 +74,11 @@ function scrollBack() {
 function getAbsoluteHeight(el) {
   // Get the DOM Node if you pass in a string
   el = typeof el === 'string' ? document.querySelector(el) : el;
+  // el = document.querySelector('main');
 
-  var styles = window.getComputedStyle(el);
+  var styles = window.getComputedStyle(document.querySelector(el), '');
   var margin =
     parseFloat(styles['marginTop']) + parseFloat(styles['marginBottom']);
-
   return Math.ceil(el.offsetHeight + margin);
 }
 

@@ -654,6 +654,9 @@ footer .footer__bottom a {
   text-decoration: none;
 }
 
+main {
+  padding-top: 40px;
+}
 main h2, main h3 {
   text-align: left;
 }

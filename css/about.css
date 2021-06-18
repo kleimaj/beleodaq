@@ -657,6 +657,9 @@ footer .footer__bottom a {
 main h2, main h3, main h4 {
   text-align: left;
 }
+main h2 {
+  padding: 40px 0;
+}
 main img {
   display: flex;
   margin: 0 auto;
