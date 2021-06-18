@@ -427,10 +427,9 @@ function resetActiveHeaderTab(tabNumber) {
   document
     .querySelectorAll('.navlinks__link')
     [tabNumber].classList.add('active');
-  document
-    .querySelector('.navlinks')
-    .getElementsByTagName('li')
-    [tabNumber].classList.add('active');
+  Array.from(document.querySelector('.navlinks').getElementsByTagName('li'))[
+    tabNumber
+  ].classList.add('active');
 }
 function resetTabs() {
   document
