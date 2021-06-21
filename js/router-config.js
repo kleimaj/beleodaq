@@ -468,16 +468,20 @@ function resetTabs() {
   ).forEach((tab) => tab.classList.remove('active'));
 }
 function mobileFunctionality() {
-  document.querySelector('.mobile__button').addEventListener('click', (e) => {
-    menuToggled = !menuToggled;
-    if (menuToggled) {
-      document.querySelector('.mobile__button__icon').src =
-        'assets/svg/menu/times.svg';
-      document.querySelector('.navlinks').style.display = 'block';
-    } else {
-      document.querySelector('.mobile__button__icon').src =
-        'assets/svg/menu/bars.svg';
-      document.querySelector('.navlinks').style.display = 'none';
-    }
-  });
+  document
+    .querySelector('.mobile__button')
+    .addEventListener('click', toggleHamburgerMenu);
+  if (menuToggled) toggleHamburgerMenu();
+}
+function toggleHamburgerMenu() {
+  menuToggled = !menuToggled;
+  if (menuToggled) {
+    document.querySelector('.mobile__button__icon').src =
+      'assets/svg/menu/times.svg';
+    document.querySelector('.navlinks').style.display = 'block';
+  } else {
+    document.querySelector('.mobile__button__icon').src =
+      'assets/svg/menu/bars.svg';
+    document.querySelector('.navlinks').style.display = 'none';
+  }
 }
