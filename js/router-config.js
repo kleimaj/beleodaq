@@ -435,7 +435,8 @@ function scrollToFooter() {
   footer = document.querySelector('footer');
   footer.style.position = 'relative';
   footer.lastElementChild.classList.remove('hidden');
-  window.scrollTo(0, offsetHeight);
+  offsetHeight = getAbsoluteHeight('main');
+  window.scrollTo(0, offsetHeight - 160);
   document.querySelector('.less').classList.add('hidden');
   document.querySelector('.more').classList.remove('hidden');
 }
