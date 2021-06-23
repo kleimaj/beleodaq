@@ -352,7 +352,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     })
     .state('PRIVACY-POLICY', {
       url: '/privacy-policy',
-      templateUrl: 'content/policies/linking-policy.html',
+      templateUrl: 'content/policies/privacy-policy.html',
       resolve: {
         loadEventListeners: function () {
           window.onscroll = function (ev) {
