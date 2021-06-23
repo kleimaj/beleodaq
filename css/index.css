@@ -818,12 +818,14 @@ main h2 {
   }
 }
 #carousel__slide2 h2 {
-  font-size: 32px;
-  text-align: right;
+  font-size: 16px;
+  text-align: left;
   padding: 0;
-  padding-bottom: 20px;
-  line-height: 40px;
-  width: 480px;
+  padding-top: 20px;
+  line-height: 19px;
+}
+#carousel__slide2 h2 span {
+  font-weight: 800;
 }
 @media only screen and (max-width: 1200px) {
   #carousel__slide2 h2 {
@@ -848,23 +850,19 @@ main h2 {
   color: #4D4D4F;
   padding: 0;
   font-weight: 300;
+  line-height: 23px;
 }
-@media only screen and (max-width: 1200px) {
-  #carousel__slide2 h4 {
-    display: none;
-  }
+#carousel__slide2 .slide__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 #carousel__slide2 p {
   text-align: left;
   color: #4D4D4F;
   font-size: 12px;
   padding: 0;
-  width: 530px;
-}
-@media only screen and (max-width: 1200px) {
-  #carousel__slide2 p {
-    display: none;
-  }
 }
 #carousel__slide2 img {
   align-self: center;
@@ -878,6 +876,7 @@ main h2 {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
+  width: 100%;
 }
 @media only screen and (max-width: 1200px) {
   #carousel__slide2 .slide__data {
@@ -922,7 +921,6 @@ main h2 {
 #carousel__slide3 h2 {
   color: #1D819E;
   text-align: left;
-  width: 360px;
   line-height: 40px;
   padding: 15px 0;
 }
@@ -957,11 +955,6 @@ main h2 {
   line-height: 25.2px;
   width: 460px;
   padding: 0;
-}
-@media only screen and (max-width: 1200px) {
-  #carousel__slide3 h4 {
-    display: none;
-  }
 }
 #carousel__slide3 p {
   padding: 0;
@@ -1046,7 +1039,7 @@ main h2 {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 40px;
+  bottom: 25px;
   left: 0;
   text-align: center;
 }
@@ -1066,8 +1059,8 @@ main h2 {
 .carousel__navigation-button {
   z-index: 2;
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
   margin: 5px;
   border: 3px solid #fff;
   background-clip: content-box;
@@ -1085,8 +1078,8 @@ main h2 {
   background: url(../assets/svg/carousel/chev.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
 }
 .carousel__navigation-arrow.right {
   transform: rotate(180deg);

@@ -141,12 +141,16 @@ main {
         }
     }
     h2 {
-        font-size: 32px;
-        text-align: right;
+        font-size: 16px;
+        text-align: left;
         padding: 0;
-        padding-bottom: 20px;
-        line-height: 40px;
-        width: 480px;
+        padding-top: 20px;
+        span {
+            font-weight: 800;
+        }
+        // padding-bottom: 20px;
+        // width: 480px;
+        line-height: 19px;
         @media only screen and (max-width: 1200px) {
             font-size: 18px;
             line-height: normal;
@@ -167,19 +171,20 @@ main {
         color: #4D4D4F;
         padding: 0;
         font-weight: 300;
-        @media only screen and (max-width: 1200px) {
-            display: none;
-        }
+        line-height: 23px;
+    }
+    .slide__row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
     p {
         text-align: left;
         color: #4D4D4F;
         font-size: 12px;
         padding: 0;
-        width: 530px;
-        @media only screen and (max-width: 1200px) {
-            display: none;
-        }
+
     }
     img {
         align-self: center;
@@ -191,6 +196,7 @@ main {
         align-items: flex-start;
         justify-content: flex-start;
         padding: 20px;
+        width: 100%;
         @media only screen and (max-width: 1200px) {
             width: 100%;
         }
@@ -229,7 +235,6 @@ main {
     h2 {
         color: #1D819E;
         text-align: left;
-        width: 360px;
         line-height: 40px;
         padding: 15px 0;
         strong {
@@ -262,9 +267,6 @@ main {
         line-height: 25.2px;
         width: 460px;
         padding: 0;
-        @media only screen and (max-width: 1200px) {
-            display: none;
-        }
     }
     p {
         padding: 0;
@@ -346,7 +348,7 @@ main {
     // display: none;
     position: absolute;
     right: 0;
-    bottom: 40px;
+    bottom: 25px;
     left: 0;
     text-align: center;
     @media only screen and (max-width: 1200px) {
@@ -362,8 +364,8 @@ main {
 .carousel__navigation-button {
     z-index: 2;
     display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     margin: 5px;
     border: 3px solid #fff;
     background-clip: content-box;
@@ -380,8 +382,8 @@ main {
     background: url(../assets/svg/carousel/chev.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
 
     &.right {
         transform: rotate(180deg);
