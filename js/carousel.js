@@ -2,6 +2,13 @@
 
 let slideIndex = 1;
 let timeout;
+let footNotes = [
+  'PTCL, peripheral T-cell lymphoma.',
+  'CR, complete response; ORR, overall response rate; PR, partial response.',
+  'AEs, adverse events.',
+  'R/R, relapsed/refractory; PTCL, peripheral T-cell lymphoma.',
+];
+
 showSlides(slideIndex);
 
 // Next/Previous controls
@@ -33,6 +40,7 @@ function showSlides(n) {
   });
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].classList.add('active');
+  document.querySelector('.footnote').innerHTML = footNotes[slideIndex - 1];
   // slideIndex > 3 ? (slideIndex = 1) : slideIndex++;
   // timeout = setTimeout(showSlides, 5000);
 }
