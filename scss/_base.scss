@@ -148,6 +148,9 @@ sub {
 .dark {
     color: var(--dark-text);
 }
+.italic {
+    font-style: italic;
+}
 
 /* Header */
 header {
