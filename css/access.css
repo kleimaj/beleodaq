@@ -692,6 +692,7 @@ main h2, main h3 {
   border: 2px solid #1EACE2;
   border-radius: 18px;
   padding: 10px;
+  text-align: center;
 }
 .access aside .star img {
   display: flex;
@@ -707,6 +708,7 @@ main h2, main h3 {
   width: 450px;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 .access aside .star h3 {
   width: 400px;
