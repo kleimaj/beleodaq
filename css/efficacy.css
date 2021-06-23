@@ -906,6 +906,9 @@ main .sap-criteria .sap-text h3 {
   font-size: 28px;
   color: #0E404F;
 }
+main .sap-criteria .sap-text h4 {
+  font-size: 19px;
+}
 @media only screen and (max-width: 1200px) {
   main .sap-criteria .sap-text {
     width: auto;
