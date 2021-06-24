@@ -185,6 +185,10 @@ sub {
   font-style: italic;
 }
 
+.open-sans {
+  font-family: "Open Sans";
+}
+
 /* Header */
 header {
   z-index: 3;
@@ -852,7 +856,12 @@ main h2 {
   color: #4D4D4F;
   padding: 0;
   font-weight: 300;
+  text-align: center;
   line-height: 23px;
+}
+#carousel__slide2 h4.semibold {
+  font-weight: 600;
+  text-align: center;
 }
 #carousel__slide2 .slide__row {
   width: 100%;
@@ -865,6 +874,7 @@ main h2 {
   color: #4D4D4F;
   font-size: 12px;
   padding: 0;
+  margin-top: 20px;
 }
 #carousel__slide2 img {
   align-self: center;
@@ -960,6 +970,7 @@ main h2 {
 }
 #carousel__slide3 p {
   padding: 0;
+  width: 240px;
 }
 @media only screen and (max-width: 1200px) {
   #carousel__slide3 p {
@@ -990,7 +1001,6 @@ main h2 {
   justify-content: space-evenly;
 }
 #carousel__slide3 .data-container__figure {
-  width: 200px;
   text-align: center;
 }
 @media only screen and (max-width: 1200px) {
