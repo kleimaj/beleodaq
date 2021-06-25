@@ -133,6 +133,10 @@ sup {
   font-size: 0.7em;
   line-height: 1em;
 }
+sup.lower {
+  top: 5px;
+  position: relative;
+}
 
 sub {
   vertical-align: sub;
@@ -892,14 +896,17 @@ main h2 {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-top: 10px;
 }
 #carousel__slide2 p {
   text-align: left;
   color: #4D4D4F;
   font-size: 12px;
   padding: 0;
+  margin: 0 auto;
   margin-top: 20px;
+  width: 95%;
 }
 #carousel__slide2 img {
   align-self: center;

@@ -133,6 +133,10 @@ sup {
   font-size: 0.7em;
   line-height: 1em;
 }
+sup.lower {
+  top: 5px;
+  position: relative;
+}
 
 sub {
   vertical-align: sub;
