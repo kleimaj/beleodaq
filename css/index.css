@@ -463,8 +463,8 @@ main ul {
 main ul li::before {
   content: "•";
   position: relative;
-  top: 45px;
-  color: #0E404F;
+  top: 2.75em;
+  color: #166176;
 }
 main ul li {
   margin-top: -40px;

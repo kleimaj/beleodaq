@@ -45,7 +45,7 @@ main {
 }
 .toxicity {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     .toxicity__item:first-child {
         width: 50%;
         h4 {

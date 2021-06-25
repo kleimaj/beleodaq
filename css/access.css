@@ -463,8 +463,8 @@ main ul {
 main ul li::before {
   content: "•";
   position: relative;
-  top: 45px;
-  color: #0E404F;
+  top: 2.75em;
+  color: #166176;
 }
 main ul li {
   margin-top: -40px;
@@ -691,8 +691,14 @@ main h2, main h3 {
 
 .access {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 25px;
+}
+.access h3 {
+  padding-bottom: 0;
+}
+.access ul {
+  padding-top: 10px;
 }
 @media only screen and (max-width: 1200px) {
   .access {
@@ -777,7 +783,7 @@ main h2, main h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  width: 22%;
   height: 150px;
   padding: 30px;
   margin: 20px;
