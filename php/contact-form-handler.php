@@ -7,7 +7,7 @@
     $subject=$_POST['subject'];
     $message=$_POST['message'];
 
-    $email_from = 'jacobk@communicationpartners.com';
+    $email_from = $visitor_email;
 
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email\n".
@@ -15,7 +15,7 @@
                             "User Location: $location\n".
                                 "User Message: $message\n";
     
-    $to = "jacobakleiman@gmail.com";
+    $to = "Info@AcrotechBiopharma.com";
     $headers = "From : $email_from \r\n";
 
     $headers .= "Reply-To: $visitor_email \r\n";
