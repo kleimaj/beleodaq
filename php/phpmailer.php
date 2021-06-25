@@ -27,7 +27,7 @@ https://www.sitepoint.com/sending-emails-php-phpmailer/
 
 
     //To address and name
-    $mail->addAddress("jacobk@communicationpartners.com", "Jacob");
+    $mail->addAddress("Info@AcrotechBiopharma.com", "Info");
 
     //Address to which recipient will reply
     $mail->addReplyTo($visitor_email, $name);
