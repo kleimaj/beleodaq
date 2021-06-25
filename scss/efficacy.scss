@@ -15,6 +15,12 @@ main {
     h3:nth-child(2){
         text-align: center;
     }
+    ul {
+            .lower::before {
+                top: 2.75em;
+            }
+
+    }
     .centered {
         h4, p{
             text-align: center;
@@ -156,6 +162,7 @@ main {
             }
             li {
                 margin-bottom: -45px;
+                padding-top: 10px;
                 p {
                     margin-top: 0;
                 }
@@ -180,8 +187,8 @@ main {
             border-right: 1px solid #1D819E;
         }
         h4 {
-            max-width: 329px;
-            padding: 35px;
+            max-width: 379px;
+            padding: 35px 95px;
             text-align: center;
         }
         @media only screen and (max-width: 1200px) {

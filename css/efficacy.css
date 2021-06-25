@@ -711,6 +711,9 @@ main h2, main h3, main h4, main p {
 main h3:nth-child(2) {
   text-align: center;
 }
+main ul .lower::before {
+  top: 2.75em;
+}
 main .centered {
   padding-bottom: 20px;
 }
@@ -839,6 +842,7 @@ main .treatment-assessments ul li::before {
 }
 main .treatment-assessments ul li {
   margin-bottom: -45px;
+  padding-top: 10px;
 }
 main .treatment-assessments ul li p {
   margin-top: 0;
@@ -861,8 +865,8 @@ main .ttr h4:nth-child(2) {
   border-right: 1px solid #1D819E;
 }
 main .ttr h4 {
-  max-width: 329px;
-  padding: 35px;
+  max-width: 379px;
+  padding: 35px 95px;
   text-align: center;
 }
 @media only screen and (max-width: 1200px) {
