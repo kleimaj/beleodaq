@@ -955,6 +955,9 @@ main .cr2__data {
   padding: 0 40px;
   margin: 0 120px;
 }
+main .cr2__data .data__left {
+  width: 500px;
+}
 @media only screen and (max-width: 1200px) {
   main .cr2__data {
     flex-direction: column;

@@ -289,6 +289,9 @@ main {
         align-items: center;
         padding: 0 40px;
         margin: 0 120px;
+        .data__left {
+            width: 500px;
+        }
 
         @media only screen and (max-width: 1200px) {
             flex-direction: column;
