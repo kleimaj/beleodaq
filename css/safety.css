@@ -699,6 +699,10 @@ main {
 main h2, main h3, main h4, main p {
   text-align: left;
 }
+main .percent {
+  top: 5px;
+  position: relative;
+}
 main .chart {
   width: 500px;
 }
@@ -724,9 +728,10 @@ main .patient-aes ul ul {
 }
 main .patient-aes ul ul li:before {
   margin-left: -0.5em;
-  content: "-";
+  content: "- ";
   position: relative;
   top: 0px;
+  color: #4D4D4F;
 }
 main .patient-aes ul li::before {
   content: "•";

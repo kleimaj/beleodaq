@@ -5,6 +5,10 @@ main {
     h2,h3,h4,p {
         text-align: left;
     }
+    .percent {
+        top: 5px;
+        position: relative;
+    }
     .chart {
         width: 500px;
     }
@@ -26,9 +30,10 @@ main {
             }
             ul li:before {
                 margin-left: -.5em;
-                content: "-";
+                content: "- ";
                 position: relative;
                 top: 0px;
+                color: #4D4D4F;
             }
             li::before {
                 content: "\2022";

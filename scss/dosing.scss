@@ -28,7 +28,7 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        max-width: 250px;
+        max-width: 300px;
         h4 {
             text-align: center;
         }
@@ -45,7 +45,6 @@ main {
 }
 .toxicity {
     display: flex;
-    justify-content: space-between;
     .toxicity__item:first-child {
         width: 50%;
         h4 {
@@ -173,6 +172,7 @@ main {
 
         .boxes {
             display: flex;
+            justify-content: center;
             @media only screen and (max-width: 1200px) {
                 flex-direction: column;
                 align-items: center;
