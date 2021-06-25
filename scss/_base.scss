@@ -3,6 +3,7 @@
 /* CSS Variables */
 :root {
     --primary-color:#442A8B;
+    --primary-variant: #430298;
     --secondary-color: #3A92A7;
     --secondary-color-variant: #0E404F;
     --secondary-color-variant2: #166176;
@@ -124,6 +125,9 @@ sub {
 // Color Classes
 .primary { 
     color: var(--primary-color);
+}
+.primary-variant {
+    color: var(--primary-variant);
 }
 .secondary {
     color: var(--secondary-color);
