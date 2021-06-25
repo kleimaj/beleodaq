@@ -713,6 +713,7 @@ main .patient-aes ul ul {
   padding-bottom: 0;
   padding-right: 0;
   padding-left: 25px;
+  margin-top: 10px;
 }
 main .patient-aes ul ul li:before {
   margin-left: -0.5em;
