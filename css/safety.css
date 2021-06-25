@@ -683,6 +683,9 @@ main {
 main h2, main h3, main h4, main p {
   text-align: left;
 }
+main .chart {
+  width: 500px;
+}
 main .patient-aes {
   display: flex;
   padding: 24px;
