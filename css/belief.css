@@ -710,6 +710,11 @@ main img {
     width: 100%;
   }
 }
+@media only screen and (min-width: 1600px) {
+  main ul li::before {
+    top: 2.75em;
+  }
+}
 main ul h4 {
   padding-left: 15px;
 }
@@ -756,7 +761,6 @@ main .cols .col:first-child h4 {
   }
 }
 main .cols .col ul {
-  padding: 0 25px;
   padding-bottom: 35px;
 }
 main .cols .col .row {
