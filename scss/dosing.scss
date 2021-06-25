@@ -67,9 +67,11 @@ main {
             }
             ul li:before {
                 margin-left: -.5em;
-                content: "-";
+                content: "- ";
                 position: relative;
                 top: 0px;
+                color: #4D4D4F;
+                font-weight: normal;
             }
         }
     }

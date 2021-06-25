@@ -736,6 +736,7 @@ main .patient-aes ul ul li:before {
   position: relative;
   top: 0px;
   color: #4D4D4F;
+  font-weight: normal;
 }
 main .patient-aes ul li::before {
   content: "•";
