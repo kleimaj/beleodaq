@@ -241,7 +241,7 @@ main {
         color: #1D819E;
         text-align: left;
         line-height: 40px;
-        padding: 15px 0;
+        padding: 25px 0;
         strong {
             font-weight: 800;
             &.primary {
@@ -310,6 +310,7 @@ main {
     .data-container__figure {
         // width: 200px;
         text-align: center;
+        align-self: center;
         @media only screen and (max-width: 1200px) {
             width: auto;
         }

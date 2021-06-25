@@ -7,6 +7,7 @@ main {
     }
     h2 {
         padding: 40px 0;
+        line-height: 1.5em;
     }
     img {
         display: flex;
@@ -22,6 +23,10 @@ main {
     }
     .center {
         text-align: center;
+    }
+    .percent {
+        position: relative;
+        top: 5px;
     }
 }
 

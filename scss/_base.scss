@@ -401,8 +401,9 @@ main {
 
         li::before {
                 content: "\2022";
+                font-weight: 700;
                 position: relative;
-                top: 2.75em;
+                top: 2.65em;
                 color: #166176;
         }
 
