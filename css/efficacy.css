@@ -183,6 +183,10 @@ sub {
   font-weight: 600;
 }
 
+.regular {
+  font-weight: normal;
+}
+
 .hidden {
   display: none;
 }
@@ -823,7 +827,7 @@ main .treatment-assessments ul {
 main .treatment-assessments ul li::before {
   content: "•";
   position: relative;
-  top: 35px;
+  top: 2.5rem;
   color: #0E404F;
 }
 main .treatment-assessments ul li {
