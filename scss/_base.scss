@@ -5,6 +5,7 @@
     --primary-color:#442A8B;
     --secondary-color: #3A92A7;
     --secondary-color-variant: #0E404F;
+    --secondary-color-variant2: #166176;
     --tertiary-color: #FF672F;
     --tertiary-color-variant: #FF5C29;
     --gray-color: #DEDEDE;
@@ -129,6 +130,9 @@ sub {
 }
 .secondary-variant {
     color: var(--secondary-color-variant);
+}
+.secondary-variant2 {
+    color: var(--secondary-color-variant2);
 }
 .tertiary {
     color: var(--tertiary-color);
