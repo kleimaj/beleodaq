@@ -154,7 +154,12 @@ sub {
   position: absolute;
   font-size: 21px;
   bottom: 5px;
-  right: 10px;
+  right: 0;
+}
+.stacked-superscript sup {
+  font-size: 0.5em;
+  top: 10px;
+  position: relative;
 }
 
 .primary {
@@ -840,6 +845,7 @@ main h2 {
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
+  flex-direction: column;
 }
 #carousel__slide2 h1 {
   padding: 15px;
@@ -898,6 +904,9 @@ main h2 {
   align-items: center;
   justify-content: center;
   padding-top: 10px;
+}
+#carousel__slide2 .slide__row.col {
+  flex-direction: column;
 }
 #carousel__slide2 p {
   text-align: left;

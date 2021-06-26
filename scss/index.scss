@@ -131,6 +131,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
+    flex-direction: column;
     h1 {
         padding: 15px;
         margin: 0;
@@ -184,6 +185,9 @@ main {
         align-items: center;
         justify-content: center;
         padding-top: 10px;
+        &.col {
+            flex-direction: column;
+        }
     }
     p {
         text-align: left;

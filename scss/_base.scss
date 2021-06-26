@@ -129,7 +129,12 @@ sub {
         position: absolute;
         font-size: 21px;
         bottom: 5px;
-        right: 10px;
+        right: 0;
+    }
+    sup {
+        font-size: .5em;
+        top: 10px;
+        position: relative;
     }
 }
 // Color Classes
