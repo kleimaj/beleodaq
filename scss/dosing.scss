@@ -11,6 +11,9 @@ main {
     h4 {
         text-align: left;
         font-weight: normal;
+        &.below {
+            padding: 0 35px;
+        }
     }
     @media only screen and (max-width: 1200px) {
         h2,h3,h4 {
@@ -52,7 +55,6 @@ main {
         }
     }
     .toxicity__item {
-        padding: 10px;
         .center {
             text-align: center;
         }
@@ -63,6 +65,7 @@ main {
                 padding-left: 15px;
                 li {
                     margin: 15px;
+                    margin-left: 0;
                 }
             }
             ul li:before {
@@ -277,7 +280,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 50px;
+    padding: 25px 50px;
     border-bottom: 2px solid #1D819E;
     ul {
         width: 807px;

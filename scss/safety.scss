@@ -6,12 +6,13 @@ main {
         text-align: left;
     }
     .percent {
-        top: 5px;
+        top: 15px;
         font-size: .6em;
         position: relative;
     }
     .chart {
         width: 500px;
+        padding-bottom: 0;
     }
     .patient-aes {
         display: flex;
@@ -70,7 +71,7 @@ main {
             .jumbo {
                 font-size: 72px;
                 line-height: 86.4px;
-                font-weight: 600;
+                font-weight: 700;
                 @media only screen and (max-width: 1200px) {
                     font-size: 46px;
                     line-height: 52.4px;

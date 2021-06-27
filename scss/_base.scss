@@ -76,7 +76,7 @@ h4 {
     font-size: 21px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    line-height: 25px;
+    line-height: 1.25em;
     color: #4D4D4F;
     @media only screen and (min-width: 1600px) {
         font-size: 24px;
@@ -94,7 +94,7 @@ h5,.h5 {
 p,.p {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    line-height: 16.8px;
+    line-height: 1.5em;
 }
 .helper {
     font-size: 12px;
@@ -110,10 +110,8 @@ sup {
     vertical-align: text-top;
     font-size: .7em;
 	line-height: 1em;
-    &.lower {
-        top: 5px;
-        position: relative;
-    }
+    top: 5px;
+    position: relative;
   }
 sub {
     vertical-align: sub;
@@ -135,6 +133,10 @@ sub {
         font-size: .5em;
         top: 10px;
         position: relative;
+        &.percent {
+            top: 15px;
+            position: relative;
+        }
     }
 }
 // Color Classes
@@ -364,6 +366,7 @@ header {
 }
 .navlinks__link {
     color: black;
+    line-height: 1.25em;
     &.active {
         color: var(--primary-color);
         font-weight: 600;
@@ -522,7 +525,7 @@ footer {
             margin-top: 20px;
         }
         p {
-            margin-top: 10px;
+            margin-top: 5px;
         }
         a {
             text-decoration: underline;
@@ -556,7 +559,7 @@ footer {
     }
     .warnings-and-precautions {
         p {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             margin-top: 5px;
         }
     }

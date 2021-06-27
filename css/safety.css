@@ -89,7 +89,7 @@ h4 {
   font-size: 21px;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 1.25em;
   color: #4D4D4F;
 }
 @media only screen and (min-width: 1600px) {
@@ -113,7 +113,7 @@ h5, .h5 {
 p, .p {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  line-height: 16.8px;
+  line-height: 1.5em;
 }
 
 .helper {
@@ -132,8 +132,6 @@ sup {
   vertical-align: text-top;
   font-size: 0.7em;
   line-height: 1em;
-}
-sup.lower {
   top: 5px;
   position: relative;
 }
@@ -159,6 +157,10 @@ sub {
 .stacked-superscript sup {
   font-size: 0.5em;
   top: 10px;
+  position: relative;
+}
+.stacked-superscript sup.percent {
+  top: 15px;
   position: relative;
 }
 
@@ -429,6 +431,7 @@ header {
 
 .navlinks__link {
   color: black;
+  line-height: 1.25em;
 }
 .navlinks__link.active {
   color: var(--primary-color);
@@ -595,7 +598,7 @@ footer section h5 {
   margin-top: 20px;
 }
 footer section p {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 footer section a {
   text-decoration: underline;
@@ -623,7 +626,7 @@ footer section ul li p {
   padding: 5px;
 }
 footer .warnings-and-precautions p {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin-top: 5px;
 }
 footer .specific-populations p {
@@ -709,12 +712,13 @@ main h2, main h3, main h4, main p {
   text-align: left;
 }
 main .percent {
-  top: 5px;
+  top: 15px;
   font-size: 0.6em;
   position: relative;
 }
 main .chart {
   width: 500px;
+  padding-bottom: 0;
 }
 main .patient-aes {
   display: flex;
@@ -774,7 +778,7 @@ main .tolerability-data .data_figure h4 {
 main .tolerability-data .data_figure .jumbo {
   font-size: 72px;
   line-height: 86.4px;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media only screen and (max-width: 1200px) {
   main .tolerability-data .data_figure .jumbo {

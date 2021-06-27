@@ -10,12 +10,6 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    h3 {
-        padding-bottom: 0;
-    }
-    ul {
-        padding-top: 10px;
-    }
     // width: 60%;
     @media only screen and (max-width: 1200px) {
         flex-direction: column;
