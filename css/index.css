@@ -713,6 +713,11 @@ main h2 {
   padding-top: 40px;
 }
 
+.percent {
+  position: relative;
+  top: 10px;
+}
+
 /* Carousel */
 .carousel {
   height: 435px;
