@@ -711,6 +711,34 @@ main h2, main h3 {
   text-align: left;
 }
 
+.modal {
+  display: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border: 2px solid #7841B3;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  font-size: 1rem;
+  padding: 2em 4em;
+  width: 70%;
+}
+.modal.active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+.modal .modal-buttons {
+  display: flex;
+  margin: 0 auto;
+}
+
 .access {
   display: flex;
   justify-content: space-between;
