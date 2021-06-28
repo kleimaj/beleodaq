@@ -30,7 +30,7 @@
                 <!-- <i class="fal fa-file"></i> -->
                 BELEODAQ <br>Patient Brochure
             </a>
-            <a class="resource-box secondary-light" href="https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1483 " target="_blank">
+            <a class="resource-box secondary-light" href="javascript:;" onclick="showModal(1)">
                 <i class="fa fa-chain" ></i>
                 <span>NCCN Guidelines<sup>&reg;</sup></span>
                 Peripheral T-cell Lymphoma
@@ -46,15 +46,16 @@
         <a href="" ui-sref="DOSING" class="button secondary"><i class="fas fa-chevron-left"></i> Dosing &amp; Administration</a>
         <a href="" ui-sref="CONTACT" class="button">Contact Us <i class="fas fa-chevron-right"></i></a>
     </div>
-    <div class="modal active">
+    <div class="modal">
         <h4>You're now leaving BELEODAQ.com</h4>
         <p class="light">
             <strong>Please note:</strong>
             By clicking continue, you will be leaving this Acrotech-hosted US website and going to another, entirely independent website. Acrotech provides these links as a service to its website visitors and users; however, it takes no responsibility for the information on any website but its own.
         </p>
         <div class="modal-buttons">
-            <a href="" class="button secondary"><i class="fas fa-times"></i> Cancel</a>
-        <a href="" class="button">Continue <i class="fas fa-check"></i></a>
+            <a href="javascript:;" onclick="showModal(0)" class="button secondary"><i class="fas fa-times"></i> Cancel</a>
+        <a href="https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1483" class="button">Continue <i class="fas fa-check"></i></a>
         </div>
     </div>
 </main>
+<script defer src="js/modal.js"></script>
