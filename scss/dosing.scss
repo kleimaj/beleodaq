@@ -11,6 +11,9 @@ main {
     h4 {
         text-align: left;
         font-weight: normal;
+        &.below {
+            padding: 0 35px;
+        }
     }
     @media only screen and (max-width: 1200px) {
         h2,h3,h4 {
@@ -28,7 +31,7 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        max-width: 250px;
+        max-width: 300px;
         h4 {
             text-align: center;
         }
@@ -45,7 +48,6 @@ main {
 }
 .toxicity {
     display: flex;
-    justify-content: center;
     .toxicity__item:first-child {
         width: 50%;
         h4 {
@@ -53,7 +55,6 @@ main {
         }
     }
     .toxicity__item {
-        padding: 10px;
         .center {
             text-align: center;
         }
@@ -64,13 +65,16 @@ main {
                 padding-left: 15px;
                 li {
                     margin: 15px;
+                    margin-left: 0;
                 }
             }
             ul li:before {
                 margin-left: -.5em;
-                content: "-";
+                content: "- ";
                 position: relative;
                 top: 0px;
+                color: #4D4D4F;
+                font-weight: normal;
             }
         }
     }
@@ -173,6 +177,7 @@ main {
 
         .boxes {
             display: flex;
+            justify-content: center;
             @media only screen and (max-width: 1200px) {
                 flex-direction: column;
                 align-items: center;
@@ -275,7 +280,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 50px;
+    padding: 25px 50px;
     border-bottom: 2px solid #1D819E;
     ul {
         width: 807px;

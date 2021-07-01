@@ -10,6 +10,7 @@ let footNotes = [
 ];
 
 showSlides(slideIndex);
+timeout = setInterval(showSlides, 8000);
 
 // Next/Previous controls
 function plusSlides(n) {
@@ -41,6 +42,5 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].classList.add('active');
   document.querySelector('.footnote').innerHTML = footNotes[slideIndex - 1];
-  // slideIndex > 3 ? (slideIndex = 1) : slideIndex++;
-  // timeout = setTimeout(showSlides, 5000);
+  slideIndex > 3 ? (slideIndex = 1) : slideIndex++;
 }

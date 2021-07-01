@@ -3,8 +3,10 @@
 /* CSS Variables */
 :root {
     --primary-color:#442A8B;
+    --primary-variant: #430298;
     --secondary-color: #3A92A7;
     --secondary-color-variant: #0E404F;
+    --secondary-color-variant2: #166176;
     --tertiary-color: #FF672F;
     --tertiary-color-variant: #FF5C29;
     --gray-color: #DEDEDE;
@@ -20,7 +22,13 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+html,
+body {
+	font-family: 'Open Sans',Arial,Verdana,sans-serif;
+	font-weight: 300;
+}
 a {
     text-decoration: none;
 }
@@ -68,7 +76,7 @@ h4 {
     font-size: 21px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    line-height: 25px;
+    line-height: 1.25em;
     color: #4D4D4F;
     @media only screen and (min-width: 1600px) {
         font-size: 24px;
@@ -86,7 +94,7 @@ h5,.h5 {
 p,.p {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    line-height: 16.8px;
+    line-height: 1.5em;
 }
 .helper {
     font-size: 12px;
@@ -100,7 +108,8 @@ p,.p {
 }
 sup {
     vertical-align: super;
-    font-size: smaller;
+    font-size: .7em;
+	line-height: 1em;
   }
 sub {
     vertical-align: sub;
@@ -116,18 +125,34 @@ sub {
         position: absolute;
         font-size: 21px;
         bottom: 5px;
-        right: 10px;
+        right: 0;
+    }
+    sup {
+        font-size: .5em;
+        top: 10px;
+        position: relative;
+        &.percent {
+           	vertical-align: text-top;
+			top: 15px;
+            position: relative;
+        }
     }
 }
 // Color Classes
 .primary { 
     color: var(--primary-color);
 }
+.primary-variant {
+    color: var(--primary-variant);
+}
 .secondary {
     color: var(--secondary-color);
 }
 .secondary-variant {
     color: var(--secondary-color-variant);
+}
+.secondary-variant2 {
+    color: var(--secondary-color-variant2);
 }
 .tertiary {
     color: var(--tertiary-color);
@@ -142,6 +167,9 @@ sub {
 .semibold, strong {
     font-weight: 600;
 }
+.regular {
+    font-weight: normal;
+}
 .hidden {
     display: none;
 }
@@ -150,6 +178,9 @@ sub {
 }
 .italic {
     font-style: italic;
+}
+.open-sans {
+    font-family: 'Open Sans';
 }
 
 /* Header */
@@ -181,7 +212,7 @@ header {
 .indications__body {
     padding: 0 40px;
     font-size: 14px;
-    line-height: 21.79px;
+    line-height: 1.15em;
 }
 /* Nav (Logo and buttons) */
 .nav {
@@ -191,7 +222,7 @@ header {
     justify-content: center;
 
     @media only screen and (min-width: 1600px) {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     
     @media only screen and (max-width: 1200px) {
@@ -334,6 +365,7 @@ header {
 }
 .navlinks__link {
     color: black;
+    line-height: 1.25em;
     &.active {
         color: var(--primary-color);
         font-weight: 600;
@@ -362,7 +394,7 @@ header {
 
 /* Main */
 main {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     margin-top: 242px;
     min-height: 75vh;
     @media only screen and (max-width: 1200px) {
@@ -380,16 +412,17 @@ main {
 
         li::before {
                 content: "\2022";
+                font-weight: 700;
                 position: relative;
-                top: 45px;
-                color: #0E404F;
+                top: 2.65em;
+                color: #166176;
         }
 
         li {
-            margin-top: -40px;
+            margin-top: -50px;
             line-height: 28px;
             &.pp::before {
-                top: 35px;
+                top: 37px;
             }
 
             h4 {
@@ -419,6 +452,10 @@ main {
             color: #166176;
             padding: 10px;
             opacity: .5;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         @media only screen and (max-width: 1200px) {
             font-size: 14px;
             height: 50px;
@@ -477,7 +514,8 @@ footer {
     margin: 0;
     bottom: 0px;
     left: 0px;
-    box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+	/* WEIRD COLOR? */
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,.3);
     z-index: 2;
     transition: all 0.3s ease-in-out;
     section {
@@ -486,7 +524,7 @@ footer {
             margin-top: 20px;
         }
         p {
-            margin-top: 10px;
+            margin-top: 5px;
         }
         a {
             text-decoration: underline;
@@ -520,7 +558,7 @@ footer {
     }
     .warnings-and-precautions {
         p {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             margin-top: 5px;
         }
     }

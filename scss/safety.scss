@@ -5,6 +5,17 @@ main {
     h2,h3,h4,p {
         text-align: left;
     }
+    .percent {
+        top: 15px;
+        font-size: .6em;
+        position: relative;
+    }
+    .chart {
+        width: 500px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-top: -30px;
+    }
     .patient-aes {
         display: flex;
         padding: 24px;
@@ -19,12 +30,15 @@ main {
                 padding-bottom: 0;
                 padding-right: 0;
                 padding-left: 25px;
+                margin-top: 10px;
             }
             ul li:before {
                 margin-left: -.5em;
-                content: "-";
+                content: "- ";
                 position: relative;
                 top: 0px;
+                color: #4D4D4F;
+                font-weight: normal;
             }
             li::before {
                 content: "\2022";
@@ -59,7 +73,7 @@ main {
             .jumbo {
                 font-size: 72px;
                 line-height: 86.4px;
-                font-weight: 600;
+                font-weight: 700;
                 @media only screen and (max-width: 1200px) {
                     font-size: 46px;
                     line-height: 52.4px;

@@ -1,4 +1,4 @@
-@import "_base.scss";
+@import 'base';
 
 main {
     @media only screen and (max-width: 1200px) {
@@ -7,6 +7,10 @@ main {
     h2 {
         padding-top: 40px;
     }
+}
+.percent {
+    position: relative;
+    top: 10px;
 }
 /* Carousel */
 .carousel {
@@ -131,6 +135,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
+    flex-direction: column;
     h1 {
         padding: 15px;
         margin: 0;
@@ -171,23 +176,35 @@ main {
         color: #4D4D4F;
         padding: 0;
         font-weight: 300;
+        text-align: center;
         line-height: 23px;
+        &.semibold {
+            font-weight: 600;
+            text-align: center;
+        }
     }
     .slide__row {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        padding-top: 10px;
+        &.col {
+            flex-direction: column;
+        }
     }
     p {
         text-align: left;
         color: #4D4D4F;
         font-size: 12px;
         padding: 0;
-
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 95%;
     }
     img {
         align-self: center;
+        width: 90%;
         @media only screen and (max-width: 1200px) {
             width: 80%;
         }
@@ -236,7 +253,7 @@ main {
         color: #1D819E;
         text-align: left;
         line-height: 40px;
-        padding: 15px 0;
+        padding: 25px 0;
         strong {
             font-weight: 800;
             &.primary {
@@ -270,6 +287,7 @@ main {
     }
     p {
         padding: 0;
+        width: 240px;
         @media only screen and (max-width: 1200px) {
             width: 150px;
         }
@@ -302,8 +320,9 @@ main {
         justify-content: space-evenly;
     }
     .data-container__figure {
-        width: 200px;
+        // width: 200px;
         text-align: center;
+        align-self: center;
         @media only screen and (max-width: 1200px) {
             width: auto;
         }
@@ -315,7 +334,7 @@ main {
     background-repeat: no-repeat;
     h2 {
         text-align: right;
-        width: 490px;
+        width: 100%;
         padding: 15px 0;
         @media only screen and (max-width: 1200px) {
             padding: 0;
@@ -475,7 +494,8 @@ main {
 .question-buttons {
     margin-top: -35px;
     display: flex;
-    justify-content: space-evenly;
+	flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     padding: 10px 20px;
     @media only screen and (max-width: 1200px) {
@@ -487,7 +507,7 @@ main {
     background: #fff;
     // color: var(--primary-color);
     color: #7841B3;
-    min-width: 188px;
+    //min-width: 188px;
     max-width: 196px;
     height: 60px;
     padding: 24px 8px;

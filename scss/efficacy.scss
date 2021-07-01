@@ -15,6 +15,12 @@ main {
     h3:nth-child(2){
         text-align: center;
     }
+    ul {
+		.lower::before {
+			top: 2.75em;
+		}
+
+    }
     .centered {
         h4, p{
             text-align: center;
@@ -137,7 +143,6 @@ main {
 
     .treatment-assessments {
         margin-top: 45px;
-        padding: 0 15px;
         h3,h4,p {
             text-align: left;
         }
@@ -151,18 +156,19 @@ main {
             li::before {
                     content: "\2022";
                     position: relative;
-                    top: 35px;
+                    top: 2.5rem;
                     color: #0E404F;
             }
             li {
                 margin-bottom: -45px;
+                //padding-top: 10px;
                 p {
                     margin-top: 0;
                 }
             }
         }
         p {
-            margin-top: 45px;
+            margin-top: 35px;
             font-size: 21px;
             line-height: 25.2px;
         }
@@ -180,8 +186,8 @@ main {
             border-right: 1px solid #1D819E;
         }
         h4 {
-            max-width: 329px;
-            padding: 35px;
+            max-width: 379px;
+            padding: 35px 95px;
             text-align: center;
         }
         @media only screen and (max-width: 1200px) {
@@ -197,7 +203,7 @@ main {
     .sap-criteria {
         display: flex;
         justify-content: space-between;
-        margin: 0 120px;
+        margin: 0 12vw;
 
         @media only screen and (max-width: 1200px) {
             flex-direction: column;
@@ -288,7 +294,10 @@ main {
         justify-content: space-between;
         align-items: center;
         padding: 0 40px;
-        margin: 0 120px;
+        margin: 0 12vw;
+        .data__left {
+            width: 500px;
+        }
 
         @media only screen and (max-width: 1200px) {
             flex-direction: column;
