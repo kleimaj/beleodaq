@@ -136,6 +136,17 @@ main {
     background-repeat: no-repeat;
     justify-content: center;
     flex-direction: column;
+    .mobile {
+        display: none;
+        @media only screen and (max-width: 1200px) {
+            display: block;
+        }
+    }
+    .desktop {
+        @media only screen and (max-width: 1200px) {
+            display: none;
+        }
+    }
     h1 {
         padding: 15px;
         margin: 0;
@@ -181,6 +192,10 @@ main {
         &.semibold {
             font-weight: 600;
             text-align: center;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 12px;
+            line-height: 1.25em;
         }
     }
     .slide__row {
@@ -236,6 +251,9 @@ main {
     @media only screen and (max-width: 1200px) {
         flex-direction: column-reverse;
         align-items: center;
+        img {
+            width: 40%;
+        }
     }
     h1 {
         font-weight: bold;
@@ -247,6 +265,9 @@ main {
         }
         &.jumbo {
             font-size: 50px;
+            @media only screen and (max-width: 1200px) {
+                font-size: 40px;
+            }
         }
     }
     h2 {
@@ -263,6 +284,9 @@ main {
         @media only screen and (max-width: 1200px) {
             width: auto;
             line-height: normal;
+            font-size: 21px;
+            padding: 10px 0;
+            text-align: center;
         }
     }
     h3 {
@@ -276,6 +300,9 @@ main {
         &.secondary {
             color: #1D819E;
         }
+        @media only screen and (max-width: 1200px) {
+            line-height: 1em;
+        }
     }
     h4 {
         color: #4D4D4F;
@@ -284,6 +311,10 @@ main {
         line-height: 25.2px;
         width: 460px;
         padding: 0;
+        @media only screen and (max-width: 1200px) {
+            font-size: 18px;
+            width: 90vw;
+        }
     }
     p {
         padding: 0;
@@ -297,11 +328,15 @@ main {
             h1,h3,p {
                 text-align: right;
             }
+        align-self: flex-start;
+
         }
         &.left {
             h1,h3,p {
                 text-align: left;
             }
+        align-self: flex-start;
+
         }
     }
     .slide__text {
@@ -341,6 +376,7 @@ main {
             width: auto;
             font-size: 19px;
             line-height: normal;
+            text-align: center;
         }
         strong {
             color: #430298;
@@ -373,6 +409,7 @@ main {
     @media only screen and (max-width: 1200px) {
         top: 180px;
         bottom: 0;
+        display: none;
     }
 }
 .carousel__navigation-list, .carousel__navigation-item {
@@ -460,6 +497,7 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     z-index: 2;
     box-shadow: 0 -2px 12px rgba(255,255,255, .9);
+    text-align: center;
 
     &.orange {
         background-color: #FF5C29;
