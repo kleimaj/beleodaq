@@ -7,7 +7,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/');
 
   $locationProvider.html5Mode({
-    enabled: true
+    enabled: false,
   });
 
   $stateProvider

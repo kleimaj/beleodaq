@@ -1297,6 +1297,7 @@ main h2 {
 @media only screen and (max-width: 1200px) {
   .question-buttons {
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
