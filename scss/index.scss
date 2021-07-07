@@ -538,6 +538,7 @@ main {
     padding: 10px 20px;
     @media only screen and (max-width: 1200px) {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 .question_buttons__button {
