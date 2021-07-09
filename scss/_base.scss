@@ -1,6 +1,11 @@
 // to compile scss, run:
 // sass --watch scss:css
 /* CSS Variables */
+
+// Load Fonts
+
+@import 'font-awesome';
+
 :root {
     --primary-color:#442A8B;
     --primary-variant: #430298;
