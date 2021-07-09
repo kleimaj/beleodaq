@@ -6140,6 +6140,11 @@ sub {
   font-family: "Open Sans";
 }
 
+.geq img {
+  width: 10px;
+  padding: 0;
+}
+
 /* Header */
 header {
   z-index: 3;
