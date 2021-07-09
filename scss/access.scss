@@ -153,6 +153,21 @@ main {
             i {
                 font-size: 36px;
             }
+            .resource-icon {
+                width: 10%;
+                @media only screen and (max-width: 1200px) {
+                    width: 15%;
+                    &.map {
+                        width: 20%;
+                    }
+                }
+                &.map {
+                    width: 15%;
+                }
+                &.chain {
+                    width: 15%;
+                }
+            }
             img, i {
                 padding: 25px;
                 padding-top: 0;

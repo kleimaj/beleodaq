@@ -6779,6 +6779,23 @@ main h2, main h3 {
 .resources .resource-group .resource-box i {
   font-size: 36px;
 }
+.resources .resource-group .resource-box .resource-icon {
+  width: 10%;
+}
+@media only screen and (max-width: 1200px) {
+  .resources .resource-group .resource-box .resource-icon {
+    width: 15%;
+  }
+  .resources .resource-group .resource-box .resource-icon.map {
+    width: 20%;
+  }
+}
+.resources .resource-group .resource-box .resource-icon.map {
+  width: 15%;
+}
+.resources .resource-group .resource-box .resource-icon.chain {
+  width: 15%;
+}
 .resources .resource-group .resource-box img, .resources .resource-group .resource-box i {
   padding: 25px;
   padding-top: 0;
