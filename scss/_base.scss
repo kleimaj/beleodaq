@@ -249,6 +249,9 @@ header {
         .mobile__logo {
             display: block;
             padding: 15px;
+            img {
+                width: 200px;
+            }
         }
         .mobile__button {
             display: block;

@@ -6210,6 +6210,9 @@ header {
     display: block;
     padding: 15px;
   }
+  .nav .mobile__logo img {
+    width: 200px;
+  }
   .nav .mobile__button {
     display: block;
     width: 100%;
