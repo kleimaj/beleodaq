@@ -6211,7 +6211,7 @@ header {
     padding: 15px;
   }
   .nav .mobile__logo img {
-    width: 200px;
+    width: 150px;
   }
   .nav .mobile__button {
     display: block;
@@ -6595,7 +6595,6 @@ footer .footer__bottom a {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  /* width: 80%; */
   padding: 15px 50px;
 }
 
@@ -6621,6 +6620,11 @@ footer .footer__bottom a {
   line-height: 17px;
   width: 100%;
   margin-top: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .isi__body {
+    display: none;
+  }
 }
 
 .isi__button {

@@ -250,7 +250,7 @@ header {
             display: block;
             padding: 15px;
             img {
-                width: 200px;
+                width: 150px;
             }
         }
         .mobile__button {
@@ -614,7 +614,6 @@ footer {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    /* width: 80%; */
     padding: 15px 50px;
 }
 .isi__header {
@@ -638,6 +637,9 @@ footer {
     line-height: 17px;
     width: 100%;
     margin-top: 0;
+    @media only screen and (max-width: 1200px) {
+        display: none;
+    }
 }
 .isi__button {
     font-weight: normal;
