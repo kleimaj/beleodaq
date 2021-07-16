@@ -6235,6 +6235,13 @@ header {
   display: none;
 }
 
+@media only screen and (max-width: 1200px) {
+  .mobile-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 .mobile__button {
   display: none;
 }
@@ -6247,6 +6254,13 @@ header {
 
 #us-only {
   margin-bottom: 20px;
+  text-align: right;
+}
+@media only screen and (max-width: 1200px) {
+  #us-only {
+    text-align: center;
+    margin: 10px;
+  }
 }
 
 .site-buttons {

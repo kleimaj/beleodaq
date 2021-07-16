@@ -14,6 +14,7 @@ window.onload = function () {
 };
 window.onscroll = function (ev) {
   toggleIndications();
+  toggleSiteButtons();
   checkFooter();
 };
 window.onresize = function () {
@@ -89,6 +90,13 @@ function toggleIndications() {
     document.querySelector('.indications').style.display = 'none';
   } else {
     document.querySelector('.indications').style.display = 'block';
+  }
+}
+function toggleSiteButtons() {
+  if (window.scrollY > 0 && screen.width < 1200) {
+    document.querySelector('.site-buttons').style.display = 'none';
+  } else {
+    document.querySelector('.site-buttons').style.display = 'flex';
   }
 }
 

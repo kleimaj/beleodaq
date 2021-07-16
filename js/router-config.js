@@ -426,8 +426,14 @@ function getAbsoluteHeight(el) {
 function toggleIndications() {
   if (window.scrollY > 0) {
     document.querySelector('.indications').style.display = 'none';
+    if (window.innerWidth < 1200) {
+      document.querySelector('.site-buttons').style.display = 'none';
+    }
   } else {
     document.querySelector('.indications').style.display = 'block';
+    if (window.innerWidth < 1200) {
+      document.querySelector('.site-buttons').style.display = 'flex';
+    }
   }
 }
 // Scroll To Footer
