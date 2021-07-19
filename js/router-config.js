@@ -429,10 +429,16 @@ function toggleIndications() {
     if (window.innerWidth < 1200) {
       document.querySelector('.site-buttons').style.display = 'none';
     }
+    if (window.innerWidth < 1200 && window.innerWidth >= 425) {
+      document.querySelector('#tablet-row').classList.add('tablet-row');
+    }
   } else {
     document.querySelector('.indications').style.display = 'block';
     if (window.innerWidth < 1200) {
       document.querySelector('.site-buttons').style.display = 'flex';
+    }
+    if (window.innerWidth < 1200 && window.innerWidth >= 425) {
+      document.querySelector('#tablet-row').classList.remove('tablet-row');
     }
   }
 }

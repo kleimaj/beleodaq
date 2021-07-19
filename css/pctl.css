@@ -6145,6 +6145,15 @@ sub {
   padding: 0;
 }
 
+@media screen and (min-device-width: 425px) and (max-device-width: 1200px) {
+  .tablet-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
 /* Header */
 header {
   z-index: 3;
@@ -6209,6 +6218,7 @@ header {
   .nav .mobile__logo {
     display: block;
     padding: 15px;
+    text-align: center;
   }
   .nav .mobile__logo img {
     width: 150px;
@@ -6260,6 +6270,15 @@ header {
   #us-only {
     text-align: center;
     margin: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #us-only {
+    margin: 5px;
+    font-size: 9px;
+  }
+  #us-only h5 {
+    font-size: 9px;
   }
 }
 
@@ -6686,6 +6705,11 @@ main .center {
 .response-rate h4 {
   text-align: left;
   padding: 30px 100px;
+}
+@media only screen and (max-width: 1200px) {
+  .response-rate h4 {
+    padding: 0;
+  }
 }
 .response-rate span {
   padding: 15px;
