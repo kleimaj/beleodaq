@@ -6825,6 +6825,7 @@ main h2 {
 @media only screen and (max-width: 1200px) {
   #carousel__slide2 .mobile {
     display: block;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -6907,6 +6908,7 @@ main h2 {
   margin: 0 auto;
   margin-top: 20px;
   width: 95%;
+  display: none;
 }
 #carousel__slide2 img {
   align-self: center;
