@@ -8,7 +8,7 @@ let footNotes = [
   'AEs, adverse events.',
   'R/R, relapsed/refractory; PTCL, peripheral T-cell lymphoma.',
 ];
-let footNote2 = `<sup>*</sup>The primary study endpoint of ORR was based on an independent review, where a 20% ORR was considered clinically meaningful.<sup>2</sup> <sup>&dagger;</sup>Sample size was based on a 2-stage optimal design, with a hypothesized ORR of the alternate hypothesis (p1 = 20%) for BELEODAQ and a minimal or uninteresting ORR of null hypothesis (p0 = 9%).<sup>2</sup> <sup>&sect;</sup>No meaningful difference in response rate was observed between patients &ge;75 years and those &lt;75 years.<sup>1</sup>`;
+let footNote2 = `<sup>*</sup>The primary study endpoint of ORR was based on an independent review, where a 20% ORR was considered clinically meaningful.<sup>2</sup> <sup>&dagger;</sup>Sample size was based on a 2-stage optimal design, with a hypothesized ORR of the alternate hypothesis (p1 = 20%) for BELEODAQ and a minimal or uninteresting ORR of null hypothesis (p0 = 9%).<sup>2</sup> <sup>&sect;</sup>No meaningful difference in response rate was observed between patients <span class="geq"><img src="assets/svg/font-awesome/greater-than-equal-light.svg" class="small" alt="greater than or equal to"></span>75 years and those &lt;75 years.<sup>1</sup>`;
 
 showSlides(slideIndex);
 timeout = setInterval(showSlides, 8000);

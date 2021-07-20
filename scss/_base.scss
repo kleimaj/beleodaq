@@ -191,6 +191,9 @@ sub {
     img {
         width: 10px;
         padding: 0;
+        &.small {
+            width: 7px;
+        }
     }
 }
 .tablet-row {

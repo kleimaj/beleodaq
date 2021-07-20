@@ -6144,6 +6144,9 @@ sub {
   width: 10px;
   padding: 0;
 }
+.geq img.small {
+  width: 7px;
+}
 
 @media screen and (min-device-width: 425px) and (max-device-width: 1200px) {
   .tablet-row {
