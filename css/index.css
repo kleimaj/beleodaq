@@ -6830,13 +6830,13 @@ main h2 {
 #carousel__slide2 .mobile {
   display: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   #carousel__slide2 .mobile {
     display: block;
     width: 60%;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   #carousel__slide2 .desktop {
     display: none;
   }
@@ -6921,11 +6921,6 @@ main h2 {
 #carousel__slide2 img {
   align-self: center;
   width: 90%;
-}
-@media only screen and (max-width: 1200px) {
-  #carousel__slide2 img {
-    width: 80%;
-  }
 }
 #carousel__slide2 .slide__data {
   align-items: flex-start;

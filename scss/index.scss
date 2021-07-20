@@ -138,13 +138,13 @@ main {
     flex-direction: column;
     .mobile {
         display: none;
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 768px) {
             display: block;
             width: 60%;
         }
     }
     .desktop {
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 768px) {
             display: none;
         }
     }
@@ -222,9 +222,6 @@ main {
     img {
         align-self: center;
         width: 90%;
-        @media only screen and (max-width: 1200px) {
-            width: 80%;
-        }
     }
     .slide__data {
         align-items: flex-start;
