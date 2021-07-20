@@ -6692,7 +6692,6 @@ main .chart {
 main .patient-aes {
   display: flex;
   padding: 24px;
-  width: 100%;
 }
 @media only screen and (max-width: 1200px) {
   main .patient-aes {
@@ -6701,7 +6700,6 @@ main .patient-aes {
 }
 main .patient-aes ul {
   padding: 45px;
-  width: 70%;
 }
 main .patient-aes ul ul {
   padding-bottom: 0;

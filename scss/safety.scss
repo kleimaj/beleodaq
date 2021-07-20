@@ -19,13 +19,11 @@ main {
     .patient-aes {
         display: flex;
         padding: 24px;
-        width: 100%;
         @media only screen and (max-width: 1200px) {
             flex-direction: column;
         }
         ul {
             padding: 45px;
-            width: 70%;
             ul {
                 padding-bottom: 0;
                 padding-right: 0;
