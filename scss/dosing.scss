@@ -88,6 +88,9 @@ main {
 }
 .box {
     width: 545px;
+    @media only screen and (max-width: 1200px) {
+        width: auto;
+    }
     .box__header {
         background: #1D819E;
         

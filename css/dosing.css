@@ -6537,6 +6537,11 @@ main .tabs .tab--active-variant {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 400px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
 .button-group .justify-right {
   margin-left: auto;
 }
@@ -6761,6 +6766,11 @@ main h4.below {
 
 .box {
   width: 545px;
+}
+@media only screen and (max-width: 1200px) {
+  .box {
+    width: auto;
+  }
 }
 .box .box__header {
   background: #1D819E;

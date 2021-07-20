@@ -6537,6 +6537,11 @@ main .tabs .tab--active-variant {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 400px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
 .button-group .justify-right {
   margin-left: auto;
 }

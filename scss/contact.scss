@@ -23,6 +23,9 @@ form {
 }
 input,textarea {
     width: 500px;
+    @media only screen and (max-width: 1200px) {
+        width: 90%;
+    }
     height: 40px;
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;

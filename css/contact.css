@@ -6537,6 +6537,11 @@ main .tabs .tab--active-variant {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 400px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
 .button-group .justify-right {
   margin-left: auto;
 }
@@ -6702,6 +6707,11 @@ input, textarea {
   border: 2px solid #1D819E;
   margin: 10px 0;
   padding: 5px 10px;
+}
+@media only screen and (max-width: 1200px) {
+  input, textarea {
+    width: 90%;
+  }
 }
 
 textarea {

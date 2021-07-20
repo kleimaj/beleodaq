@@ -6537,6 +6537,11 @@ main .tabs .tab--active-variant {
   align-items: center;
   justify-content: space-between;
 }
+@media only screen and (max-width: 400px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
 .button-group .justify-right {
   margin-left: auto;
 }
@@ -6684,10 +6689,9 @@ main .percent {
   position: relative;
 }
 main .chart {
-  width: 500px;
   padding-bottom: 10px;
   margin-left: 10px;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 main .patient-aes {
   display: flex;
@@ -6697,6 +6701,12 @@ main .patient-aes {
   main .patient-aes {
     flex-direction: column;
   }
+}
+main .patient-aes .col {
+  margin: 0 auto;
+}
+main .patient-aes .col img {
+  width: 100%;
 }
 main .patient-aes ul {
   padding: 45px;
@@ -6727,7 +6737,7 @@ main .tolerability-data {
 }
 @media only screen and (max-width: 1200px) {
   main .tolerability-data img {
-    width: 40%;
+    width: 30%;
   }
 }
 main .tolerability-data .data_figure:first-child h4 {
