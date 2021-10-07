@@ -424,7 +424,8 @@ function getAbsoluteHeight(el) {
 
 // Toggle Indications in header if scrollY > 0
 function toggleIndications() {
-  if (window.scrollY > 0) {
+  let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+  if (window.scrollY > 0 && isMobile) {
     document.querySelector('.indications').style.display = 'none';
     if (window.innerWidth < 1200) {
       document.querySelector('.site-buttons').style.display = 'none';
