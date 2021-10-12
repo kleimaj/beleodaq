@@ -6168,10 +6168,17 @@ header {
   transition: all 0.2s ease-in-out;
 }
 
+.toggle-button {
+  color: #0E404F;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
 /* Indications and Usage */
 .indications {
   padding: 10px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 @media only screen and (max-width: 1200px) {
   .indications {
@@ -6179,6 +6186,9 @@ header {
     flex-direction: column;
     align-items: center;
   }
+}
+.indications #toggle-isi {
+  display: none;
 }
 
 .indications__title {
@@ -6342,7 +6352,7 @@ header {
 /* Nav Links and Dropdown Menus */
 .navlinks {
   display: flex;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 @media only screen and (max-width: 1200px) {
@@ -6428,9 +6438,12 @@ header {
 
 /* Main */
 main {
-  margin-top: 242px;
+  margin-top: 200px;
   min-height: 75vh;
   padding: 10px 80px;
+}
+main.push {
+  margin-top: 220px;
 }
 @media only screen and (max-width: 1200px) {
   main {

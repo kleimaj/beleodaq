@@ -215,14 +215,23 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     transition: all 0.2s ease-in-out;
 }
+.toggle-button {
+    color: #0E404F;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
 /* Indications and Usage */
 .indications {
     padding: 10px 0;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     @media only screen and (max-width: 1200px) { 
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #toggle-isi {
+        display: none;
     }
 }
 .indications__title {
@@ -364,7 +373,7 @@ header {
 /* Nav Links and Dropdown Menus */
 .navlinks {
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     @media only screen and (max-width: 1200px) { 
         flex-direction: column;
@@ -438,8 +447,11 @@ header {
 
 /* Main */
 main {
+    &.push {
+        margin-top: 220px;
+    }
     // margin-bottom: 30px;
-    margin-top: 242px;
+    margin-top: 200px;
     min-height: 75vh;
     @media only screen and (max-width: 1200px) {
         margin-top: 360px;

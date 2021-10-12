@@ -1,6 +1,7 @@
 var app = angular.module('BELEODAQ', ['ui.router']);
 var offsetHeight, footer;
 let menuToggled = false;
+let isiToggled = false;
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.when('', '/');
@@ -422,6 +423,19 @@ function getAbsoluteHeight(el) {
   return Math.ceil(el.offsetHeight + margin);
 }
 
+function toggleISI() {
+  if (!isiToggled) {
+    document.getElementById('toggle-isi').style.display = 'inline';
+    document.querySelector('.toggle-button > i').classList.replace('fa-plus', 'fa-minus');
+    document.querySelector('main').classList.add('push');
+    isiToggled = true;
+  } else {
+    document.getElementById('toggle-isi').style.display = 'none';
+    document.querySelector('.toggle-button > i').classList.replace('fa-minus', 'fa-plus');
+    document.querySelector('main').classList.remove('push');
+    isiToggled = false;
+  }
+}
 // Toggle Indications in header if scrollY > 0
 function toggleIndications() {
   let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
