@@ -1,7 +1,7 @@
 const link1 =
   'https://www2.tri-kobe.org/nccn/guideline/hematologic/nhl/english/tcel.pdf';
 const link2 =
-  'https://lymphoma.org/wp-content/uploads/2021/01/LRF-PTCL-Lymphoma_Factsheet_2021.pdf';
+  'https://lymphoma.org/aboutlymphoma/nhl/ptcl/';
 function showModal(setShowModal) {
   setShowModal
     ? document.querySelector('.modal').classList.add('active')
