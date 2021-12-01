@@ -1,5 +1,5 @@
 const link1 =
-  'https://www2.tri-kobe.org/nccn/guideline/hematologic/nhl/english/tcel.pdf';
+  'https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1483';
 const link2 =
   'https://lymphoma.org/aboutlymphoma/nhl/ptcl/';
 function showModal(setShowModal) {
