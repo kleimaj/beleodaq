@@ -6,6 +6,15 @@ main {
     .container {
         display: flex;
         margin-bottom: 80px;
+
+        @media only screen and (max-width: 1200px) { 
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 50%;
+                display: none;
+            }
+        }
         .video-btn {
             display: flex;
             cursor: pointer;
@@ -17,6 +26,9 @@ main {
             border: none;
             border-radius: 12px;
             margin: 15px;
+            @media only screen and (max-width: 1200px){ 
+                margin: 0 auto;
+            }
             i {
                 margin: 4px;
                 margin-bottom: 8px;
@@ -26,6 +38,7 @@ main {
     .video-js {
         align-self: center;
         margin-bottom: 30px;
+        width: 70%;
     }
     p {
         font-size: 18px;

@@ -6702,6 +6702,16 @@ main .container {
   display: flex;
   margin-bottom: 80px;
 }
+@media only screen and (max-width: 1200px) {
+  main .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .container img {
+    width: 50%;
+    display: none;
+  }
+}
 main .container .video-btn {
   display: flex;
   cursor: pointer;
@@ -6714,6 +6724,11 @@ main .container .video-btn {
   border-radius: 12px;
   margin: 15px;
 }
+@media only screen and (max-width: 1200px) {
+  main .container .video-btn {
+    margin: 0 auto;
+  }
+}
 main .container .video-btn i {
   margin: 4px;
   margin-bottom: 8px;
@@ -6721,6 +6736,7 @@ main .container .video-btn i {
 main .video-js {
   align-self: center;
   margin-bottom: 30px;
+  width: 70%;
 }
 main p {
   font-size: 18px;
