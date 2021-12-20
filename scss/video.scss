@@ -39,6 +39,9 @@ main {
         align-self: center;
         margin-bottom: 30px;
         width: 70%;
+        @media only screen and (max-width: 1200px){ 
+            width: 80%;
+        }
     }
     p {
         font-size: 18px;
