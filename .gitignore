@@ -7,4 +7,5 @@ node_modules
 # PHP
 composer.phar
 /vendor/
-.mp4
+
+*.mp4
