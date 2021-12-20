@@ -1,6 +1,8 @@
 @import '_base.scss';
 
 main {
+    display: flex;
+    flex-direction: column;
     .container {
         display: flex;
         margin-bottom: 80px;
@@ -20,6 +22,10 @@ main {
                 margin-bottom: 8px;
             }
         }
+    }
+    .video-js {
+        align-self: center;
+        margin-bottom: 30px;
     }
     p {
         font-size: 18px;

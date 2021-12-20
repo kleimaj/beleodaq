@@ -6694,6 +6694,10 @@ footer .footer__bottom a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
 main .container {
   display: flex;
   margin-bottom: 80px;
@@ -6713,6 +6717,10 @@ main .container .video-btn {
 main .container .video-btn i {
   margin: 4px;
   margin-bottom: 8px;
+}
+main .video-js {
+  align-self: center;
+  margin-bottom: 30px;
 }
 main p {
   font-size: 18px;
