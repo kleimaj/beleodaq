@@ -6213,7 +6213,7 @@ header {
   padding: 10px 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 @media only screen and (min-width: 1600px) {
   .nav {
@@ -6382,7 +6382,7 @@ header {
   padding: 6px;
   margin: 0 8px;
   max-width: 100px;
-  min-width: 90px;
+  min-width: 70px;
 }
 .navlinks li.active {
   border-bottom: 2px solid var(--primary-color);
