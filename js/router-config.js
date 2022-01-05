@@ -347,7 +347,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
           };
           mobileFunctionality();
           document.body.scrollTop = document.documentElement.scrollTop = 0;
-          resetActiveHeaderTab(7);
+          resetActiveHeaderTab(8);
         },
       },
     })
