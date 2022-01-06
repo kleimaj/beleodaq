@@ -6710,6 +6710,21 @@ main h2 {
   border-top: 1px solid #166176;
   border-bottom: 1px solid #166176;
 }
+.video-container .image-container {
+  position: relative;
+}
+.video-container .image-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  background: -moz-linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+}
 @media only screen and (max-width: 1200px) {
   .video-container {
     flex-direction: column;
