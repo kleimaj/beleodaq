@@ -6730,10 +6730,6 @@ main h2 {
     flex-direction: column;
     align-items: center;
   }
-  .video-container img {
-    width: 50%;
-    display: none;
-  }
 }
 .video-container .video-links {
   display: flex;
@@ -6765,6 +6761,7 @@ main h2 {
   color: #166176;
   text-decoration: underline;
   text-decoration-color: #166176;
+  margin-top: 15px;
 }
 
 .percent {
