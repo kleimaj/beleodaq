@@ -27,6 +27,22 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         },
       },
     })
+    .state('ISI', {
+      url: '/isi',
+      templateUrl: 'content/isi.html',
+      resolve: {
+        loadEventListeners: function () {
+          window.onscroll = function (ev) {
+            toggleIndications();
+            // checkFooter();
+          };
+          mobileFunctionality();
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
+          resetTabs();
+          document.querySelector('footer').classList.add('hidden');
+        },
+      }
+    })
     .state('PTCL', {
       url: '/ptcl',
       templateUrl: 'content/ptcl/ptcl.html',
@@ -511,6 +527,7 @@ function resetTabs() {
   ).forEach((tab) => tab.classList.remove('active'));
 }
 function mobileFunctionality() {
+  document.querySelector('footer').classList.remove('hidden');
   document
     .querySelector('.mobile__button')
     .addEventListener('click', toggleHamburgerMenu);
