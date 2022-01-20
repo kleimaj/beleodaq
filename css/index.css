@@ -6703,17 +6703,17 @@ main h2 {
   padding-top: 40px;
 }
 
-.video-container {
+.video-container-main {
   display: flex;
   margin-top: 80px;
   margin-bottom: 20px;
   border-top: 1px solid #166176;
   border-bottom: 1px solid #166176;
 }
-.video-container .image-container {
+.video-container-main .image-container {
   position: relative;
 }
-.video-container .image-container:after {
+.video-container-main .image-container:after {
   content: "";
   position: absolute;
   top: 0;
@@ -6726,17 +6726,17 @@ main h2 {
   background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
 }
 @media only screen and (max-width: 1200px) {
-  .video-container {
+  .video-container-main {
     flex-direction: column;
     align-items: center;
   }
 }
-.video-container .video-links {
+.video-container-main .video-links {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.video-container .video-btn {
+.video-container-main .video-btn {
   display: flex;
   cursor: pointer;
   flex-direction: column;
@@ -6749,15 +6749,15 @@ main h2 {
   margin: 15px;
 }
 @media only screen and (max-width: 1200px) {
-  .video-container .video-btn {
+  .video-container-main .video-btn {
     margin: 0 auto;
   }
 }
-.video-container .video-btn i {
+.video-container-main .video-btn i {
   margin: 4px;
   margin-bottom: 8px;
 }
-.video-container a {
+.video-container-main a {
   color: #166176;
   text-decoration: underline;
   text-decoration-color: #166176;

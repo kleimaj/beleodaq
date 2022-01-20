@@ -6694,11 +6694,11 @@ footer .footer__bottom a {
   text-decoration: none;
 }
 
-main {
+#video {
   display: flex;
   flex-direction: column;
 }
-main #shader {
+#video #shader {
   display: none;
   position: fixed;
   top: 0;
@@ -6708,24 +6708,24 @@ main #shader {
   background-color: rgba(7, 28, 45, 0.7);
   z-index: 9000;
 }
-main #shader.active {
+#video #shader.active {
   display: block;
 }
-main .info {
+#video .info {
   display: flex;
   margin-bottom: 80px;
 }
 @media only screen and (max-width: 1200px) {
-  main .info {
+  #video .info {
     flex-direction: column;
     align-items: center;
   }
-  main .info img {
+  #video .info img {
     width: 50%;
     display: none;
   }
 }
-main .info .video-btn {
+#video .info .video-btn {
   display: flex;
   cursor: pointer;
   flex-direction: column;
@@ -6738,15 +6738,15 @@ main .info .video-btn {
   margin: 15px;
 }
 @media only screen and (max-width: 1200px) {
-  main .info .video-btn {
+  #video .info .video-btn {
     margin: 0 auto;
   }
 }
-main .info .video-btn i {
+#video .info .video-btn i {
   margin: 4px;
   margin-bottom: 8px;
 }
-main .video-container {
+#video .video-container {
   display: none;
   width: 60%;
   position: fixed;
@@ -6757,23 +6757,23 @@ main .video-container {
   transform: translate(-50%, -50%);
   z-index: 9999;
 }
-main .video-container.active {
+#video .video-container.active {
   display: block;
 }
-main .video-container .video-close {
+#video .video-container .video-close {
   position: absolute;
   bottom: 103%;
   left: 103%;
 }
-main .video-container .video-close i {
+#video .video-container .video-close i {
   font-size: 2rem;
   color: #fff;
 }
-main .video-js {
+#video .video-js {
   align-self: center;
   width: 100%;
 }
-main p {
+#video p {
   font-size: 18px;
 }
 
