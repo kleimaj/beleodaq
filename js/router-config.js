@@ -4,12 +4,13 @@ let menuToggled = false;
 let isiToggled = false;
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-  $urlRouterProvider.when('', '/');
-  $urlRouterProvider.otherwise('/');
+  // $urlRouterProvider.otherwise('/');
 
-  $locationProvider.html5Mode({
-    enabled: false,
-  });
+  $urlRouterProvider.otherwise('/');
+	
+	$locationProvider.html5Mode({
+		enabled	: true
+	});
 
   $stateProvider
     .state('HCP', {
@@ -428,6 +429,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
       },
     });
 });
+
 
 function checkFooter() {
   offsetHeight = getAbsoluteHeight('main');

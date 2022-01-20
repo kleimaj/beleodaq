@@ -3,26 +3,32 @@
 <link rel="stylesheet" href="css/video.css">
 </head>
 <main>
+  <div id="shader"></div>
     <h2 class="primary">Video Channel</h2>
-    <video
-    id="my-video"
-    class="video-js hidden"
-    controls
-    preload="auto"
-    poster="assets/images/video/thumbnail.png"
-    data-setup="{}"
-  >
-    <source src="assets/images/video/Beleodaq-KOL-video-v5.mp4" type="video/mp4" />
-    <!-- <source src="MY_VIDEO.webm" type="video/webm" /> -->
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
+    <div class="video-container">
+      <video
+      id="my-video"
+      class="video-js vjs-big-play-centered"
+      controls
+      preload="auto"
+      poster="assets/images/video/thumbnail.png"
+      data-setup="{}"
+    >
+      <source src="assets/images/video/Beleodaq-KOL-video-v5.mp4" type="video/mp4" />
+      
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank"
         >supports HTML5 video</a
-      >
-    </p>
-  </video>
-    <div class="container">
+        >
+      </p>
+    </video>
+    <a class="video-close" href="#">
+      <i class="fas fa-times"></i>
+    </a>
+  </div>
+    <div class="info">
         <img src="assets/images/video/video-thumbnail.png" alt="Woman smiling">
         <div>
             <h3 class="secondary-variant extrabold">PTCL is aggressive.<br>
