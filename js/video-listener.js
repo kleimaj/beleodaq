@@ -6,4 +6,10 @@ document.querySelector('.video-close').addEventListener('click', (e) => {
     e.preventDefault();
     document.querySelector('.video-container').classList.remove('active')
     document.getElementById('shader').classList.remove('active');
+    stopVideo();
 })
+
+function stopVideo() {
+    $('video').trigger('pause');
+    $('video').get(0).load();
+}
