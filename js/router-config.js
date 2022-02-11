@@ -338,21 +338,21 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         },
       },
     })
-    .state('VIDEO', {
-      url: '/video',
-      templateUrl: 'content/video-channel/video.html',
-      resolve: {
-        loadEventListeners: function () {
-          window.onscroll = function (ev) {
-            toggleIndications();
-            checkFooter();
-          };
-          mobileFunctionality();
-          document.body.scrollTop = document.documentElement.scrollTop = 0;
-          resetTabs();
-        },
-      }
-    })
+    // .state('VIDEO', {
+    //   url: '/video',
+    //   templateUrl: 'content/video-channel/video.html',
+    //   resolve: {
+    //     loadEventListeners: function () {
+    //       window.onscroll = function (ev) {
+    //         toggleIndications();
+    //         checkFooter();
+    //       };
+    //       mobileFunctionality();
+    //       document.body.scrollTop = document.documentElement.scrollTop = 0;
+    //       resetTabs();
+    //     },
+    //   }
+    // })
     .state('CONTACT', {
       url: '/contact',
       templateUrl: 'content/contact/contact.html',
