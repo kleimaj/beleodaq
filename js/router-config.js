@@ -141,6 +141,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             toggleIndications();
             checkFooter();
           };
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
+
           mobileFunctionality();
           resetActiveHeaderTab(2);
         },
